@@ -766,12 +766,10 @@ export const BookViewer = GObject.registerClass({
         const cover = await this._view.getCover()
         this.#cover = cover
         if (cover) {
-            this._book_cover.set_pixbuf(cover)
-            this._book_cover.parent.show()
-            this._book_info.height_request = 72
+            this._book_cover.set_from_pixbuf(cover)
+            this._book_cover.show()
         } else {
-            this._book_cover.parent.hide()
-            this._book_info.height_request = -1
+            this._book_cover.hide()
         }
 
         book.metadata.identifier ||= makeIdentifier(this.#file)

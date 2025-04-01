@@ -84,6 +84,13 @@ const getCSS = ({
         }
         a:any-link {
             color: ${theme.light.link};
+            text-decoration-color: light-dark(
+                color-mix(in srgb, currentColor 20%, transparent),
+                color-mix(in srgb, currentColor 40%, transparent));
+            text-underline-offset: .1em;
+            &:hover {
+                text-decoration-color: unset;
+            }
         }
         @media (prefers-color-scheme: dark) {
             html {
@@ -111,6 +118,9 @@ const getCSS = ({
     :is(hgroup, header) p {
         text-align: unset;
         hyphens: unset;
+    }
+    h1, h2, h3, h4, h5, h6, hgroup, th {
+        text-wrap: balance;
     }
     pre {
         white-space: pre-wrap !important;

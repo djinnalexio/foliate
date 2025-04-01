@@ -49,6 +49,17 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="3.3.0" date="2025-04-01">
+            <url type="details">https://github.com/johnfactotum/foliate/releases/tag/3.3.0</url>
+            <description>
+                <ul>
+                    <li>Updated for GNOME 48</li>
+                    <li>Added support for mouse forward/backward buttons</li>
+                    <li>Improved text wrapping in headings</li>
+                    <li>Improved default link style</li>
+                </ul>
+            </description>
+        </release>
         <release version="3.2.1" date="2024-12-20">
             <url type="details">https://github.com/johnfactotum/foliate/releases/tag/3.2.1</url>
             <description>

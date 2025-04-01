@@ -282,8 +282,9 @@
                 </object>
               </child>
               <child type="bottom">
-                <object class="AdwViewSwitcher" id="contents-stack-switcher">
+                <object class="AdwInlineViewSwitcher" id="contents-stack-switcher">
                   <property name="stack">contents-stack</property>
+                  <property name="display-mode">icons</property>
                   <property name="margin-top">6</property>
                   <property name="margin-bottom">6</property>
                   <property name="margin-start">6</property>

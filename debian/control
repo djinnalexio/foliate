@@ -21,7 +21,7 @@ Architecture: all
 Depends: ${misc:Depends},
 	gjs (>= 1.72),
 	gir1.2-gtk-4.0 (>= 4.10),
-	gir1.2-adw-1 (>= 1.6),
+	gir1.2-adw-1 (>= 1.7),
 	gir1.2-webkit-6.0
 Suggests: gir1.2-tracker-3.0
 Description: Read e-books in style

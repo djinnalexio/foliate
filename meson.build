@@ -10,7 +10,7 @@ gjs = dependency('gjs-1.0', version: '>= 1.76')
 
 if get_option('check_runtime_deps')
     dependency('gtk4', version: '>= 4.12')
-    dependency('libadwaita-1', version: '>= 1.6')
+    dependency('libadwaita-1', version: '>= 1.7')
     dependency('webkitgtk-6.0', version: '>= 2.40.1')
 endif
 

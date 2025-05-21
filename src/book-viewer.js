@@ -958,11 +958,12 @@ export const BookViewer = GObject.registerClass({
         this._flap.show_sidebar = !this._flap.show_sidebar
     }
     #toggleSidebarContent(name) {
-        this._search_bar.search_mode_enabled = false
         if (this._flap.show_sidebar
+        && this._search_bar.search_mode_enabled === false
         && this._contents_stack.visible_child_name === name)
             this._flap.show_sidebar = false
         else {
+            this._search_bar.search_mode_enabled = false
             this._contents_stack.visible_child_name = name
             this._flap.show_sidebar = true
         }

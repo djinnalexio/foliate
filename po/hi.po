@@ -1108,7 +1108,7 @@ msgstr "ई-पुस्तक दर्शक"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/com.github.johnfactotum.Foliate.desktop.in:14
-msgid "Ebook;Book;EPUB;Viewer;Reader;"
+msgid "ebooks;books;epub;viewer;ereader;reader;library;"
 msgstr "ईबुक;पुस्तक;दर्शक;पाठक;EPUB;"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:10

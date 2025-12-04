@@ -17,3 +17,19 @@
 >Go to the cover page of a book
 >Press the "Page Up" key to go back a page
 >Pressing "Page Up" on the cover page should do nothing and leave you on the cover page while still being able to navigate the rest of the book properly.
+
+- [ ] Update translations (POT file and the french locale)
+
+Update the POT file:
+
+```bash
+xgettext --files-from=po/POTFILES --from-code=UTF-8 --package-name=com.github.johnfactotum.Foliate -o po/com.github.johnfactotum.Foliate.pot
+```
+
+*Make sure to keep the relevant details.*
+
+Update the PO files:
+
+```bash
+for f in po/*.po; do msgmerge --update --backup=none "$f" po/com.github.johnfactotum.Foliate.pot; done
+```

@@ -505,17 +505,15 @@ msgstr "Добавить"
 
 #: src/library.js:957
 msgid ""
-"You can browse and download books from OPDS catalogs. <a href=\"https://opds."
-"io\">Learn More…</a>"
+"You can browse and download books from OPDS catalogs. <a href=\"%s\">Learn More…</a>"
 msgstr ""
-"Вы можете просматривать и скачивать книги из каталогов OPDS. <a "
-"href=\"https://opds.io\">Узнать больше…</a>"
+"Вы можете просматривать и скачивать книги из каталогов OPDS. <a href=\"%s\">Узнать больше…</a>"
 
 #: src/library.js:961
 msgid "URL"
 msgstr "URL"
 
-#. Translators: Do NOT translate! The is the application name!
+#. Translators: Do NOT translate! This is the application name!
 #: src/main.js:28 data/com.github.johnfactotum.Foliate.desktop.in:4
 msgid "Foliate"
 msgstr "Foliate"
@@ -526,11 +524,9 @@ msgstr "Cловарь"
 
 #: src/selection-tools.js:37
 msgid ""
-"From <a id=\"link\">Wiktionary</a>, released under the <a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA License</a>."
+"From <a id=\"link\">Wiktionary</a>, released under the <a href=\"%s\">CC BY-SA License</a>."
 msgstr ""
-"Из <a id=\"link\">Викисловаря</a>, распространяемого под <a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\">лицензией CC BY-SA</a>."
+"Из <a id=\"link\">Викисловаря</a>, распространяемого под <a href=\"%s\">лицензией CC BY-SA</a>."
 
 #: src/selection-tools.js:38 src/selection-tools.js:51
 msgid "No Definitions Found"
@@ -546,13 +542,9 @@ msgstr "Википедия"
 
 #: src/selection-tools.js:50
 msgid ""
-"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"https://en."
-"wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
-"ShareAlike_4.0_International_License\">CC BY-SA License</a>."
+"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"%s\">CC BY-SA License</a>."
 msgstr ""
-"Из <a id=\"link\">Википедии</a>, распространяемой под <a href=\"https://en."
-"wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
-"ShareAlike_4.0_International_License\">лицензией CC BY-SA</a>."
+"Из <a id=\"link\">Википедии</a>, распространяемой под <a href=\"%s\">лицензией CC BY-SA</a>."
 
 #: src/selection-tools.js:52
 msgid "Search on Wikipedia"

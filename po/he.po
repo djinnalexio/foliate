@@ -491,17 +491,16 @@ msgstr "הוספה"
 
 #: src/library.js:957
 msgid ""
-"You can browse and download books from OPDS catalogs. <a href=\"https://opds."
-"io\">Learn More…</a>"
+"You can browse and download books from OPDS catalogs. <a href=\"%s\">Learn More…</a>"
 msgstr ""
-"באפשרותך לסייר ולהוריד ספרים מקטלוגי OPDS. ‏<a href=\"https://opds.io\">ללמוד "
+"באפשרותך לסייר ולהוריד ספרים מקטלוגי OPDS. ‏<a href=\"%s\">ללמוד "
 "עוד…</a>"
 
 #: src/library.js:961
 msgid "URL"
 msgstr "כתובת"
 
-#. Translators: Do NOT translate! The is the application name!
+#. Translators: Do NOT translate! This is the application name!
 #: src/main.js:28 data/com.github.johnfactotum.Foliate.desktop.in:4
 msgid "Foliate"
 msgstr "Foliate"
@@ -512,11 +511,9 @@ msgstr "מילון"
 
 #: src/selection-tools.js:37
 msgid ""
-"From <a id=\"link\">Wiktionary</a>, released under the <a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA License</a>."
+"From <a id=\"link\">Wiktionary</a>, released under the <a href=\"%s\">CC BY-SA License</a>."
 msgstr ""
-"מ<a id=\"link\">ויקימילון</a>, משוחרר תחת <a href=\"https://creativecommons."
-"org/licenses/by-sa/4.0/\">הרישיון CC BY-SA‏, Creative Commons ייחוס-שיתוף זהה "
+"מ<a id=\"link\">ויקימילון</a>, משוחרר תחת <a href=\"%s\">הרישיון CC BY-SA‏, Creative Commons ייחוס-שיתוף זהה "
 "4.0</a>."
 
 #: src/selection-tools.js:38 src/selection-tools.js:51
@@ -533,13 +530,9 @@ msgstr "ויקיפדיה"
 
 #: src/selection-tools.js:50
 msgid ""
-"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"https://en."
-"wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
-"ShareAlike_4.0_International_License\">CC BY-SA License</a>."
+"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"%s\">CC BY-SA License</a>."
 msgstr ""
-"מ<a id=\"link\">ויקיפדיה</a>, משוחרר תחת <a href=\"https://en.wikipedia.org/"
-"wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
-"ShareAlike_4.0_International_License\">הרישיון CC BY-SA‏, Creative Commons "
+"מ<a id=\"link\">ויקיפדיה</a>, משוחרר תחת <a href=\"%s\">הרישיון CC BY-SA‏, Creative Commons "
 "ייחוס-שיתוף זהה 4.0</a>."
 
 #: src/selection-tools.js:52

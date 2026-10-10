@@ -1108,8 +1108,9 @@ msgstr "ელწიგნის დამთვალიერებელი"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/com.github.johnfactotum.Foliate.desktop.in:14
-msgid "Ebook;Book;EPUB;Viewer;Reader;"
-msgstr "Ebook;Book;EPUB;Viewer;Reader;ელწიგნი;წიგნი;წამკითხველი;"
+#, fuzzy
+msgid "books;ebooks;library;epub;reader;ereader;viewer;"
+msgstr "books;ebooks;library;epub;reader;ereader;viewer;ელწიგნი;წიგნი;წამკითხველი;"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:10
 msgid ""

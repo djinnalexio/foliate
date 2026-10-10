@@ -1104,7 +1104,8 @@ msgstr "Αναγνώστης Ηλεκτρονικών Βιβλίων"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/com.github.johnfactotum.Foliate.desktop.in:14
-msgid "Ebook;Book;EPUB;Viewer;Reader;"
+#, fuzzy
+msgid "books;ebooks;library;epub;reader;ereader;viewer;"
 msgstr "Ηλεκτρονικό Βιβλίο;Βιβλίο;EPUB;Ανάγνωση;Διάβασμα;"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:10

@@ -492,17 +492,15 @@ msgstr "추가하기"
 
 #: src/library.js:957
 msgid ""
-"You can browse and download books from OPDS catalogs. <a href=\"https://"
-"opds.io\">Learn More…</a>"
+"You can browse and download books from OPDS catalogs. <a href=\"%s\">Learn More…</a>"
 msgstr ""
-"OPDS 카탈로그에서 책을 찾아보고 다운로드할 수 있습니다. <a href=\"https://"
-"opds.io\">자세한 내용 보기…</a>"
+"OPDS 카탈로그에서 책을 찾아보고 다운로드할 수 있습니다. <a href=\"%s\">자세한 내용 보기…</a>"
 
 #: src/library.js:961
 msgid "URL"
 msgstr "URL"
 
-#. Translators: Do NOT translate! The is the application name!
+#. Translators: Do NOT translate! This is the application name!
 #: src/main.js:28 data/com.github.johnfactotum.Foliate.desktop.in:4
 msgid "Foliate"
 msgstr "Foliate"
@@ -513,11 +511,9 @@ msgstr "사전"
 
 #: src/selection-tools.js:37
 msgid ""
-"From <a id=\"link\">Wiktionary</a>, released under the <a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA License</a>."
+"From <a id=\"link\">Wiktionary</a>, released under the <a href=\"%s\">CC BY-SA License</a>."
 msgstr ""
-"<a id=\"link\">위키낱말사전(Wiktionary)</a>에서 발췌하였으며, <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 라이선스</"
+"<a id=\"link\">위키낱말사전(Wiktionary)</a>에서 발췌하였으며, <a href=\"%s\">CC BY-SA 라이선스</"
 "a>에 따라 공개되었습니다."
 
 #: src/selection-tools.js:38 src/selection-tools.js:51
@@ -534,11 +530,9 @@ msgstr "위키백과(Wikipedia)"
 
 #: src/selection-tools.js:50
 msgid ""
-"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"https://"
-"en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
-"ShareAlike_4.0_International_License\">CC BY-SA License</a>."
+"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"%s\">CC BY-SA License</a>."
 msgstr ""
-"<a id=\"link\">위키백과(Wikipedia)</a>에서 발췌하였으며, CC BY-SA 라이선스</"
+"<a id=\"link\">위키백과(Wikipedia)</a>에서 발췌하였으며, <a href=\"%s\">CC BY-SA 라이선스</"
 "a>에 따라 공개되었습니다."
 
 #: src/selection-tools.js:52

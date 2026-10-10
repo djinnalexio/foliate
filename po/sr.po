@@ -495,17 +495,15 @@ msgstr "Додај"
 
 #: src/library.js:957
 msgid ""
-"You can browse and download books from OPDS catalogs. <a href=\"https://opds."
-"io\">Learn More…</a>"
+"You can browse and download books from OPDS catalogs. <a href=\"%s\">Learn More…</a>"
 msgstr ""
-"Можете да прегледате и преузимате књиге из „ОПДС“ каталога.<a href=\"https://"
-"opds.io\">Сазнајте више…</a>"
+"Можете да прегледате и преузимате књиге из „ОПДС“ каталога.<a href=\"%s\">Сазнајте више…</a>"
 
 #: src/library.js:961
 msgid "URL"
 msgstr "УРЛ"
 
-#. Translators: Do NOT translate! The is the application name!
+#. Translators: Do NOT translate! This is the application name!
 #: src/main.js:28 data/com.github.johnfactotum.Foliate.desktop.in:4
 msgid "Foliate"
 msgstr "Foliate"
@@ -516,11 +514,9 @@ msgstr "Речник"
 
 #: src/selection-tools.js:37
 msgid ""
-"From <a id=\"link\">Wiktionary</a>, released under the <a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA License</a>."
+"From <a id=\"link\">Wiktionary</a>, released under the <a href=\"%s\">CC BY-SA License</a>."
 msgstr ""
-"Са <a id=\"link\">Викиречника</a>, објабљено под <a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\">лиценцом „CC BY-SA“</a>."
+"Са <a id=\"link\">Викиречника</a>, објабљено под <a href=\"%s\">лиценцом „CC BY-SA“</a>."
 
 #: src/selection-tools.js:38 src/selection-tools.js:51
 msgid "No Definitions Found"
@@ -536,13 +532,9 @@ msgstr "Википедија"
 
 #: src/selection-tools.js:50
 msgid ""
-"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"https://en."
-"wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
-"ShareAlike_4.0_International_License\">CC BY-SA License</a>."
+"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"%s\">CC BY-SA License</a>."
 msgstr ""
-"Са <a id=\"link\">Википедије</a>, објављено под <a href=\"https://en."
-"wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
-"ShareAlike_4.0_International_License\">лиценцом „CC BY-SA“</a>."
+"Са <a id=\"link\">Википедије</a>, објављено под <a href=\"%s\">лиценцом „CC BY-SA“</a>."
 
 #: src/selection-tools.js:52
 msgid "Search on Wikipedia"

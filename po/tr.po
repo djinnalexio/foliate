@@ -497,17 +497,15 @@ msgstr "Ekle"
 
 #: src/library.js:957
 msgid ""
-"You can browse and download books from OPDS catalogs. <a href=\"https://opds."
-"io\">Learn More…</a>"
+"You can browse and download books from OPDS catalogs. <a href=\"%s\">Learn More…</a>"
 msgstr ""
-"OPDS kataloglarından kitaplara göz atabilir ve indirebilirsiniz. <a "
-"href=\"https://opds.io\">Daha Fazla Bilgi…</a>"
+"OPDS kataloglarından kitaplara göz atabilir ve indirebilirsiniz. <a href=\"%s\">Daha Fazla Bilgi…</a>"
 
 #: src/library.js:961
 msgid "URL"
 msgstr "URL"
 
-#. Translators: Do NOT translate! The is the application name!
+#. Translators: Do NOT translate! This is the application name!
 #: src/main.js:28 data/com.github.johnfactotum.Foliate.desktop.in:4
 msgid "Foliate"
 msgstr "Foliate"
@@ -518,11 +516,9 @@ msgstr "Sözlük"
 
 #: src/selection-tools.js:37
 msgid ""
-"From <a id=\"link\">Wiktionary</a>, released under the <a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA License</a>."
+"From <a id=\"link\">Wiktionary</a>, released under the <a href=\"%s\">CC BY-SA License</a>."
 msgstr ""
-"<a id=\"link\">Vikisözlük</a>’ten, <a href=\"https://creativecommons.org/"
-"licenses/by-sa/4.0/\">CC BY-SA Lisansı</a> ile yayınlanmıştır."
+"<a id=\"link\">Vikisözlük</a>’ten, <a href=\"%s\">CC BY-SA Lisansı</a> ile yayınlanmıştır."
 
 #: src/selection-tools.js:38 src/selection-tools.js:51
 msgid "No Definitions Found"
@@ -538,13 +534,9 @@ msgstr "Vikipedi"
 
 #: src/selection-tools.js:50
 msgid ""
-"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"https://en."
-"wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
-"ShareAlike_4.0_International_License\">CC BY-SA License</a>."
+"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"%s\">CC BY-SA License</a>."
 msgstr ""
-"<a id=\"link\">Wikipedia</a> tarafından <a href=\"https://en.wikipedia.org/"
-"wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
-"ShareAlike_4.0_International_License\">CC BY-SA Lisansı</a> altında "
+"<a id=\"link\">Wikipedia</a> tarafından <a href=\"%s\">CC BY-SA Lisansı</a> altında "
 "yayınlanmıştır."
 
 #: src/selection-tools.js:52

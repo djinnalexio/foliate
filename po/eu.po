@@ -515,17 +515,15 @@ msgstr "Gehitu"
 
 #: src/library.js:957
 msgid ""
-"You can browse and download books from OPDS catalogs. <a href=\"https://opds."
-"io\">Learn More…</a>"
+"You can browse and download books from OPDS catalogs. <a href=\"%s\">Learn More…</a>"
 msgstr ""
-"Liburuak arakatu eta deskarga ditzakezu OPDS katalogoetatik. <a "
-"href=\"https://opds.io\">Lortu informazio gehiago...</a>"
+"Liburuak arakatu eta deskarga ditzakezu OPDS katalogoetatik. <a href=\"%s\">Lortu informazio gehiago...</a>"
 
 #: src/library.js:961
 msgid "URL"
 msgstr "URLa"
 
-#. Translators: Do NOT translate! The is the application name!
+#. Translators: Do NOT translate! This is the application name!
 #: src/main.js:28 data/com.github.johnfactotum.Foliate.desktop.in:4
 msgid "Foliate"
 msgstr "Foliate"
@@ -536,11 +534,9 @@ msgstr "Hiztegia"
 
 #: src/selection-tools.js:37
 msgid ""
-"From <a id=\"link\">Wiktionary</a>, released under the <a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA License</a>."
+"From <a id=\"link\">Wiktionary</a>, released under the <a href=\"%s\">CC BY-SA License</a>."
 msgstr ""
-"<a id=\"link\">Wiktionary</a>tik, <a href=\"https://creativecommons.org/"
-"licenses/by-sa/4.0/\">CC BY-SA lizentziapean argitaratua</a>."
+"<a id=\"link\">Wiktionary</a>tik, <a href=\"%s\">CC BY-SA lizentziapean argitaratua</a>."
 
 #: src/selection-tools.js:38 src/selection-tools.js:51
 #, fuzzy
@@ -557,13 +553,9 @@ msgstr "Wikipedia"
 
 #: src/selection-tools.js:50
 msgid ""
-"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"https://en."
-"wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
-"ShareAlike_4.0_International_License\">CC BY-SA License</a>."
+"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"%s\">CC BY-SA License</a>."
 msgstr ""
-"<a id=\"link\">Wikipedia</a>tik, <a href=\"https://eu pean argitaratua."
-"wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
-"ShareAlike_4.0_International_License\">CC BY-SA Lizentzia</a>."
+"<a id=\"link\">Wikipedia</a>tik, <a href=\"%s\">CC BY-SA Lizentzia</a>."
 
 #: src/selection-tools.js:52
 #, fuzzy

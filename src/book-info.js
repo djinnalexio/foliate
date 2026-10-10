@@ -15,9 +15,9 @@ export const formatLanguageMap = x => {
 const formatContributors = contributors => Array.isArray(contributors)
     ? format.list(contributors.map(contributor =>
         typeof contributor === 'string' ? contributor
-        : formatLanguageMap(contributor?.name)))
+            : formatLanguageMap(contributor?.name)))
     : typeof contributors === 'string' ? contributors
-    : formatLanguageMap(contributors?.name)
+        : formatLanguageMap(contributors?.name)
 
 export const formatAuthors = metadata => metadata?.author
     ? formatContributors(metadata.author)
@@ -131,9 +131,9 @@ const makeBookInfoBox = (metadata, pixbuf) => {
 
     for (const [title, value] of [
         [_('Publisher'), formatContributors(metadata.publisher)],
-        // Translators: this is the heading for the publication date
+        // Translators: This is the heading for the publication date.
         [_('Published'), format.date(metadata.published)],
-        // Translators: this is the heading for the modified date
+        // Translators: This is the heading for the modified date.
         [_('Updated'), format.date(metadata.modified)],
         [_('Language'), format.language(metadata.language)],
         [_('Translated by'), formatContributors(metadata.translator)],

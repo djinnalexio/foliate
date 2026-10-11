@@ -775,6 +775,7 @@ export const BookViewer = GObject.registerClass({
             '<alt>Left|<alt>KP_Left': 'view.back',
             '<alt>Right|<alt>KP_Right': 'view.forward',
             '<ctrl>p': 'view.print',
+            '<alt>Home': 'win.show-library',
         }
         this.add_controller(utils.addShortcuts(shortcuts))
         // TODO: disable these when pinch zoomed

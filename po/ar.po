@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 17:13+0100\n"
+"POT-Creation-Date: 2026-10-11 00:33+0100\n"
 "PO-Revision-Date: 2023-10-10 16:04+0000\n"
 "Last-Translator: Pierre Moussa, Giorgos Mousa <gmou3@hotmail.com>\n"
 "Language-Team: Arabic <LL@li.org>\n"
@@ -109,8 +109,9 @@ msgstr "يتعذر استرداد الترجمة"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid ""
-"Various improvments and fixes, including a revamped translation tool, better "
-"focus handling, and better PDF rendering, now faster and no longer blurry."
+"Various improvements and fixes, including a revamped translation tool, "
+"better focus handling, and better PDF rendering, now faster and no longer "
+"blurry."
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
@@ -259,8 +260,8 @@ msgstr "ملفات الكتاب الإلكتروني"
 msgid "Close"
 msgstr "إغلاق"
 
-#: src/app.js:152 src/library.js:50 src/ui/export-dialog.ui:11
-#: src/ui/import-dialog.ui:15
+#: src/app.js:152 src/library.js:50 src/library.js:443
+#: src/ui/export-dialog.ui:11 src/ui/import-dialog.ui:15
 msgid "Cancel"
 msgstr "إلغاء"
 
@@ -586,13 +587,10 @@ msgstr "إزالة الكتاب؟"
 msgid "Reading progress, annotations, and bookmarks will be permanently lost"
 msgstr "سيتم فقدان التقدم في القراءة والشروح والإشارات المرجعية بشكل دائم"
 
-#: src/library.js:443
-msgid "_Cancel"
-msgstr "_إلغاء"
-
-#: src/library.js:444
-msgid "_Remove"
-msgstr "_إزالة"
+#: src/library.js:444 src/library.js:701 src/ui/book-item.ui:25
+#: src/ui/book-row.ui:25
+msgid "Remove"
+msgstr "إزالة"
 
 #: src/library.js:474
 #, fuzzy
@@ -610,10 +608,6 @@ msgstr ""
 #: src/library.js:700
 msgid "Rename…"
 msgstr ""
-
-#: src/library.js:701 src/ui/book-item.ui:25 src/ui/book-row.ui:25
-msgid "Remove"
-msgstr "إزالة"
 
 #: src/library.js:721 src/library.js:722
 msgid "Rename"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 17:13+0100\n"
+"POT-Creation-Date: 2026-10-11 00:33+0100\n"
 "PO-Revision-Date: 2025-07-04 17:50+0100\n"
 "Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: \n"
@@ -114,8 +114,9 @@ msgstr "Ní féidir aistriúchán a aisghabháil"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid ""
-"Various improvments and fixes, including a revamped translation tool, better "
-"focus handling, and better PDF rendering, now faster and no longer blurry."
+"Various improvements and fixes, including a revamped translation tool, "
+"better focus handling, and better PDF rendering, now faster and no longer "
+"blurry."
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
@@ -273,8 +274,8 @@ msgstr "Comhaid Ríomhleabhar"
 msgid "Close"
 msgstr "Dún"
 
-#: src/app.js:152 src/library.js:50 src/ui/export-dialog.ui:11
-#: src/ui/import-dialog.ui:15
+#: src/app.js:152 src/library.js:50 src/library.js:443
+#: src/ui/export-dialog.ui:11 src/ui/import-dialog.ui:15
 msgid "Cancel"
 msgstr "Cealaigh"
 
@@ -602,13 +603,10 @@ msgid "Reading progress, annotations, and bookmarks will be permanently lost"
 msgstr ""
 "Caillfear dul chun cinn léitheoireachta, nótaí agus leabharmharcanna go buan"
 
-#: src/library.js:443
-msgid "_Cancel"
-msgstr "_Cealaigh"
-
-#: src/library.js:444
-msgid "_Remove"
-msgstr "_Bain"
+#: src/library.js:444 src/library.js:701 src/ui/book-item.ui:25
+#: src/ui/book-row.ui:25
+msgid "Remove"
+msgstr "Bain"
 
 #: src/library.js:474
 msgid "Failed to Open"
@@ -625,10 +623,6 @@ msgstr "Theip ar an Íoslódáil"
 #: src/library.js:700
 msgid "Rename…"
 msgstr "Athainmnigh…"
-
-#: src/library.js:701 src/ui/book-item.ui:25 src/ui/book-row.ui:25
-msgid "Remove"
-msgstr "Bain"
 
 #: src/library.js:721 src/library.js:722
 msgid "Rename"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 17:13+0100\n"
+"POT-Creation-Date: 2026-10-11 00:33+0100\n"
 "PO-Revision-Date: 2025-02-07 16:34+0900\n"
 "Last-Translator: kurome <hunt31999@gmail.com>\n"
 "Language-Team: Japanese <>\n"
@@ -112,8 +112,9 @@ msgstr "翻訳を取得できません"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid ""
-"Various improvments and fixes, including a revamped translation tool, better "
-"focus handling, and better PDF rendering, now faster and no longer blurry."
+"Various improvements and fixes, including a revamped translation tool, "
+"better focus handling, and better PDF rendering, now faster and no longer "
+"blurry."
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
@@ -159,8 +160,8 @@ msgid ""
 "and improved performance."
 msgstr ""
 "Foliateは、新しい電子書籍レンダリングライブラリと最新のプラットフォームライブ"
-"ラリであるGTK4および Libadwaitaを使用してゼロから書き直され、UIが刷新され、パ"
-"フォーマンスが向上しました。"
+"ラリであるGTK 4および Libadwaitaを使用してゼロから書き直され、UIが刷新され、"
+"パフォーマンスが向上しました。"
 
 #: src/annotations.js:137 src/annotations.js:172
 msgid "Bookmark deleted"
@@ -262,8 +263,8 @@ msgstr "電子書籍ファイル"
 msgid "Close"
 msgstr "閉じる"
 
-#: src/app.js:152 src/library.js:50 src/ui/export-dialog.ui:11
-#: src/ui/import-dialog.ui:15
+#: src/app.js:152 src/library.js:50 src/library.js:443
+#: src/ui/export-dialog.ui:11 src/ui/import-dialog.ui:15
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -582,13 +583,10 @@ msgstr "本を削除しますか？"
 msgid "Reading progress, annotations, and bookmarks will be permanently lost"
 msgstr "読書の進捗状況、注釈、ブックマークは永久に失われます"
 
-#: src/library.js:443
-msgid "_Cancel"
-msgstr "_キャンセル"
-
-#: src/library.js:444
-msgid "_Remove"
-msgstr "_削除"
+#: src/library.js:444 src/library.js:701 src/ui/book-item.ui:25
+#: src/ui/book-row.ui:25
+msgid "Remove"
+msgstr "削除"
 
 #: src/library.js:474
 msgid "Failed to Open"
@@ -605,10 +603,6 @@ msgstr "ダウンロードに失敗しました"
 #: src/library.js:700
 msgid "Rename…"
 msgstr "名前を変更"
-
-#: src/library.js:701 src/ui/book-item.ui:25 src/ui/book-row.ui:25
-msgid "Remove"
-msgstr "削除"
 
 #: src/library.js:721 src/library.js:722
 msgid "Rename"

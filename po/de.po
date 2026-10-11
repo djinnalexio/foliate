@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 17:13+0100\n"
+"POT-Creation-Date: 2026-10-11 00:33+0100\n"
 "PO-Revision-Date: 2025-06-03 14:20+0200\n"
 "Last-Translator: Jonas Harer <jonas.harer@icloud.com>\n"
 "Language-Team: German\n"
@@ -114,8 +114,9 @@ msgstr "Kann Übersetzung nicht abrufen"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid ""
-"Various improvments and fixes, including a revamped translation tool, better "
-"focus handling, and better PDF rendering, now faster and no longer blurry."
+"Various improvements and fixes, including a revamped translation tool, "
+"better focus handling, and better PDF rendering, now faster and no longer "
+"blurry."
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
@@ -272,8 +273,8 @@ msgstr "E-Book Dateien"
 msgid "Close"
 msgstr "Schließen"
 
-#: src/app.js:152 src/library.js:50 src/ui/export-dialog.ui:11
-#: src/ui/import-dialog.ui:15
+#: src/app.js:152 src/library.js:50 src/library.js:443
+#: src/ui/export-dialog.ui:11 src/ui/import-dialog.ui:15
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -609,13 +610,10 @@ msgid "Reading progress, annotations, and bookmarks will be permanently lost"
 msgstr ""
 "Lesefortschritt, Anmerkungen, und Lesezeichen werden dauerhaft gelöscht"
 
-#: src/library.js:443
-msgid "_Cancel"
-msgstr "_Abbrechen"
-
-#: src/library.js:444
-msgid "_Remove"
-msgstr "_Entfernen"
+#: src/library.js:444 src/library.js:701 src/ui/book-item.ui:25
+#: src/ui/book-row.ui:25
+msgid "Remove"
+msgstr "Entfernen"
 
 #: src/library.js:474
 #, fuzzy
@@ -633,10 +631,6 @@ msgstr "Herunterladen fehlgeschlagen"
 #: src/library.js:700
 msgid "Rename…"
 msgstr "Umbenennen…"
-
-#: src/library.js:701 src/ui/book-item.ui:25 src/ui/book-row.ui:25
-msgid "Remove"
-msgstr "Entfernen"
 
 #: src/library.js:721 src/library.js:722
 msgid "Rename"

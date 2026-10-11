@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 17:13+0100\n"
+"POT-Creation-Date: 2026-10-11 09:13+0100\n"
 "PO-Revision-Date: 2024-01-03 17:11+0100\n"
 "Last-Translator: Irénée THIRION <irenee.thirion@e.email>\n"
 "Language-Team: French <gnomefr@traduc.org>\n"
@@ -36,8 +36,7 @@ msgstr "Lisez vos livres électroniques avec style"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/com.github.johnfactotum.Foliate.desktop.in:13
-#, fuzzy
-msgid "books;ebooks;library;epub;reader;ereader;viewer;"
+msgid "books;ebooks;comics;catalogs;reader;ereader;reading;viewer;library;epub;mobi;kindle;fb2;cbz;pdf;opds;"
 msgstr "Ebook;Livre;EPUB;Liseuse;Lecteur;"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:10
@@ -114,8 +113,9 @@ msgstr "Impossible de récupérer la traduction"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid ""
-"Various improvments and fixes, including a revamped translation tool, better "
-"focus handling, and better PDF rendering, now faster and no longer blurry."
+"Various improvements and fixes, including a revamped translation tool, "
+"better focus handling, and better PDF rendering, now faster and no longer "
+"blurry."
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
@@ -266,8 +266,8 @@ msgstr "Fichiers E-Book"
 msgid "Close"
 msgstr "Fermer"
 
-#: src/app.js:152 src/library.js:50 src/ui/export-dialog.ui:11
-#: src/ui/import-dialog.ui:15
+#: src/app.js:152 src/library.js:50 src/library.js:443
+#: src/ui/export-dialog.ui:11 src/ui/import-dialog.ui:15
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -593,13 +593,10 @@ msgstr ""
 "La progression de la lecture, les annotations et les marque-pages seront "
 "définitivement perdus"
 
-#: src/library.js:443
-msgid "_Cancel"
-msgstr "A_nnuler"
-
-#: src/library.js:444
-msgid "_Remove"
-msgstr "_Supprimer"
+#: src/library.js:444 src/library.js:701 src/ui/book-item.ui:25
+#: src/ui/book-row.ui:25
+msgid "Remove"
+msgstr "Supprimer"
 
 #: src/library.js:474
 #, fuzzy
@@ -617,10 +614,6 @@ msgstr "Téléchargement échoué"
 #: src/library.js:700
 msgid "Rename…"
 msgstr "Renommer…"
-
-#: src/library.js:701 src/ui/book-item.ui:25 src/ui/book-row.ui:25
-msgid "Remove"
-msgstr "Supprimer"
 
 #: src/library.js:721 src/library.js:722
 msgid "Rename"

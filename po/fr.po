@@ -37,7 +37,7 @@ msgstr "Lisez vos livres électroniques avec style"
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/com.github.johnfactotum.Foliate.desktop.in:13
 msgid "books;ebooks;comics;catalogs;reader;ereader;reading;viewer;library;epub;mobi;kindle;fb2;cbz;pdf;opds;"
-msgstr "Ebook;Livre;EPUB;Liseuse;Lecteur;"
+msgstr "Ebook;Livre;Liseuse;Lecteur;epub;mobi;kindle;fb2;cbz;pdf;opds;"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:10
 msgid ""

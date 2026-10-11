@@ -35,7 +35,7 @@ msgstr ""
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/com.github.johnfactotum.Foliate.desktop.in:13
 msgid "books;ebooks;comics;catalogs;reader;ereader;reading;viewer;library;epub;mobi;kindle;fb2;cbz;pdf;opds;"
-msgstr "E-boek;Boek;EPUB;Lezer;Bekijken;"
+msgstr "E-boek;Boek;Lezer;Bekijken;epub;mobi;kindle;fb2;cbz;pdf;opds;"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:10
 msgid ""

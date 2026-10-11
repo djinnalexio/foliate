@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 17:13+0100\n"
+"POT-Creation-Date: 2026-10-11 00:33+0100\n"
 "PO-Revision-Date: 2024-11-30 18:00+0800\n"
 "Last-Translator: Ádám Szabó <canis_major@outlook.hu>\n"
 "Language-Team: Hungarian <canis_major@outlook.hu>\n"
@@ -112,8 +112,9 @@ msgstr "A fordítás sikertelen"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid ""
-"Various improvments and fixes, including a revamped translation tool, better "
-"focus handling, and better PDF rendering, now faster and no longer blurry."
+"Various improvements and fixes, including a revamped translation tool, "
+"better focus handling, and better PDF rendering, now faster and no longer "
+"blurry."
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
@@ -268,8 +269,8 @@ msgstr "E-Book fájlok"
 msgid "Close"
 msgstr "Bezárás"
 
-#: src/app.js:152 src/library.js:50 src/ui/export-dialog.ui:11
-#: src/ui/import-dialog.ui:15
+#: src/app.js:152 src/library.js:50 src/library.js:443
+#: src/ui/export-dialog.ui:11 src/ui/import-dialog.ui:15
 msgid "Cancel"
 msgstr "Mégse"
 
@@ -584,13 +585,10 @@ msgstr ""
 "Az aktuális olvasási pozíció, a feljegyzések és a könyvjelzők végérvényesen "
 "elvesznek"
 
-#: src/library.js:443
-msgid "_Cancel"
-msgstr "_Mégse"
-
-#: src/library.js:444
-msgid "_Remove"
-msgstr "_Eltávolítás"
+#: src/library.js:444 src/library.js:701 src/ui/book-item.ui:25
+#: src/ui/book-row.ui:25
+msgid "Remove"
+msgstr "Eltávolítás"
 
 #: src/library.js:474
 #, fuzzy
@@ -608,10 +606,6 @@ msgstr "A letöltés sikertelen"
 #: src/library.js:700
 msgid "Rename…"
 msgstr "Átnevezés..."
-
-#: src/library.js:701 src/ui/book-item.ui:25 src/ui/book-row.ui:25
-msgid "Remove"
-msgstr "Eltávolítás"
 
 #: src/library.js:721 src/library.js:722
 msgid "Rename"

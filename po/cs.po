@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 17:13+0100\n"
+"POT-Creation-Date: 2026-10-11 00:33+0100\n"
 "PO-Revision-Date: 2025-02-17 20:00+0100\n"
 "Last-Translator: Pavel Fric <pavelfric@seznam.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -112,8 +112,9 @@ msgstr "Nelze získat překlad"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid ""
-"Various improvments and fixes, including a revamped translation tool, better "
-"focus handling, and better PDF rendering, now faster and no longer blurry."
+"Various improvements and fixes, including a revamped translation tool, "
+"better focus handling, and better PDF rendering, now faster and no longer "
+"blurry."
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
@@ -267,8 +268,8 @@ msgstr "Soubory elektronických knih"
 msgid "Close"
 msgstr "Zavřít"
 
-#: src/app.js:152 src/library.js:50 src/ui/export-dialog.ui:11
-#: src/ui/import-dialog.ui:15
+#: src/app.js:152 src/library.js:50 src/library.js:443
+#: src/ui/export-dialog.ui:11 src/ui/import-dialog.ui:15
 msgid "Cancel"
 msgstr "Zrušit"
 
@@ -591,13 +592,10 @@ msgstr "Odstranit knihu?"
 msgid "Reading progress, annotations, and bookmarks will be permanently lost"
 msgstr "Postup čtení, poznámky a záložky budou trvale ztraceny"
 
-#: src/library.js:443
-msgid "_Cancel"
-msgstr "_Zrušit"
-
-#: src/library.js:444
-msgid "_Remove"
-msgstr "_Odstranit"
+#: src/library.js:444 src/library.js:701 src/ui/book-item.ui:25
+#: src/ui/book-row.ui:25
+msgid "Remove"
+msgstr "Odstranit"
 
 #: src/library.js:474
 msgid "Failed to Open"
@@ -614,10 +612,6 @@ msgstr "Nepodařilo se stáhnout"
 #: src/library.js:700
 msgid "Rename…"
 msgstr "_Přejmenovat"
-
-#: src/library.js:701 src/ui/book-item.ui:25 src/ui/book-row.ui:25
-msgid "Remove"
-msgstr "Odstranit"
 
 #: src/library.js:721 src/library.js:722
 msgid "Rename"

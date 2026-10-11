@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 17:13+0100\n"
+"POT-Creation-Date: 2026-10-11 00:33+0100\n"
 "PO-Revision-Date: 2020-07-06 13:16+0800\n"
 "Last-Translator: Peter Dave Hello\n"
 "Language-Team: none\n"
@@ -112,8 +112,9 @@ msgstr "無法取得翻譯"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid ""
-"Various improvments and fixes, including a revamped translation tool, better "
-"focus handling, and better PDF rendering, now faster and no longer blurry."
+"Various improvements and fixes, including a revamped translation tool, "
+"better focus handling, and better PDF rendering, now faster and no longer "
+"blurry."
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
@@ -261,8 +262,8 @@ msgstr "電子書檔案"
 msgid "Close"
 msgstr "關閉"
 
-#: src/app.js:152 src/library.js:50 src/ui/export-dialog.ui:11
-#: src/ui/import-dialog.ui:15
+#: src/app.js:152 src/library.js:50 src/library.js:443
+#: src/ui/export-dialog.ui:11 src/ui/import-dialog.ui:15
 msgid "Cancel"
 msgstr "取消"
 
@@ -584,13 +585,10 @@ msgstr "要移除書籍嗎？"
 msgid "Reading progress, annotations, and bookmarks will be permanently lost"
 msgstr "閱讀進度、註解和書籤將會永久被刪除"
 
-#: src/library.js:443
-msgid "_Cancel"
-msgstr "取消(_C)"
-
-#: src/library.js:444
-msgid "_Remove"
-msgstr "移除(_R)"
+#: src/library.js:444 src/library.js:701 src/ui/book-item.ui:25
+#: src/ui/book-row.ui:25
+msgid "Remove"
+msgstr "移除"
 
 #: src/library.js:474
 msgid "Failed to Open"
@@ -607,10 +605,6 @@ msgstr "下載失敗"
 #: src/library.js:700
 msgid "Rename…"
 msgstr "重新命名…"
-
-#: src/library.js:701 src/ui/book-item.ui:25 src/ui/book-row.ui:25
-msgid "Remove"
-msgstr "移除"
 
 #: src/library.js:721 src/library.js:722
 msgid "Rename"

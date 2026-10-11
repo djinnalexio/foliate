@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 17:13+0100\n"
+"POT-Creation-Date: 2026-10-11 00:33+0100\n"
 "PO-Revision-Date: 2024-04-26 10:59+0530\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi\n"
@@ -112,8 +112,9 @@ msgstr "अनुवाद पुनर्प्राप्त नहीं क
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid ""
-"Various improvments and fixes, including a revamped translation tool, better "
-"focus handling, and better PDF rendering, now faster and no longer blurry."
+"Various improvements and fixes, including a revamped translation tool, "
+"better focus handling, and better PDF rendering, now faster and no longer "
+"blurry."
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
@@ -263,8 +264,8 @@ msgstr "ई-पुस्तक फाइलें"
 msgid "Close"
 msgstr "बंद करें"
 
-#: src/app.js:152 src/library.js:50 src/ui/export-dialog.ui:11
-#: src/ui/import-dialog.ui:15
+#: src/app.js:152 src/library.js:50 src/library.js:443
+#: src/ui/export-dialog.ui:11 src/ui/import-dialog.ui:15
 msgid "Cancel"
 msgstr "रद्द करें"
 
@@ -587,13 +588,10 @@ msgstr "पुस्तक हटाएं?"
 msgid "Reading progress, annotations, and bookmarks will be permanently lost"
 msgstr "पढ़ने की प्रगति, एनोटेशन और बुकमार्क स्थायी रूप से खो जाएंगे"
 
-#: src/library.js:443
-msgid "_Cancel"
-msgstr "रद्द (_C)"
-
-#: src/library.js:444
-msgid "_Remove"
-msgstr "हटाएं (_R)"
+#: src/library.js:444 src/library.js:701 src/ui/book-item.ui:25
+#: src/ui/book-row.ui:25
+msgid "Remove"
+msgstr "हटाएं"
 
 #: src/library.js:474
 #, fuzzy
@@ -611,10 +609,6 @@ msgstr "डाउनलोड विफल"
 #: src/library.js:700
 msgid "Rename…"
 msgstr "नाम बदलें…"
-
-#: src/library.js:701 src/ui/book-item.ui:25 src/ui/book-row.ui:25
-msgid "Remove"
-msgstr "हटाएं"
 
 #: src/library.js:721 src/library.js:722
 msgid "Rename"

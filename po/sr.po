@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 17:13+0100\n"
+"POT-Creation-Date: 2026-10-11 00:33+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Tomica Korac <tommica.korac@mail.ru>\n"
 "Language-Team: Open Serbian Foundation\n"
@@ -112,8 +112,9 @@ msgstr "Није могуће прибавити превод"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid ""
-"Various improvments and fixes, including a revamped translation tool, better "
-"focus handling, and better PDF rendering, now faster and no longer blurry."
+"Various improvements and fixes, including a revamped translation tool, "
+"better focus handling, and better PDF rendering, now faster and no longer "
+"blurry."
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
@@ -265,8 +266,8 @@ msgstr "Фајлови е-књига"
 msgid "Close"
 msgstr "Затвори"
 
-#: src/app.js:152 src/library.js:50 src/ui/export-dialog.ui:11
-#: src/ui/import-dialog.ui:15
+#: src/app.js:152 src/library.js:50 src/library.js:443
+#: src/ui/export-dialog.ui:11 src/ui/import-dialog.ui:15
 msgid "Cancel"
 msgstr "Откажи"
 
@@ -589,13 +590,10 @@ msgstr "Уклонити књигу?"
 msgid "Reading progress, annotations, and bookmarks will be permanently lost"
 msgstr "Напредак читања, белешке и одабир ће бити трајно изгубљени"
 
-#: src/library.js:443
-msgid "_Cancel"
-msgstr "_Откажи"
-
-#: src/library.js:444
-msgid "_Remove"
-msgstr "_Уклони"
+#: src/library.js:444 src/library.js:701 src/ui/book-item.ui:25
+#: src/ui/book-row.ui:25
+msgid "Remove"
+msgstr "Уклони"
 
 #: src/library.js:474
 #, fuzzy
@@ -613,10 +611,6 @@ msgstr "Преузимање није успело"
 #: src/library.js:700
 msgid "Rename…"
 msgstr "Преименуј…"
-
-#: src/library.js:701 src/ui/book-item.ui:25 src/ui/book-row.ui:25
-msgid "Remove"
-msgstr "Уклони"
 
 #: src/library.js:721 src/library.js:722
 msgid "Rename"

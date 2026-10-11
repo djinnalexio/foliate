@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 17:13+0100\n"
+"POT-Creation-Date: 2026-10-11 00:33+0100\n"
 "PO-Revision-Date: 2024-11-30 14:02+0100\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <vistausss@outlook.com>\n"
@@ -113,8 +113,9 @@ msgstr "De vertaling kan niet worden opgehaald"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid ""
-"Various improvments and fixes, including a revamped translation tool, better "
-"focus handling, and better PDF rendering, now faster and no longer blurry."
+"Various improvements and fixes, including a revamped translation tool, "
+"better focus handling, and better PDF rendering, now faster and no longer "
+"blurry."
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
@@ -161,7 +162,7 @@ msgid ""
 "and improved performance."
 msgstr ""
 "Nieuw: Foliate is volledig opnieuw ontworpen en maakt voortaan gebruik van "
-"een nieuwe e-boekbibliotheek, GTK4 en Libadwaita. Ook is de vormgeving "
+"een nieuwe e-boekbibliotheek, GTK 4 en Libadwaita. Ook is de vormgeving "
 "opgepoetst en zijn de prestaties verbeterd."
 
 #: src/annotations.js:137 src/annotations.js:172
@@ -274,8 +275,8 @@ msgstr "E-boekbestanden"
 msgid "Close"
 msgstr ""
 
-#: src/app.js:152 src/library.js:50 src/ui/export-dialog.ui:11
-#: src/ui/import-dialog.ui:15
+#: src/app.js:152 src/library.js:50 src/library.js:443
+#: src/ui/export-dialog.ui:11 src/ui/import-dialog.ui:15
 msgid "Cancel"
 msgstr ""
 
@@ -597,13 +598,10 @@ msgid "Reading progress, annotations, and bookmarks will be permanently lost"
 msgstr ""
 "De leesvoortgang, aantekeningen en bladwijzers worden eveneens verwijderd"
 
-#: src/library.js:443
-msgid "_Cancel"
-msgstr "_Annuleren"
-
-#: src/library.js:444
-msgid "_Remove"
-msgstr "Ve_rwijderen"
+#: src/library.js:444 src/library.js:701 src/ui/book-item.ui:25
+#: src/ui/book-row.ui:25
+msgid "Remove"
+msgstr "Verwijderen"
 
 #: src/library.js:474
 msgid "Failed to Open"
@@ -620,10 +618,6 @@ msgstr "Het downloaden is mislukt"
 #: src/library.js:700
 msgid "Rename…"
 msgstr "Naam wijzigen…"
-
-#: src/library.js:701 src/ui/book-item.ui:25 src/ui/book-row.ui:25
-msgid "Remove"
-msgstr "Verwijderen"
 
 #: src/library.js:721 src/library.js:722
 msgid "Rename"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 17:13+0100\n"
+"POT-Creation-Date: 2026-10-11 00:33+0100\n"
 "PO-Revision-Date: 2024-12-01 18:08+0200\n"
 "Last-Translator: Giorgos Mousa <gmou3@hotmail.com>\n"
 "Language-Team: Greek <LL@li.org>\n"
@@ -112,8 +112,9 @@ msgstr "Αδυναμία ανάκτησης μετάφρασης"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid ""
-"Various improvments and fixes, including a revamped translation tool, better "
-"focus handling, and better PDF rendering, now faster and no longer blurry."
+"Various improvements and fixes, including a revamped translation tool, "
+"better focus handling, and better PDF rendering, now faster and no longer "
+"blurry."
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
@@ -265,8 +266,8 @@ msgstr "Αρχεία Ηλεκτρονικών Βιβλίων"
 msgid "Close"
 msgstr "Κλείσιμο"
 
-#: src/app.js:152 src/library.js:50 src/ui/export-dialog.ui:11
-#: src/ui/import-dialog.ui:15
+#: src/app.js:152 src/library.js:50 src/library.js:443
+#: src/ui/export-dialog.ui:11 src/ui/import-dialog.ui:15
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -582,13 +583,10 @@ msgstr ""
 "Η πρόοδος ανάγνωσης, οι επισημάνσεις, και οι σελιδοδείκτες, θα χαθούν "
 "οριστικά"
 
-#: src/library.js:443
-msgid "_Cancel"
-msgstr "_Ακύρωση"
-
-#: src/library.js:444
-msgid "_Remove"
-msgstr "_Αφαίρεση"
+#: src/library.js:444 src/library.js:701 src/ui/book-item.ui:25
+#: src/ui/book-row.ui:25
+msgid "Remove"
+msgstr "Διαγραφή"
 
 #: src/library.js:474
 msgid "Failed to Open"
@@ -605,10 +603,6 @@ msgstr "Το κατέβασμα απέτυχε"
 #: src/library.js:700
 msgid "Rename…"
 msgstr "Μετονομασία…"
-
-#: src/library.js:701 src/ui/book-item.ui:25 src/ui/book-row.ui:25
-msgid "Remove"
-msgstr "Διαγραφή"
 
 #: src/library.js:721 src/library.js:722
 msgid "Rename"

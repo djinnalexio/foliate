@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-11 09:13+0100\n"
+"POT-Creation-Date: 2026-10-11 21:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,74 +80,74 @@ msgstr ""
 msgid "Quick dictionary lookup"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:56
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:64
 msgid "Updated for GNOME 48"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:57
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:65
 msgid "Added support for mouse forward/backward buttons"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:58
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:66
 msgid "Improved text wrapping in headings"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:59
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:67
 msgid "Improved default link style"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:67
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
 msgid "Fixed tables not displayed in FB2 books"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:68
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:76
 msgid "Updated translations"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:83
 msgid ""
 "Various improvements and fixes, including a revamped translation tool, "
 "better focus handling, and better PDF rendering, now faster and no longer "
 "blurry."
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:90
 msgid "Fixed end of chapter cut off when chapter starts with page break"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:83
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:91
 msgid "Fixed incorrect text wrapping in tables"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:84
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:92
 msgid "Fixed a performance issue with OPDS catalogs"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:92
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:100
 msgid "Added support for OPDS catalogs, now with support for OPDS 2.0"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:93
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:101
 msgid "Added option to override publisher font"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:94
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:102
 msgid "Added option to reduce animation"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:95
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:103
 msgid "Added support for JPEG XL in CBZ"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:96
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:104
 msgid "Fixed getting file from Tracker in Flatpak"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:97
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:105
 msgid "Fixed parsing of non-year-only first-century and BCE dates"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:107
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:115
 msgid ""
 "Foliate has been rewritten from scratch with a new e-book rendering library "
 "and the latest platform libraries, GTK 4 and Libadwaita, with refreshed UI "
@@ -158,7 +158,7 @@ msgstr ""
 msgid "Bookmark deleted"
 msgstr ""
 
-#: src/annotations.js:138 src/annotations.js:173 src/book-viewer.js:872
+#: src/annotations.js:138 src/annotations.js:173 src/book-viewer.js:874
 #: src/library.js:867
 msgid "Undo"
 msgstr ""
@@ -227,7 +227,7 @@ msgstr ""
 msgid "Cannot Import Annotations"
 msgstr ""
 
-#: src/annotations.js:626 src/book-viewer.js:785 src/library.js:646
+#: src/annotations.js:626 src/book-viewer.js:787 src/library.js:646
 msgid "An error occurred"
 msgstr ""
 
@@ -403,70 +403,70 @@ msgstr ""
 msgid "Go to Bibliography"
 msgstr ""
 
-#: src/book-viewer.js:690
+#: src/book-viewer.js:691
 msgid "Remove bookmark"
 msgstr ""
 
-#: src/book-viewer.js:691
+#: src/book-viewer.js:692
 msgid "Add bookmark"
 msgstr ""
 
-#: src/book-viewer.js:783
+#: src/book-viewer.js:785
 msgid "File not found"
 msgstr ""
 
-#: src/book-viewer.js:784
+#: src/book-viewer.js:786
 msgid "File type not supported"
 msgstr ""
 
-#: src/book-viewer.js:871
+#: src/book-viewer.js:873
 msgid "Annotation deleted"
 msgstr ""
 
-#: src/book-viewer.js:944
+#: src/book-viewer.js:945
 #, javascript-format
 msgid ""
 "‘%s’\n"
 "—%s, “%s”, p. %s"
 msgstr ""
 
-#: src/book-viewer.js:946
+#: src/book-viewer.js:947
 #, javascript-format
 msgid ""
 "‘%s’\n"
 "—“%s”, p. %s"
 msgstr ""
 
-#: src/book-viewer.js:947
+#: src/book-viewer.js:948
 #, javascript-format
 msgid "‘%s’ (p. %s)"
 msgstr ""
 
-#: src/book-viewer.js:950
+#: src/book-viewer.js:951
 #, javascript-format
 msgid ""
 "‘%s’\n"
 "—%s, “%s”"
 msgstr ""
 
-#: src/book-viewer.js:952
+#: src/book-viewer.js:953
 #, javascript-format
 msgid ""
 "‘%s’\n"
 "—“%s”"
 msgstr ""
 
-#: src/book-viewer.js:953
+#: src/book-viewer.js:954
 #, javascript-format
 msgid "‘%s’"
 msgstr ""
 
-#: src/book-viewer.js:971
+#: src/book-viewer.js:972
 #, javascript-format
 msgid "Image from “%s”"
 msgstr ""
 
-#: src/book-viewer.js:971
+#: src/book-viewer.js:972
 msgid "Image"
 msgstr ""
 
@@ -774,7 +774,7 @@ msgstr ""
 msgid "Import Annotations…"
 msgstr ""
 
-#: src/ui/book-viewer.ui:31 src/ui/help-overlay.ui:238
+#: src/ui/book-viewer.ui:31 src/ui/help-overlay.ui:244
 msgid "Keyboard Shortcuts"
 msgstr ""
 
@@ -802,8 +802,8 @@ msgstr ""
 msgid "Match Diacritics"
 msgstr ""
 
-#: src/ui/book-viewer.ui:81 src/ui/help-overlay.ui:232
-msgid "Font & Layout Settings"
+#: src/ui/book-viewer.ui:81 src/ui/help-overlay.ui:238
+msgid "Preferences"
 msgstr ""
 
 #: src/ui/book-viewer.ui:87
@@ -822,7 +822,7 @@ msgstr ""
 msgid "Print…"
 msgstr ""
 
-#: src/ui/book-viewer.ui:105 src/ui/help-overlay.ui:250
+#: src/ui/book-viewer.ui:105 src/ui/help-overlay.ui:256
 msgid "Inspector"
 msgstr ""
 
@@ -1063,30 +1063,34 @@ msgid "Open File"
 msgstr ""
 
 #: src/ui/help-overlay.ui:197
-msgid "Close Window"
+msgid "Go to Library"
 msgstr ""
 
 #: src/ui/help-overlay.ui:203
+msgid "Close Window"
+msgstr ""
+
+#: src/ui/help-overlay.ui:209
 msgid "Quit"
 msgstr ""
 
-#: src/ui/help-overlay.ui:210
+#: src/ui/help-overlay.ui:216
 msgid "General"
 msgstr ""
 
-#: src/ui/help-overlay.ui:214
+#: src/ui/help-overlay.ui:220
 msgid "Show Book Information"
 msgstr ""
 
-#: src/ui/help-overlay.ui:220
+#: src/ui/help-overlay.ui:226
 msgid "Show App Information"
 msgstr ""
 
-#: src/ui/help-overlay.ui:226
+#: src/ui/help-overlay.ui:232
 msgid "Open Menu"
 msgstr ""
 
-#: src/ui/help-overlay.ui:244
+#: src/ui/help-overlay.ui:250
 msgid "Print..."
 msgstr ""
 

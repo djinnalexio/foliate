@@ -35,7 +35,7 @@ for po in po/*.po; do msgmerge --update --backup=none "$po" po/com.github.johnfa
 Check the PO files:
 
 ```bash
-for po in po/*.po; do msgmerge --update --backup=none "$po" po/com.github.johnfactotum.Foliate.pot; done
+for po in po/*.po; do msgfmt --check-format --check-header --check-domain -o /dev/null $po; done
 ```
 
 Statistics of the PO files:

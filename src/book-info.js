@@ -15,9 +15,9 @@ export const formatLanguageMap = x => {
 const formatContributors = contributors => Array.isArray(contributors)
     ? format.list(contributors.map(contributor =>
         typeof contributor === 'string' ? contributor
-            : formatLanguageMap(contributor?.name)))
+        : formatLanguageMap(contributor?.name)))
     : typeof contributors === 'string' ? contributors
-        : formatLanguageMap(contributors?.name)
+    : formatLanguageMap(contributors?.name)
 
 export const formatAuthors = metadata => metadata?.author
     ? formatContributors(metadata.author)

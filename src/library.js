@@ -389,7 +389,7 @@ GObject.registerClass({
             }),
         }), {
             'activate': (_, pos) =>
-                this.emit('activate', this.#filterModel.get_item(pos))
+                this.emit('activate', this.#filterModel.get_item(pos)),
         })
         this._scrolled.child.remove_css_class('view')
     }
@@ -409,7 +409,7 @@ GObject.registerClass({
                 }),
             }), 'book-list'), {
                 'activate': (_, pos) =>
-                    this.emit('activate', this.#filterModel.get_item(pos))
+                    this.emit('activate', this.#filterModel.get_item(pos)),
             }),
         })
     }
@@ -869,7 +869,7 @@ export const Library = GObject.registerClass({
                         'button-clicked': () => addCatalog({
                             title: item.label,
                             uri: item.value,
-                        })
+                        }),
                     }))
                 },
             })

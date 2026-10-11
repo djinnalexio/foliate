@@ -34,8 +34,7 @@ msgstr "Đọc e-book một cách phong cách"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/com.github.johnfactotum.Foliate.desktop.in:13
-#, fuzzy
-msgid "books;ebooks;library;epub;reader;ereader;viewer;"
+msgid "books;ebooks;comics;catalogs;reader;ereader;reading;viewer;library;epub;mobi;kindle;fb2;cbz;pdf;opds;"
 msgstr "Sách điện tử;Sách;EPUB;Trình xem;Trình đọc;"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:10

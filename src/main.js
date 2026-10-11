@@ -7,14 +7,14 @@ import Gio from 'gi://Gio?version=2.0'
 import GLib from 'gi://GLib?version=2.0'
 import 'gi://Adw?version=1'
 import 'gi://WebKit?version=6.0'
-import { programInvocationName, programArgs, exit }  from 'system'
+import { programInvocationName, programArgs, exit } from 'system'
 import { bindtextdomain, textdomain, gettext as _ } from 'gettext'
 import { setConsoleLogDomain } from 'console'
 
 // mimics (loosely) the `pkg` object set up by GJS if you run `package.init()`
 globalThis.pkg = {
     name: 'com.github.johnfactotum.Foliate',
-    version: '3.3.0',
+    version: '3.3.0.djinn',
     MESON,
 }
 pkg.userAgent = `Foliate/${pkg.version}`

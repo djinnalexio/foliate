@@ -49,6 +49,14 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="3.3.0.djinn" date="2026-10-11">
+            <url type="details">https://github.com/djinnalexio/foliate/commits/djinn-dev/</url>
+            <description>
+                <ul>
+                    <li></li>
+                </ul>
+            </description>
+        </release>
         <release version="3.3.0" date="2025-04-01">
             <url type="details">https://github.com/johnfactotum/foliate/releases/tag/3.3.0</url>
             <description>
@@ -110,15 +118,15 @@
     </releases>
     <content_rating type="oars-1.1" />
     <supports>
-      <control>keyboard</control>
-      <control>pointing</control>
-      <control>touch</control>
+        <control>keyboard</control>
+        <control>pointing</control>
+        <control>touch</control>
     </supports>
     <requires>
-      <display_length compare="ge">360</display_length>
+        <display_length compare="ge">360</display_length>
     </requires>
     <branding>
-      <color type="primary" scheme_preference="light">#7bf1d9</color>
-      <color type="primary" scheme_preference="dark">#0b6275</color>
+        <color type="primary" scheme_preference="light">#7bf1d9</color>
+        <color type="primary" scheme_preference="dark">#0b6275</color>
     </branding>
 </component>

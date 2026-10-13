@@ -460,6 +460,18 @@ export const Application = GObject.registerClass({
             issue_url: 'https://github.com/johnfactotum/foliate/issues',
             support_url: 'https://github.com/johnfactotum/foliate/blob/gtk4/docs/faq.md',
             debug_info: getDebugInfo(),
+            release_notes: `
+                <ul>
+                    <li>Updated runtime to GNOME 51</li>
+                    <li>Inhibit idling when in fullscreen</li>
+                    <li>Fixed crash introduced by f1a1602</li>
+                    <li>Improved fraction calculation in list view of library</li>
+                    <li>Added navigation with keypad</li>
+                    <li>Added keyboard shortcuts help page</li>
+                    <li>Added ability to add multiple files at once</li>
+                    <li>Updated translations</li>
+                </ul>
+            `
         })
         win.add_link(_('Source Code'), 'https://github.com/johnfactotum/foliate')
         win.add_legal_section('foliate-js', null, Gtk.License.MIT_X11, null)

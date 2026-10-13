@@ -53,7 +53,14 @@
             <url type="details">https://github.com/djinnalexio/foliate/commits/djinn-dev/</url>
             <description>
                 <ul>
-                    <li></li>
+                    <li>Updated runtime to GNOME 51</li>
+                    <li>Inhibit idling when in fullscreen</li>
+                    <li>Fixed crash introduced by f1a1602</li>
+                    <li>Improved fraction calculation in list view of library</li>
+                    <li>Added navigation with keypad</li>
+                    <li>Added keyboard shortcuts help page</li>
+                    <li>Added ability to add multiple files at once</li>
+                    <li>Updated translations</li>
                 </ul>
             </description>
         </release>

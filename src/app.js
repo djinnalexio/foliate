@@ -471,7 +471,7 @@ export const Application = GObject.registerClass({
                     <li>Added ability to add multiple files at once</li>
                     <li>Updated translations</li>
                 </ul>
-            `
+            `,
         })
         win.add_link(_('Source Code'), 'https://github.com/johnfactotum/foliate')
         win.add_legal_section('foliate-js', null, Gtk.License.MIT_X11, null)

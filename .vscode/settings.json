@@ -1,0 +1,9 @@
+{
+    "conventionalCommits.scopes": [
+        "image viewer",
+        "book viewer"
+    ],
+    "editor.rulers": [
+        80
+    ]
+}

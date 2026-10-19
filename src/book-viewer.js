@@ -224,6 +224,7 @@ GObject.registerClass({
             }
             else if (payload.type === 'relocate') {
                 this.#fixWebKitSectionZoom(payload.section?.current)
+                    .catch(e => console.error(e))
                 this.emit(payload.type, payload)
             }
             else this.emit(payload.type, payload)
@@ -363,7 +364,7 @@ GObject.registerClass({
     // text shrinks into the top-left and leaves empty space along the bottom
     // and right. Any zoom change forces a second layout, which is correct.
     // https://bugs.webkit.org/show_bug.cgi?id=313899
-    #fixWebKitSectionZoom(sectionIndex) {
+    async #fixWebKitSectionZoom(sectionIndex) {
         if (sectionIndex == null || sectionIndex === this.#sectionIndex) return
         this.#sectionIndex = sectionIndex
         const z = this.#webView.zoom_level
@@ -371,12 +372,11 @@ GObject.registerClass({
         const token = ++this.#zoomFix
         const delta = z <= 4 - 0.001 ? 0.001 : -0.001
         this.#webView.zoom_level = z + delta
-        GLib.timeout_add(GLib.PRIORITY_DEFAULT, 80, () => {
-            if (token !== this.#zoomFix) return GLib.SOURCE_REMOVE
-            if (Math.abs(this.#webView.zoom_level - (z + delta)) < 0.0001)
-                this.#webView.zoom_level = z
-            return GLib.SOURCE_REMOVE
-        })
+        // 80ms is long enough for WebKit to lay the chapter out again.
+        await utils.wait(80)
+        if (token !== this.#zoomFix) return
+        if (Math.abs(this.#webView.zoom_level - (z + delta)) < 0.0001)
+            this.#webView.zoom_level = z
     }
     inspector() {
         this.#webView.get_inspector().show()

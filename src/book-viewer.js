@@ -791,7 +791,7 @@ export const BookViewer = GObject.registerClass({
             'plus|equal|KP_Add|KP_Equal|<ctrl>plus|<ctrl>equal|<ctrl>KP_Add|<ctrl>KP_Equal': 'view.zoom-in',
             'minus|KP_Subtract|<ctrl>minus|<ctrl>KP_Subtract': 'view.zoom-out',
             '0|1|KP_0|<ctrl>0|<ctrl>KP_0': 'view.zoom-restore',
-            'p|Page_Up|KP_Page_Up|<shift>space': 'view.prev',
+            'p|Page_Up|KP_Page_Up|<shift>space|BackSpace': 'view.prev',
             'n|Page_Down|KP_Page_Down|space': 'view.next',
             'k|Up|KP_Up': 'view.scroll-up',
             'j|Down|KP_Down': 'view.scroll-down',

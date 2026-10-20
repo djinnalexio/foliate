@@ -781,6 +781,7 @@ export const BookViewer = GObject.registerClass({
             '<ctrl><alt>d': 'viewer.toggle-bookmarks',
             '<ctrl>d': 'viewer.bookmark',
             '<ctrl>comma': 'viewer.preferences',
+            '<ctrl>question': 'viewer.show-help-overlay',
             '<ctrl><shift>g': 'search.prev',
             '<ctrl>g': 'search.next',
             '<ctrl>c': 'selection.copy',

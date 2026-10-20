@@ -436,8 +436,8 @@ GObject.registerClass({
             heading: _('Remove Book?'),
             body: _('Reading progress, annotations, and bookmarks will be permanently lost'),
         })
-        dialog.add_response('cancel', _('_Cancel'))
-        dialog.add_response('remove', _('_Remove'))
+        dialog.add_response('cancel', _('Cancel'))
+        dialog.add_response('remove', _('Remove'))
         dialog.set_response_appearance('remove', Adw.ResponseAppearance.DESTRUCTIVE)
         dialog.present(this.get_root())
         dialog.connect('response', (_, response) => {
@@ -952,7 +952,7 @@ export const Library = GObject.registerClass({
         window.content.content = utils.addClass(new Adw.StatusPage({
             icon_name: 'application-rss+xml-symbolic',
             title: _('Add Catalog'),
-            description: _('You can browse and download books from OPDS catalogs. <a href="https://opds.io">Learn More…</a>'),
+            description: format.vprintf(_('You can browse and download books from OPDS catalogs. <a href="%s">Learn More…</a>'), ['https://opds.io']),
         }), 'compact')
         const group = new Adw.PreferencesGroup()
         const entry = utils.connect(new Adw.EntryRow({

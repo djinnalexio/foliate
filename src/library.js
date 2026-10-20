@@ -957,7 +957,7 @@ export const Library = GObject.registerClass({
         window.content.content = utils.addClass(new Adw.StatusPage({
             icon_name: 'application-rss+xml-symbolic',
             title: _('Add Catalog'),
-            description: _('You can browse and download books from OPDS catalogs. <a href="%s">Learn More…</a>').format('https://opds.io'),
+            description: format.vprintf(_('You can browse and download books from OPDS catalogs. <a href="%s">Learn More…</a>'), ['https://opds.io']),
         }), 'compact')
         const group = new Adw.PreferencesGroup()
         const entry = utils.connect(new Adw.EntryRow({

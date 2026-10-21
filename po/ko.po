@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-11 00:33+0100\n"
+"POT-Creation-Date: 2026-10-20 10:25+0100\n"
 "PO-Revision-Date: 2025-03-03 13:04+0900\n"
 "Last-Translator: Junghee Lee <daemul72@gmail.com>\n"
 "Language-Team: 이정희 <daemul72@gmail.com>\n"
@@ -28,14 +28,16 @@ msgid "E-Book Viewer"
 msgstr "전자책 뷰어"
 
 #: data/com.github.johnfactotum.Foliate.desktop.in:5
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:7 src/app.js:450
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:7 src/app.js:458
 msgid "Read e-books in style"
 msgstr "나만의 스타일로 전자책 읽기"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/com.github.johnfactotum.Foliate.desktop.in:13
 msgid "books;ebooks;comics;catalogs;reader;ereader;reading;viewer;library;epub;mobi;kindle;fb2;cbz;pdf;opds;"
-msgstr "books;ebooks;comics;catalogs;reader;ereader;reading;viewer;library;epub;mobi;kindle;fb2;cbz;pdf;opds;이북;도서;뷰어;리더;책;전자책;"
+msgstr ""
+"books;ebooks;comics;catalogs;reader;ereader;reading;viewer;library;epub;mobi;kindle;fb2;cbz;pdf;opds;"
+"이북;도서;뷰어;리더;책;전자책;"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:10
 msgid ""
@@ -84,76 +86,106 @@ msgid "Quick dictionary lookup"
 msgstr "빠른 사전 검색"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:56
-msgid "Updated for GNOME 48"
+msgid "Updated runtime to GNOME 51"
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:57
-msgid "Added support for mouse forward/backward buttons"
+msgid "Inhibit idling when in fullscreen"
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:58
-#, fuzzy
-msgid "Improved text wrapping in headings"
-msgstr "테이블에서 잘못된 텍스트 줄 바꿈 수정됨"
+msgid "Fixed crash introduced by f1a1602"
+msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:59
-msgid "Improved default link style"
+msgid "Improved fraction calculation in list view of library"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:67
-msgid "Fixed tables not displayed in FB2 books"
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:60
+msgid "Added navigation with keypad"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:68
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:61
+#, fuzzy
+msgid "Added keyboard shortcuts help page"
+msgstr "키보드 단축키"
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:62
+msgid "Added ability to add multiple files at once"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:63
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:83
 #, fuzzy
 msgid "Updated translations"
 msgstr "번역을 가져올 수 없습니다"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:71
+msgid "Updated for GNOME 48"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:72
+msgid "Added support for mouse forward/backward buttons"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:73
+#, fuzzy
+msgid "Improved text wrapping in headings"
+msgstr "테이블에서 잘못된 텍스트 줄 바꿈 수정됨"
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:74
+msgid "Improved default link style"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
+msgid "Fixed tables not displayed in FB2 books"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:90
 msgid ""
 "Various improvements and fixes, including a revamped translation tool, "
 "better focus handling, and better PDF rendering, now faster and no longer "
 "blurry."
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:97
 msgid "Fixed end of chapter cut off when chapter starts with page break"
 msgstr "페이지 나누기로 챕터가 시작될 때 챕터 끝이 잘리는 문제 수정됨"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:83
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:98
 msgid "Fixed incorrect text wrapping in tables"
 msgstr "테이블에서 잘못된 텍스트 줄 바꿈 수정됨"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:84
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:99
 msgid "Fixed a performance issue with OPDS catalogs"
 msgstr "OPDS 카탈로그의 성능 문제 수정됨"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:92
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:107
 msgid "Added support for OPDS catalogs, now with support for OPDS 2.0"
 msgstr "OPDS 카탈로그에 대한 지원이 추가되었으며 이제 OPDS 2.0도 지원합니다"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:93
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:108
 msgid "Added option to override publisher font"
 msgstr "출판사 글꼴을 재정의하는 옵션 추가됨"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:94
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:109
 msgid "Added option to reduce animation"
 msgstr "애니메이션을 줄이는 옵션 추가됨"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:95
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:110
 msgid "Added support for JPEG XL in CBZ"
 msgstr "CBZ에서 JPEG XL에 대한 지원 추가됨"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:96
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:111
 msgid "Fixed getting file from Tracker in Flatpak"
 msgstr "Flatpak의 Tracker에서 파일을 가져오는 기능 수정됨"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:97
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:112
 msgid "Fixed parsing of non-year-only first-century and BCE dates"
 msgstr ""
 "1세기 및 기원전 날짜 중 연도만 포함하지 않는 날짜의 구문 분석 오류 수정됨"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:107
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:122
 msgid ""
 "Foliate has been rewritten from scratch with a new e-book rendering library "
 "and the latest platform libraries, GTK 4 and Libadwaita, with refreshed UI "
@@ -167,7 +199,7 @@ msgstr ""
 msgid "Bookmark deleted"
 msgstr "책갈피가 삭제되었습니다"
 
-#: src/annotations.js:138 src/annotations.js:173 src/book-viewer.js:872
+#: src/annotations.js:138 src/annotations.js:173 src/book-viewer.js:900
 #: src/library.js:867
 msgid "Undo"
 msgstr "실행 취소"
@@ -224,7 +256,7 @@ msgstr "JSON 파일"
 msgid "All Files"
 msgstr "모든 파일"
 
-#: src/annotations.js:606 src/annotations.js:634 src/ui/book-viewer.ui:390
+#: src/annotations.js:606 src/annotations.js:634 src/ui/book-viewer.ui:391
 msgid "No Annotations"
 msgstr "주석 없음"
 
@@ -236,7 +268,7 @@ msgstr "가져온 파일에 주석이 없습니다"
 msgid "Cannot Import Annotations"
 msgstr "주석을 가져올 수 없습니다"
 
-#: src/annotations.js:626 src/book-viewer.js:785 src/library.js:646
+#: src/annotations.js:626 src/book-viewer.js:813 src/library.js:646
 msgid "An error occurred"
 msgstr "오류가 발생했습니다"
 
@@ -290,11 +322,11 @@ msgstr ""
 #. Translators: To be credited in the "About" dialog, put your
 #. name(s) here, optionally followed by an <email> or a URL.
 #. One translator per line.
-#: src/app.js:457
+#: src/app.js:465
 msgid "translator-credits"
 msgstr "이정희 <daemul72@gmail.com>"
 
-#: src/app.js:464
+#: src/app.js:484
 msgid "Source Code"
 msgstr "소스 코드"
 
@@ -353,7 +385,7 @@ msgid "Identifier"
 msgstr "식별자"
 
 #: src/book-info.js:179 src/ui/book-item.ui:15 src/ui/book-row.ui:15
-#: src/ui/book-viewer.ui:356
+#: src/ui/book-viewer.ui:357
 msgid "About This Book"
 msgstr "이 책에 대하여"
 
@@ -412,27 +444,27 @@ msgstr "참고문헌"
 msgid "Go to Bibliography"
 msgstr "참고문헌으로 가기"
 
-#: src/book-viewer.js:690
+#: src/book-viewer.js:717
 msgid "Remove bookmark"
 msgstr "책갈피 제거하기"
 
-#: src/book-viewer.js:691
+#: src/book-viewer.js:718
 msgid "Add bookmark"
 msgstr "책갈피 추가하기"
 
-#: src/book-viewer.js:783
+#: src/book-viewer.js:811
 msgid "File not found"
 msgstr "파일을 찾을 수 없습니다"
 
-#: src/book-viewer.js:784
+#: src/book-viewer.js:812
 msgid "File type not supported"
 msgstr "지원되지 않는 파일 형식입니다"
 
-#: src/book-viewer.js:871
+#: src/book-viewer.js:899
 msgid "Annotation deleted"
 msgstr "주석이 삭제되었습니다"
 
-#: src/book-viewer.js:944
+#: src/book-viewer.js:971
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -441,7 +473,7 @@ msgstr ""
 "‘%s’\n"
 "—%s, “%s”, p. %s"
 
-#: src/book-viewer.js:946
+#: src/book-viewer.js:973
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -450,12 +482,12 @@ msgstr ""
 "‘%s’\n"
 "—“%s”, p. %s"
 
-#: src/book-viewer.js:947
+#: src/book-viewer.js:974
 #, javascript-format
 msgid "‘%s’ (p. %s)"
 msgstr "‘%s’ (p. %s)"
 
-#: src/book-viewer.js:950
+#: src/book-viewer.js:977
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -464,7 +496,7 @@ msgstr ""
 "‘%s’\n"
 "—%s, “%s”"
 
-#: src/book-viewer.js:952
+#: src/book-viewer.js:979
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -473,17 +505,17 @@ msgstr ""
 "‘%s’\n"
 "—“%s”"
 
-#: src/book-viewer.js:953
+#: src/book-viewer.js:980
 #, javascript-format
 msgid "‘%s’"
 msgstr "‘%s’"
 
-#: src/book-viewer.js:971
+#: src/book-viewer.js:998
 #, javascript-format
 msgid "Image from “%s”"
 msgstr "\"%s\"에서 가져온 이미지"
 
-#: src/book-viewer.js:971
+#: src/book-viewer.js:998
 msgid "Image"
 msgstr "이미지"
 
@@ -500,7 +532,7 @@ msgstr "불러오는 중"
 msgid "Failed to Load"
 msgstr "불러올 수 없습니다"
 
-#: src/library.js:49 src/ui/book-viewer.ui:15 src/ui/help-overlay.ui:98
+#: src/library.js:49 src/ui/book-help-overlay.ui:98 src/ui/book-viewer.ui:16
 msgid "Reload"
 msgstr "다시 불러오기"
 
@@ -548,12 +580,12 @@ msgstr "무료"
 msgid "First"
 msgstr "처음"
 
-#: src/library.js:66 src/ui/help-overlay.ui:151 src/ui/navbar.ui:8
+#: src/library.js:66 src/ui/book-help-overlay.ui:151 src/ui/navbar.ui:8
 #: src/ui/tts-box.ui:115
 msgid "Previous"
 msgstr "이전"
 
-#: src/library.js:67 src/ui/help-overlay.ui:157 src/ui/navbar.ui:124
+#: src/library.js:67 src/ui/book-help-overlay.ui:157 src/ui/navbar.ui:124
 #: src/ui/tts-box.ui:132
 msgid "Next"
 msgstr "다음"
@@ -623,7 +655,7 @@ msgstr "모든 책"
 msgid "Add Catalog…"
 msgstr "카탈로그 추가하기…"
 
-#: src/library.js:815 src/ui/book-viewer.ui:128 src/ui/book-viewer.ui:231
+#: src/library.js:815 src/ui/book-viewer.ui:129 src/ui/book-viewer.ui:232
 #: src/ui/library.ui:93
 msgid "Library"
 msgstr "라이브러리"
@@ -773,6 +805,202 @@ msgstr "메뉴"
 msgid "Add Note…"
 msgstr "메모 추가하기…"
 
+#: src/ui/app-help-overlay.ui:6 src/ui/book-help-overlay.ui:181
+#, fuzzy
+msgid "Window"
+msgstr "새 창"
+
+#: src/ui/app-help-overlay.ui:10 src/ui/book-help-overlay.ui:185
+#, fuzzy
+msgid "Open File"
+msgstr "파일 저장"
+
+#: src/ui/app-help-overlay.ui:16 src/ui/book-help-overlay.ui:191
+#: src/ui/book-viewer.ui:12
+msgid "Open a Copy"
+msgstr "사본 열기"
+
+#: src/ui/app-help-overlay.ui:22 src/ui/book-help-overlay.ui:122
+#, fuzzy
+msgid "Toggle Fullscreen"
+msgstr "전체화면"
+
+#: src/ui/app-help-overlay.ui:28 src/ui/book-help-overlay.ui:203
+#, fuzzy
+msgid "Close Window"
+msgstr "새 창"
+
+#: src/ui/app-help-overlay.ui:34 src/ui/book-help-overlay.ui:209
+msgid "Quit"
+msgstr ""
+
+#: src/ui/app-help-overlay.ui:41 src/ui/book-help-overlay.ui:216
+msgid "General"
+msgstr ""
+
+#: src/ui/app-help-overlay.ui:45 src/ui/book-help-overlay.ui:226
+msgid "Show App Information"
+msgstr ""
+
+#: src/ui/app-help-overlay.ui:51 src/ui/book-help-overlay.ui:232
+#, fuzzy
+msgid "Open Menu"
+msgstr "기본 메뉴"
+
+#: src/ui/app-help-overlay.ui:57 src/ui/book-help-overlay.ui:244
+#: src/ui/book-viewer.ui:32 src/ui/library.ui:38
+msgid "Keyboard Shortcuts"
+msgstr "키보드 단축키"
+
+#: src/ui/book-help-overlay.ui:6
+#, fuzzy
+msgid "Navigation"
+msgstr "내레이션"
+
+#: src/ui/book-help-overlay.ui:10
+#, fuzzy
+msgid "Previous Page"
+msgstr "이전"
+
+#: src/ui/book-help-overlay.ui:16
+#, fuzzy
+msgid "Next Page"
+msgstr "다음"
+
+#: src/ui/book-help-overlay.ui:22
+msgid "Go Left"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:28
+#, fuzzy
+msgid "Scroll Down"
+msgstr "스크롤 보기 모드"
+
+#: src/ui/book-help-overlay.ui:34
+#, fuzzy
+msgid "Scroll Up"
+msgstr "스크롤 보기 모드"
+
+#: src/ui/book-help-overlay.ui:40
+msgid "Go Right"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:46
+#, fuzzy
+msgid "Jump to Previous Location"
+msgstr "이전 위치로 돌아가기"
+
+#: src/ui/book-help-overlay.ui:52
+#, fuzzy
+msgid "Jump to Next Location"
+msgstr "다음 섹션"
+
+#: src/ui/book-help-overlay.ui:59 src/ui/book-viewer.ui:531
+#: src/ui/library.ui:102 src/ui/library.ui:160
+msgid "Sidebar"
+msgstr "사이드바"
+
+#: src/ui/book-help-overlay.ui:63
+#, fuzzy
+msgid "Toggle Sidebar"
+msgstr "사이드바 사용"
+
+#: src/ui/book-help-overlay.ui:69
+msgid "Toggle Table of Contents"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:75
+#, fuzzy
+msgid "Toggle Annotations"
+msgstr "주석 없음"
+
+#: src/ui/book-help-overlay.ui:81
+#, fuzzy
+msgid "Toggle Bookmarks"
+msgstr "책갈피 없음"
+
+#: src/ui/book-help-overlay.ui:87
+#, fuzzy
+msgid "Toggle Search"
+msgstr "사이드바 사용"
+
+#: src/ui/book-help-overlay.ui:94
+#, fuzzy
+msgid "View"
+msgstr "메뉴"
+
+#: src/ui/book-help-overlay.ui:104 src/ui/book-viewer.ui:574
+#: src/ui/image-viewer.ui:55
+msgid "Zoom In"
+msgstr "확대"
+
+#: src/ui/book-help-overlay.ui:110 src/ui/book-viewer.ui:558
+#: src/ui/image-viewer.ui:41
+msgid "Zoom Out"
+msgstr "축소"
+
+#: src/ui/book-help-overlay.ui:116 src/ui/book-viewer.ui:565
+#: src/ui/image-viewer.ui:48
+msgid "Reset Zoom"
+msgstr "확대/축소 재설정"
+
+#: src/ui/book-help-overlay.ui:128
+#, fuzzy
+msgid "Toggle Scrolled Mode"
+msgstr "스크롤 보기 모드"
+
+#: src/ui/book-help-overlay.ui:134
+#, fuzzy
+msgid "Show Current Location"
+msgstr "현재 섹션"
+
+#: src/ui/book-help-overlay.ui:140
+#, fuzzy
+msgid "Bookmark Current Location"
+msgstr "책갈피 및 주석"
+
+#: src/ui/book-help-overlay.ui:147
+#, fuzzy
+msgid "In Search"
+msgstr "검색"
+
+#: src/ui/book-help-overlay.ui:164
+#, fuzzy
+msgid "With Selection"
+msgstr "선택항목 인쇄하기…"
+
+#: src/ui/book-help-overlay.ui:168
+#, fuzzy
+msgid "Selection Copy"
+msgstr "섹션"
+
+#: src/ui/book-help-overlay.ui:174
+#, fuzzy
+msgid "Selection Search"
+msgstr "섹션"
+
+#: src/ui/book-help-overlay.ui:197
+#, fuzzy
+msgid "Go to Library"
+msgstr "참고문헌으로 가기"
+
+#: src/ui/book-help-overlay.ui:220
+msgid "Show Book Information"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:238 src/ui/book-viewer.ui:82
+msgid "Preferences"
+msgstr "환경설정"
+
+#: src/ui/book-help-overlay.ui:250
+#, fuzzy
+msgid "Print..."
+msgstr "인쇄하기…"
+
+#: src/ui/book-help-overlay.ui:256 src/ui/book-viewer.ui:106
+msgid "Inspector"
+msgstr "검사기"
+
 #: src/ui/book-item.ui:5 src/ui/book-row.ui:5
 msgid "Open in New Window"
 msgstr "새 창에서 열기"
@@ -781,175 +1009,139 @@ msgstr "새 창에서 열기"
 msgid "Open with External App"
 msgstr "외부 앱으로 열기"
 
-#: src/ui/book-item.ui:19 src/ui/book-row.ui:19 src/ui/book-viewer.ui:25
+#: src/ui/book-item.ui:19 src/ui/book-row.ui:19 src/ui/book-viewer.ui:26
 msgid "Export Annotations…"
 msgstr "주석 내보내기…"
 
-#: src/ui/book-viewer.ui:5
+#: src/ui/book-viewer.ui:6
 msgid "New Window"
 msgstr "새 창"
 
-#: src/ui/book-viewer.ui:11 src/ui/help-overlay.ui:191
-msgid "Open a Copy"
-msgstr "사본 열기"
-
-#: src/ui/book-viewer.ui:21
+#: src/ui/book-viewer.ui:22
 msgid "Import Annotations…"
 msgstr "주석 가져오기…"
 
-#: src/ui/book-viewer.ui:31 src/ui/help-overlay.ui:238
-msgid "Keyboard Shortcuts"
-msgstr "키보드 단축키"
-
-#: src/ui/book-viewer.ui:35 src/ui/library.ui:42
+#: src/ui/book-viewer.ui:36 src/ui/library.ui:42
 msgid "About Foliate"
 msgstr "Foliate 소개"
 
-#: src/ui/book-viewer.ui:43
+#: src/ui/book-viewer.ui:44
 msgid "All Sections"
 msgstr "모든 섹션"
 
-#: src/ui/book-viewer.ui:48
+#: src/ui/book-viewer.ui:49
 msgid "Current Section"
 msgstr "현재 섹션"
 
-#: src/ui/book-viewer.ui:55
+#: src/ui/book-viewer.ui:56
 msgid "Match Whole Words Only"
 msgstr "전체 단어만 일치"
 
-#: src/ui/book-viewer.ui:59
+#: src/ui/book-viewer.ui:60
 msgid "Match Case"
 msgstr "대/소문자 구분"
 
-#: src/ui/book-viewer.ui:63
+#: src/ui/book-viewer.ui:64
 msgid "Match Diacritics"
 msgstr "발음 구별 기호 구분"
 
-#: src/ui/book-viewer.ui:81 src/ui/help-overlay.ui:232
-msgid "Font & Layout Settings"
-msgstr "글꼴 및 레이아웃 설정"
-
-#: src/ui/book-viewer.ui:87
+#: src/ui/book-viewer.ui:88
 msgid "Scrolled Mode"
 msgstr "스크롤 보기 모드"
 
-#: src/ui/book-viewer.ui:91
+#: src/ui/book-viewer.ui:92
 msgid "Invert Colors in Dark Mode"
 msgstr "다크 모드에서 색상 반전"
 
-#: src/ui/book-viewer.ui:95
+#: src/ui/book-viewer.ui:96
 msgid "Autohide Cursor"
 msgstr "커서 자동 숨김"
 
-#: src/ui/book-viewer.ui:101
+#: src/ui/book-viewer.ui:102
 msgid "Print…"
 msgstr "인쇄하기…"
 
-#: src/ui/book-viewer.ui:105 src/ui/help-overlay.ui:250
-msgid "Inspector"
-msgstr "검사기"
-
-#: src/ui/book-viewer.ui:159
+#: src/ui/book-viewer.ui:160
 msgid "Book Cannot Be Opened"
 msgstr "책을 열 수 없습니다"
 
-#: src/ui/book-viewer.ui:169
+#: src/ui/book-viewer.ui:170
 msgid "Details"
 msgstr "상세정보"
 
-#: src/ui/book-viewer.ui:185
+#: src/ui/book-viewer.ui:186
 msgid "Open Another File…"
 msgstr "파일 열기다른 파일 열기…"
 
-#: src/ui/book-viewer.ui:237
+#: src/ui/book-viewer.ui:238
 msgid "Pin Sidebar"
 msgstr "사이드바 고정"
 
-#: src/ui/book-viewer.ui:245
+#: src/ui/book-viewer.ui:246
 msgid "Book Menu"
 msgstr "책 메뉴"
 
-#: src/ui/book-viewer.ui:252 src/ui/selection-popover.ui:17
+#: src/ui/book-viewer.ui:253 src/ui/selection-popover.ui:17
 msgid "Find"
 msgstr "찾기"
 
-#: src/ui/book-viewer.ui:268
+#: src/ui/book-viewer.ui:269
 msgid "Find in book…"
 msgstr "책에서 찾기…"
 
-#: src/ui/book-viewer.ui:306
+#: src/ui/book-viewer.ui:307
 msgid "Contents"
 msgstr "콘텐츠"
 
-#: src/ui/book-viewer.ui:379
+#: src/ui/book-viewer.ui:380
 msgid "Annotations"
 msgstr "주석"
 
-#: src/ui/book-viewer.ui:391
+#: src/ui/book-viewer.ui:392
 msgid "Select some text to add annotations"
 msgstr "주석을 추가하려면 일부 텍스트를 선택하세요"
 
-#: src/ui/book-viewer.ui:421
+#: src/ui/book-viewer.ui:422
 msgid "Filter annotations…"
 msgstr "주석 필터링…"
 
-#: src/ui/book-viewer.ui:435
+#: src/ui/book-viewer.ui:436
 msgid "Bookmarks"
 msgstr "책갈피"
 
-#: src/ui/book-viewer.ui:446
+#: src/ui/book-viewer.ui:447
 msgid "No Bookmarks"
 msgstr "책갈피 없음"
 
-#: src/ui/book-viewer.ui:447
+#: src/ui/book-viewer.ui:448
 msgid "Add some bookmarks to see them here"
 msgstr "여기에 표시하려면 몇 개의 북마크를 추가하세요"
 
-#: src/ui/book-viewer.ui:486 src/ui/library-view.ui:42
+#: src/ui/book-viewer.ui:487 src/ui/library-view.ui:42
 msgid "No Results Found"
 msgstr "검색 결과가 없습니다"
 
-#: src/ui/book-viewer.ui:487 src/ui/library-view.ui:43
+#: src/ui/book-viewer.ui:488 src/ui/library-view.ui:43
 msgid "Try a different search"
 msgstr "다른 검색을 시도하세요"
 
-#: src/ui/book-viewer.ui:530 src/ui/help-overlay.ui:59 src/ui/library.ui:102
-#: src/ui/library.ui:160
-msgid "Sidebar"
-msgstr "사이드바"
-
-#: src/ui/book-viewer.ui:544
+#: src/ui/book-viewer.ui:545
 msgid "View Menu"
 msgstr "보기 메뉴"
 
-#: src/ui/book-viewer.ui:557 src/ui/help-overlay.ui:110
-#: src/ui/image-viewer.ui:41
-msgid "Zoom Out"
-msgstr "축소"
-
-#: src/ui/book-viewer.ui:564 src/ui/help-overlay.ui:116
-#: src/ui/image-viewer.ui:48
-msgid "Reset Zoom"
-msgstr "확대/축소 재설정"
-
-#: src/ui/book-viewer.ui:573 src/ui/help-overlay.ui:104
-#: src/ui/image-viewer.ui:55
-msgid "Zoom In"
-msgstr "확대"
-
-#: src/ui/book-viewer.ui:589
+#: src/ui/book-viewer.ui:590
 msgid "Follow System Style"
 msgstr "시스템 스타일 따르기"
 
-#: src/ui/book-viewer.ui:599
+#: src/ui/book-viewer.ui:600
 msgid "Light Style"
 msgstr "밝은 스타일"
 
-#: src/ui/book-viewer.ui:609
+#: src/ui/book-viewer.ui:610
 msgid "Dark Style"
 msgstr "어두운 스타일"
 
-#: src/ui/book-viewer.ui:624 src/ui/library.ui:26
+#: src/ui/book-viewer.ui:625 src/ui/library.ui:26
 msgid "Fullscreen"
 msgstr "전체화면"
 
@@ -984,159 +1176,6 @@ msgstr "마크다운"
 #: src/ui/export-dialog.ui:36
 msgid "Org Mode"
 msgstr "Org 모드"
-
-#: src/ui/help-overlay.ui:6
-#, fuzzy
-msgid "Navigation"
-msgstr "내레이션"
-
-#: src/ui/help-overlay.ui:10
-#, fuzzy
-msgid "Previous Page"
-msgstr "이전"
-
-#: src/ui/help-overlay.ui:16
-#, fuzzy
-msgid "Next Page"
-msgstr "다음"
-
-#: src/ui/help-overlay.ui:22
-msgid "Go Left"
-msgstr ""
-
-#: src/ui/help-overlay.ui:28
-#, fuzzy
-msgid "Scroll Down"
-msgstr "스크롤 보기 모드"
-
-#: src/ui/help-overlay.ui:34
-#, fuzzy
-msgid "Scroll Up"
-msgstr "스크롤 보기 모드"
-
-#: src/ui/help-overlay.ui:40
-msgid "Go Right"
-msgstr ""
-
-#: src/ui/help-overlay.ui:46
-#, fuzzy
-msgid "Jump to Previous Location"
-msgstr "이전 위치로 돌아가기"
-
-#: src/ui/help-overlay.ui:52
-#, fuzzy
-msgid "Jump to Next Location"
-msgstr "다음 섹션"
-
-#: src/ui/help-overlay.ui:63
-#, fuzzy
-msgid "Toggle Sidebar"
-msgstr "사이드바 사용"
-
-#: src/ui/help-overlay.ui:69
-msgid "Toggle Table of Contents"
-msgstr ""
-
-#: src/ui/help-overlay.ui:75
-#, fuzzy
-msgid "Toggle Annotations"
-msgstr "주석 없음"
-
-#: src/ui/help-overlay.ui:81
-#, fuzzy
-msgid "Toggle Bookmarks"
-msgstr "책갈피 없음"
-
-#: src/ui/help-overlay.ui:87
-#, fuzzy
-msgid "Toggle Search"
-msgstr "사이드바 사용"
-
-#: src/ui/help-overlay.ui:94
-#, fuzzy
-msgid "View"
-msgstr "메뉴"
-
-#: src/ui/help-overlay.ui:122
-#, fuzzy
-msgid "Toggle Fullscreen"
-msgstr "전체화면"
-
-#: src/ui/help-overlay.ui:128
-#, fuzzy
-msgid "Toggle Scrolled Mode"
-msgstr "스크롤 보기 모드"
-
-#: src/ui/help-overlay.ui:134
-#, fuzzy
-msgid "Show Current Location"
-msgstr "현재 섹션"
-
-#: src/ui/help-overlay.ui:140
-#, fuzzy
-msgid "Bookmark Current Location"
-msgstr "책갈피 및 주석"
-
-#: src/ui/help-overlay.ui:147
-#, fuzzy
-msgid "In Search"
-msgstr "검색"
-
-#: src/ui/help-overlay.ui:164
-#, fuzzy
-msgid "With Selection"
-msgstr "선택항목 인쇄하기…"
-
-#: src/ui/help-overlay.ui:168
-#, fuzzy
-msgid "Selection Copy"
-msgstr "섹션"
-
-#: src/ui/help-overlay.ui:174
-#, fuzzy
-msgid "Selection Search"
-msgstr "섹션"
-
-#: src/ui/help-overlay.ui:181
-#, fuzzy
-msgid "Window"
-msgstr "새 창"
-
-#: src/ui/help-overlay.ui:185
-#, fuzzy
-msgid "Open File"
-msgstr "파일 저장"
-
-#: src/ui/help-overlay.ui:197
-#, fuzzy
-msgid "Close Window"
-msgstr "새 창"
-
-#: src/ui/help-overlay.ui:203
-msgid "Quit"
-msgstr ""
-
-#: src/ui/help-overlay.ui:210
-msgid "General"
-msgstr ""
-
-#: src/ui/help-overlay.ui:214
-msgid "Show Book Information"
-msgstr ""
-
-#: src/ui/help-overlay.ui:220
-msgid "Show App Information"
-msgstr ""
-
-#: src/ui/help-overlay.ui:226
-#, fuzzy
-msgid "Open Menu"
-msgstr "기본 메뉴"
-
-#: src/ui/help-overlay.ui:244
-#, fuzzy
-msgid "Print..."
-msgstr "인쇄하기…"
 
 #: src/ui/image-viewer.ui:6 src/ui/navbar.ui:302 src/ui/selection-popover.ui:7
 msgid "Copy"
@@ -1408,6 +1447,9 @@ msgstr "애니메이션 축소하기"
 msgid "Copied to clipboard"
 msgstr "클립보드에 복사되었습니"
 
+#~ msgid "Font & Layout Settings"
+#~ msgstr "글꼴 및 레이아웃 설정"
+
 #, fuzzy
 #~ msgid "Book"
 #~ msgstr "메뉴"
@@ -1421,9 +1463,6 @@ msgstr "클립보드에 복사되었습니"
 
 #, fuzzy
 #~ msgid "Go to Reference"
-#~ msgstr "환경설정"
-
-#~ msgid "Preferences"
 #~ msgstr "환경설정"
 
 #~ msgid "Speak"

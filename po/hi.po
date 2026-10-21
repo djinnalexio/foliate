@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-11 00:33+0100\n"
+"POT-Creation-Date: 2026-10-20 10:25+0100\n"
 "PO-Revision-Date: 2024-04-26 10:59+0530\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi\n"
@@ -29,7 +29,7 @@ msgid "E-Book Viewer"
 msgstr "ई-पुस्तक दर्शक"
 
 #: data/com.github.johnfactotum.Foliate.desktop.in:5
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:7 src/app.js:450
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:7 src/app.js:458
 msgid "Read e-books in style"
 msgstr "अंदाज़ से ई-पुस्तकें पढ़ें"
 
@@ -85,75 +85,105 @@ msgid "Quick dictionary lookup"
 msgstr "त्वरित शब्दकोश खोज"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:56
-msgid "Updated for GNOME 48"
+msgid "Updated runtime to GNOME 51"
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:57
-msgid "Added support for mouse forward/backward buttons"
+msgid "Inhibit idling when in fullscreen"
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:58
-msgid "Improved text wrapping in headings"
+msgid "Fixed crash introduced by f1a1602"
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:59
-msgid "Improved default link style"
+msgid "Improved fraction calculation in list view of library"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:67
-msgid "Fixed tables not displayed in FB2 books"
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:60
+msgid "Added navigation with keypad"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:68
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:61
+#, fuzzy
+msgid "Added keyboard shortcuts help page"
+msgstr "कीबोर्ड शॉर्टकट"
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:62
+msgid "Added ability to add multiple files at once"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:63
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:83
 #, fuzzy
 msgid "Updated translations"
 msgstr "अनुवाद पुनर्प्राप्त नहीं किया जा सका"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:71
+msgid "Updated for GNOME 48"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:72
+msgid "Added support for mouse forward/backward buttons"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:73
+msgid "Improved text wrapping in headings"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:74
+msgid "Improved default link style"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
+msgid "Fixed tables not displayed in FB2 books"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:90
 msgid ""
 "Various improvements and fixes, including a revamped translation tool, "
 "better focus handling, and better PDF rendering, now faster and no longer "
 "blurry."
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:97
 msgid "Fixed end of chapter cut off when chapter starts with page break"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:83
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:98
 msgid "Fixed incorrect text wrapping in tables"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:84
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:99
 msgid "Fixed a performance issue with OPDS catalogs"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:92
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:107
 msgid "Added support for OPDS catalogs, now with support for OPDS 2.0"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:93
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:108
 #, fuzzy
 msgid "Added option to override publisher font"
 msgstr "प्रकाशक फॉन्ट ओवरराइड करें"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:94
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:109
 msgid "Added option to reduce animation"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:95
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:110
 msgid "Added support for JPEG XL in CBZ"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:96
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:111
 msgid "Fixed getting file from Tracker in Flatpak"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:97
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:112
 msgid "Fixed parsing of non-year-only first-century and BCE dates"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:107
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:122
 msgid ""
 "Foliate has been rewritten from scratch with a new e-book rendering library "
 "and the latest platform libraries, GTK 4 and Libadwaita, with refreshed UI "
@@ -166,7 +196,7 @@ msgstr ""
 msgid "Bookmark deleted"
 msgstr "पुस्तचिन्ह हटा दिया गया"
 
-#: src/annotations.js:138 src/annotations.js:173 src/book-viewer.js:872
+#: src/annotations.js:138 src/annotations.js:173 src/book-viewer.js:900
 #: src/library.js:867
 msgid "Undo"
 msgstr "पूर्ववत"
@@ -223,7 +253,7 @@ msgstr "JSON फाइलें"
 msgid "All Files"
 msgstr "सभी फाइलें"
 
-#: src/annotations.js:606 src/annotations.js:634 src/ui/book-viewer.ui:390
+#: src/annotations.js:606 src/annotations.js:634 src/ui/book-viewer.ui:391
 msgid "No Annotations"
 msgstr "कोई एनोटेशन नहीं"
 
@@ -235,7 +265,7 @@ msgstr "आयातित फाइल में कोई एनोटेश�
 msgid "Cannot Import Annotations"
 msgstr "एनोटेशन आयात नहीं कर सकते"
 
-#: src/annotations.js:626 src/book-viewer.js:785 src/library.js:646
+#: src/annotations.js:626 src/book-viewer.js:813 src/library.js:646
 msgid "An error occurred"
 msgstr "एक त्रुटि हुई"
 
@@ -289,13 +319,13 @@ msgstr ""
 #. Translators: To be credited in the "About" dialog, put your
 #. name(s) here, optionally followed by an <email> or a URL.
 #. One translator per line.
-#: src/app.js:457
+#: src/app.js:465
 msgid "translator-credits"
 msgstr ""
 "Aman Rawat <dv451197@gmail.com>\n"
 "Scrambled777 <weblate.scrambled777@simplelogin.com>"
 
-#: src/app.js:464
+#: src/app.js:484
 msgid "Source Code"
 msgstr "स्रोत कोड"
 
@@ -354,7 +384,7 @@ msgid "Identifier"
 msgstr "पहचानकर्ता"
 
 #: src/book-info.js:179 src/ui/book-item.ui:15 src/ui/book-row.ui:15
-#: src/ui/book-viewer.ui:356
+#: src/ui/book-viewer.ui:357
 msgid "About This Book"
 msgstr "इस पुस्तक के बारे में"
 
@@ -413,27 +443,27 @@ msgstr "ग्रन्थसूची"
 msgid "Go to Bibliography"
 msgstr "ग्रंथसूची पर जाएं"
 
-#: src/book-viewer.js:690
+#: src/book-viewer.js:717
 msgid "Remove bookmark"
 msgstr "बुकमार्क हटाएं"
 
-#: src/book-viewer.js:691
+#: src/book-viewer.js:718
 msgid "Add bookmark"
 msgstr "बुकमार्क जोड़ें"
 
-#: src/book-viewer.js:783
+#: src/book-viewer.js:811
 msgid "File not found"
 msgstr "फाइल प्राप्त नहीं हुई"
 
-#: src/book-viewer.js:784
+#: src/book-viewer.js:812
 msgid "File type not supported"
 msgstr "फाइल प्रकार समर्थित नहीं है"
 
-#: src/book-viewer.js:871
+#: src/book-viewer.js:899
 msgid "Annotation deleted"
 msgstr "एनोटेशन मिटाया गया"
 
-#: src/book-viewer.js:944
+#: src/book-viewer.js:971
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -442,7 +472,7 @@ msgstr ""
 "‘%s’\n"
 "—%s, “%s”, p. %s"
 
-#: src/book-viewer.js:946
+#: src/book-viewer.js:973
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -451,12 +481,12 @@ msgstr ""
 "‘%s’\n"
 "—“%s”, p. %s"
 
-#: src/book-viewer.js:947
+#: src/book-viewer.js:974
 #, javascript-format
 msgid "‘%s’ (p. %s)"
 msgstr "‘%s’ (p. %s)"
 
-#: src/book-viewer.js:950
+#: src/book-viewer.js:977
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -465,7 +495,7 @@ msgstr ""
 "‘%s’\n"
 "—%s, “%s”"
 
-#: src/book-viewer.js:952
+#: src/book-viewer.js:979
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -474,17 +504,17 @@ msgstr ""
 "‘%s’\n"
 "—“%s”"
 
-#: src/book-viewer.js:953
+#: src/book-viewer.js:980
 #, javascript-format
 msgid "‘%s’"
 msgstr "‘%s’"
 
-#: src/book-viewer.js:971
+#: src/book-viewer.js:998
 #, javascript-format
 msgid "Image from “%s”"
 msgstr "“%s” से छवि"
 
-#: src/book-viewer.js:971
+#: src/book-viewer.js:998
 msgid "Image"
 msgstr "छवि"
 
@@ -501,7 +531,7 @@ msgstr "लोड हो रहा है"
 msgid "Failed to Load"
 msgstr "लोड करने में विफल"
 
-#: src/library.js:49 src/ui/book-viewer.ui:15 src/ui/help-overlay.ui:98
+#: src/library.js:49 src/ui/book-help-overlay.ui:98 src/ui/book-viewer.ui:16
 msgid "Reload"
 msgstr "पुनः लोड करें"
 
@@ -549,12 +579,12 @@ msgstr "मुफ़्त"
 msgid "First"
 msgstr "पहला"
 
-#: src/library.js:66 src/ui/help-overlay.ui:151 src/ui/navbar.ui:8
+#: src/library.js:66 src/ui/book-help-overlay.ui:151 src/ui/navbar.ui:8
 #: src/ui/tts-box.ui:115
 msgid "Previous"
 msgstr "पिछला"
 
-#: src/library.js:67 src/ui/help-overlay.ui:157 src/ui/navbar.ui:124
+#: src/library.js:67 src/ui/book-help-overlay.ui:157 src/ui/navbar.ui:124
 #: src/ui/tts-box.ui:132
 msgid "Next"
 msgstr "अगला"
@@ -625,7 +655,7 @@ msgstr "सभी पुस्तकें"
 msgid "Add Catalog…"
 msgstr "सूचीपत्र जोड़ें…"
 
-#: src/library.js:815 src/ui/book-viewer.ui:128 src/ui/book-viewer.ui:231
+#: src/library.js:815 src/ui/book-viewer.ui:129 src/ui/book-viewer.ui:232
 #: src/ui/library.ui:93
 msgid "Library"
 msgstr "पुस्तकालय"
@@ -775,6 +805,202 @@ msgstr "मेनू"
 msgid "Add Note…"
 msgstr "टिप्पणी जोड़ें…"
 
+#: src/ui/app-help-overlay.ui:6 src/ui/book-help-overlay.ui:181
+#, fuzzy
+msgid "Window"
+msgstr "नई विंडो"
+
+#: src/ui/app-help-overlay.ui:10 src/ui/book-help-overlay.ui:185
+#, fuzzy
+msgid "Open File"
+msgstr "फ़ाइल सहेजें"
+
+#: src/ui/app-help-overlay.ui:16 src/ui/book-help-overlay.ui:191
+#: src/ui/book-viewer.ui:12
+msgid "Open a Copy"
+msgstr "एक प्रति खोलें"
+
+#: src/ui/app-help-overlay.ui:22 src/ui/book-help-overlay.ui:122
+#, fuzzy
+msgid "Toggle Fullscreen"
+msgstr "पूर्णस्क्रीन"
+
+#: src/ui/app-help-overlay.ui:28 src/ui/book-help-overlay.ui:203
+#, fuzzy
+msgid "Close Window"
+msgstr "नई विंडो"
+
+#: src/ui/app-help-overlay.ui:34 src/ui/book-help-overlay.ui:209
+msgid "Quit"
+msgstr ""
+
+#: src/ui/app-help-overlay.ui:41 src/ui/book-help-overlay.ui:216
+msgid "General"
+msgstr ""
+
+#: src/ui/app-help-overlay.ui:45 src/ui/book-help-overlay.ui:226
+msgid "Show App Information"
+msgstr ""
+
+#: src/ui/app-help-overlay.ui:51 src/ui/book-help-overlay.ui:232
+#, fuzzy
+msgid "Open Menu"
+msgstr "मुख्य मेनू"
+
+#: src/ui/app-help-overlay.ui:57 src/ui/book-help-overlay.ui:244
+#: src/ui/book-viewer.ui:32 src/ui/library.ui:38
+msgid "Keyboard Shortcuts"
+msgstr "कीबोर्ड शॉर्टकट"
+
+#: src/ui/book-help-overlay.ui:6
+#, fuzzy
+msgid "Navigation"
+msgstr "वर्णन"
+
+#: src/ui/book-help-overlay.ui:10
+#, fuzzy
+msgid "Previous Page"
+msgstr "पिछला"
+
+#: src/ui/book-help-overlay.ui:16
+#, fuzzy
+msgid "Next Page"
+msgstr "अगला"
+
+#: src/ui/book-help-overlay.ui:22
+msgid "Go Left"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:28
+#, fuzzy
+msgid "Scroll Down"
+msgstr "स्क्रॉल का मोड"
+
+#: src/ui/book-help-overlay.ui:34
+#, fuzzy
+msgid "Scroll Up"
+msgstr "स्क्रॉल का मोड"
+
+#: src/ui/book-help-overlay.ui:40
+msgid "Go Right"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:46
+#, fuzzy
+msgid "Jump to Previous Location"
+msgstr "पिछले स्थान पर वापस जाएँ"
+
+#: src/ui/book-help-overlay.ui:52
+#, fuzzy
+msgid "Jump to Next Location"
+msgstr "अगले खंड पर जाएँ"
+
+#: src/ui/book-help-overlay.ui:59 src/ui/book-viewer.ui:531
+#: src/ui/library.ui:102 src/ui/library.ui:160
+msgid "Sidebar"
+msgstr "पार्श्वपट्टी"
+
+#: src/ui/book-help-overlay.ui:63
+#, fuzzy
+msgid "Toggle Sidebar"
+msgstr "साइडबार टॉगल करें"
+
+#: src/ui/book-help-overlay.ui:69
+msgid "Toggle Table of Contents"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:75
+#, fuzzy
+msgid "Toggle Annotations"
+msgstr "कोई एनोटेशन नहीं"
+
+#: src/ui/book-help-overlay.ui:81
+#, fuzzy
+msgid "Toggle Bookmarks"
+msgstr "कोई पुस्तचिह्न नहीं"
+
+#: src/ui/book-help-overlay.ui:87
+#, fuzzy
+msgid "Toggle Search"
+msgstr "साइडबार टॉगल करें"
+
+#: src/ui/book-help-overlay.ui:94
+#, fuzzy
+msgid "View"
+msgstr "दर्शक"
+
+#: src/ui/book-help-overlay.ui:104 src/ui/book-viewer.ui:574
+#: src/ui/image-viewer.ui:55
+msgid "Zoom In"
+msgstr "ज़ूम इन"
+
+#: src/ui/book-help-overlay.ui:110 src/ui/book-viewer.ui:558
+#: src/ui/image-viewer.ui:41
+msgid "Zoom Out"
+msgstr "ज़ूम आउट"
+
+#: src/ui/book-help-overlay.ui:116 src/ui/book-viewer.ui:565
+#: src/ui/image-viewer.ui:48
+msgid "Reset Zoom"
+msgstr "ज़ूम रीसेट"
+
+#: src/ui/book-help-overlay.ui:128
+#, fuzzy
+msgid "Toggle Scrolled Mode"
+msgstr "स्क्रॉल का मोड"
+
+#: src/ui/book-help-overlay.ui:134
+#, fuzzy
+msgid "Show Current Location"
+msgstr "वर्तमान अनुभाग"
+
+#: src/ui/book-help-overlay.ui:140
+#, fuzzy
+msgid "Bookmark Current Location"
+msgstr "पुस्तचिन्ह और एनोटेशन"
+
+#: src/ui/book-help-overlay.ui:147
+#, fuzzy
+msgid "In Search"
+msgstr "खोजें"
+
+#: src/ui/book-help-overlay.ui:164
+#, fuzzy
+msgid "With Selection"
+msgstr "चयन प्रिंट करें…"
+
+#: src/ui/book-help-overlay.ui:168
+#, fuzzy
+msgid "Selection Copy"
+msgstr "अनुभाग"
+
+#: src/ui/book-help-overlay.ui:174
+#, fuzzy
+msgid "Selection Search"
+msgstr "अनुभाग"
+
+#: src/ui/book-help-overlay.ui:197
+#, fuzzy
+msgid "Go to Library"
+msgstr "ग्रंथसूची पर जाएं"
+
+#: src/ui/book-help-overlay.ui:220
+msgid "Show Book Information"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:238 src/ui/book-viewer.ui:82
+msgid "Preferences"
+msgstr "प्राथमिकताएँ"
+
+#: src/ui/book-help-overlay.ui:250
+#, fuzzy
+msgid "Print..."
+msgstr "प्रिंट…"
+
+#: src/ui/book-help-overlay.ui:256 src/ui/book-viewer.ui:106
+msgid "Inspector"
+msgstr "निरीक्षक"
+
 #: src/ui/book-item.ui:5 src/ui/book-row.ui:5
 msgid "Open in New Window"
 msgstr "नई विंडो में खोलें"
@@ -783,175 +1009,139 @@ msgstr "नई विंडो में खोलें"
 msgid "Open with External App"
 msgstr ""
 
-#: src/ui/book-item.ui:19 src/ui/book-row.ui:19 src/ui/book-viewer.ui:25
+#: src/ui/book-item.ui:19 src/ui/book-row.ui:19 src/ui/book-viewer.ui:26
 msgid "Export Annotations…"
 msgstr "एनोटेशन निर्यात करें…"
 
-#: src/ui/book-viewer.ui:5
+#: src/ui/book-viewer.ui:6
 msgid "New Window"
 msgstr "नई विंडो"
 
-#: src/ui/book-viewer.ui:11 src/ui/help-overlay.ui:191
-msgid "Open a Copy"
-msgstr "एक प्रति खोलें"
-
-#: src/ui/book-viewer.ui:21
+#: src/ui/book-viewer.ui:22
 msgid "Import Annotations…"
 msgstr "एनोटेशन आयात करें…"
 
-#: src/ui/book-viewer.ui:31 src/ui/help-overlay.ui:238
-msgid "Keyboard Shortcuts"
-msgstr "कीबोर्ड शॉर्टकट"
-
-#: src/ui/book-viewer.ui:35 src/ui/library.ui:42
+#: src/ui/book-viewer.ui:36 src/ui/library.ui:42
 msgid "About Foliate"
 msgstr "Foliate के बारे में"
 
-#: src/ui/book-viewer.ui:43
+#: src/ui/book-viewer.ui:44
 msgid "All Sections"
 msgstr "सभी अनुभाग"
 
-#: src/ui/book-viewer.ui:48
+#: src/ui/book-viewer.ui:49
 msgid "Current Section"
 msgstr "वर्तमान अनुभाग"
 
-#: src/ui/book-viewer.ui:55
+#: src/ui/book-viewer.ui:56
 msgid "Match Whole Words Only"
 msgstr "केवल संपूर्ण शब्दों का मिलान करें"
 
-#: src/ui/book-viewer.ui:59
+#: src/ui/book-viewer.ui:60
 msgid "Match Case"
 msgstr "वर्तनी मिलाएं"
 
-#: src/ui/book-viewer.ui:63
+#: src/ui/book-viewer.ui:64
 msgid "Match Diacritics"
 msgstr "विशेषक मिलाएं"
 
-#: src/ui/book-viewer.ui:81 src/ui/help-overlay.ui:232
-msgid "Font & Layout Settings"
-msgstr "फॉन्ट और अभिन्यास सेटिंग्स"
-
-#: src/ui/book-viewer.ui:87
+#: src/ui/book-viewer.ui:88
 msgid "Scrolled Mode"
 msgstr "स्क्रॉल का मोड"
 
-#: src/ui/book-viewer.ui:91
+#: src/ui/book-viewer.ui:92
 msgid "Invert Colors in Dark Mode"
 msgstr "गहरे मोड में रंगों को उल्टा करें"
 
-#: src/ui/book-viewer.ui:95
+#: src/ui/book-viewer.ui:96
 msgid "Autohide Cursor"
 msgstr "कर्सर को स्वतः छिपाएं"
 
-#: src/ui/book-viewer.ui:101
+#: src/ui/book-viewer.ui:102
 msgid "Print…"
 msgstr "प्रिंट…"
 
-#: src/ui/book-viewer.ui:105 src/ui/help-overlay.ui:250
-msgid "Inspector"
-msgstr "निरीक्षक"
-
-#: src/ui/book-viewer.ui:159
+#: src/ui/book-viewer.ui:160
 msgid "Book Cannot Be Opened"
 msgstr "पुस्तक खोली नहीं जा सकती"
 
-#: src/ui/book-viewer.ui:169
+#: src/ui/book-viewer.ui:170
 msgid "Details"
 msgstr "विवरण"
 
-#: src/ui/book-viewer.ui:185
+#: src/ui/book-viewer.ui:186
 msgid "Open Another File…"
 msgstr "कोई अन्य फाइल खोलें…"
 
-#: src/ui/book-viewer.ui:237
+#: src/ui/book-viewer.ui:238
 msgid "Pin Sidebar"
 msgstr "पार्श्वपट्टी पिन करें"
 
-#: src/ui/book-viewer.ui:245
+#: src/ui/book-viewer.ui:246
 msgid "Book Menu"
 msgstr "पुस्तक मेनू"
 
-#: src/ui/book-viewer.ui:252 src/ui/selection-popover.ui:17
+#: src/ui/book-viewer.ui:253 src/ui/selection-popover.ui:17
 msgid "Find"
 msgstr "खोजें"
 
-#: src/ui/book-viewer.ui:268
+#: src/ui/book-viewer.ui:269
 msgid "Find in book…"
 msgstr "पुस्तक में खोजें…"
 
-#: src/ui/book-viewer.ui:306
+#: src/ui/book-viewer.ui:307
 msgid "Contents"
 msgstr "अंतर्वस्तु"
 
-#: src/ui/book-viewer.ui:379
+#: src/ui/book-viewer.ui:380
 msgid "Annotations"
 msgstr "एनोटेशन"
 
-#: src/ui/book-viewer.ui:391
+#: src/ui/book-viewer.ui:392
 msgid "Select some text to add annotations"
 msgstr "एनोटेशन जोड़ने के लिए कुछ पाठ चुनें"
 
-#: src/ui/book-viewer.ui:421
+#: src/ui/book-viewer.ui:422
 msgid "Filter annotations…"
 msgstr "एनोटेशन फिल्टर करें…"
 
-#: src/ui/book-viewer.ui:435
+#: src/ui/book-viewer.ui:436
 msgid "Bookmarks"
 msgstr "पुस्तचिह्न"
 
-#: src/ui/book-viewer.ui:446
+#: src/ui/book-viewer.ui:447
 msgid "No Bookmarks"
 msgstr "कोई पुस्तचिह्न नहीं"
 
-#: src/ui/book-viewer.ui:447
+#: src/ui/book-viewer.ui:448
 msgid "Add some bookmarks to see them here"
 msgstr "यहां देखने के लिए कुछ पुस्तचिह्न जोड़ें"
 
-#: src/ui/book-viewer.ui:486 src/ui/library-view.ui:42
+#: src/ui/book-viewer.ui:487 src/ui/library-view.ui:42
 msgid "No Results Found"
 msgstr "कोई परिणाम नहीं मिला"
 
-#: src/ui/book-viewer.ui:487 src/ui/library-view.ui:43
+#: src/ui/book-viewer.ui:488 src/ui/library-view.ui:43
 msgid "Try a different search"
 msgstr "भिन्न खोज का प्रयास करें"
 
-#: src/ui/book-viewer.ui:530 src/ui/help-overlay.ui:59 src/ui/library.ui:102
-#: src/ui/library.ui:160
-msgid "Sidebar"
-msgstr "पार्श्वपट्टी"
-
-#: src/ui/book-viewer.ui:544
+#: src/ui/book-viewer.ui:545
 msgid "View Menu"
 msgstr "मेनू देखें"
 
-#: src/ui/book-viewer.ui:557 src/ui/help-overlay.ui:110
-#: src/ui/image-viewer.ui:41
-msgid "Zoom Out"
-msgstr "ज़ूम आउट"
-
-#: src/ui/book-viewer.ui:564 src/ui/help-overlay.ui:116
-#: src/ui/image-viewer.ui:48
-msgid "Reset Zoom"
-msgstr "ज़ूम रीसेट"
-
-#: src/ui/book-viewer.ui:573 src/ui/help-overlay.ui:104
-#: src/ui/image-viewer.ui:55
-msgid "Zoom In"
-msgstr "ज़ूम इन"
-
-#: src/ui/book-viewer.ui:589
+#: src/ui/book-viewer.ui:590
 msgid "Follow System Style"
 msgstr "सिस्टम शैली का पालन"
 
-#: src/ui/book-viewer.ui:599
+#: src/ui/book-viewer.ui:600
 msgid "Light Style"
 msgstr "हल्की शैली"
 
-#: src/ui/book-viewer.ui:609
+#: src/ui/book-viewer.ui:610
 msgid "Dark Style"
 msgstr "गहरी शैली"
 
-#: src/ui/book-viewer.ui:624 src/ui/library.ui:26
+#: src/ui/book-viewer.ui:625 src/ui/library.ui:26
 msgid "Fullscreen"
 msgstr "पूर्णस्क्रीन"
 
@@ -987,159 +1177,6 @@ msgstr "मार्कडाउन"
 #: src/ui/export-dialog.ui:36
 msgid "Org Mode"
 msgstr "संगठन मोड"
-
-#: src/ui/help-overlay.ui:6
-#, fuzzy
-msgid "Navigation"
-msgstr "वर्णन"
-
-#: src/ui/help-overlay.ui:10
-#, fuzzy
-msgid "Previous Page"
-msgstr "पिछला"
-
-#: src/ui/help-overlay.ui:16
-#, fuzzy
-msgid "Next Page"
-msgstr "अगला"
-
-#: src/ui/help-overlay.ui:22
-msgid "Go Left"
-msgstr ""
-
-#: src/ui/help-overlay.ui:28
-#, fuzzy
-msgid "Scroll Down"
-msgstr "स्क्रॉल का मोड"
-
-#: src/ui/help-overlay.ui:34
-#, fuzzy
-msgid "Scroll Up"
-msgstr "स्क्रॉल का मोड"
-
-#: src/ui/help-overlay.ui:40
-msgid "Go Right"
-msgstr ""
-
-#: src/ui/help-overlay.ui:46
-#, fuzzy
-msgid "Jump to Previous Location"
-msgstr "पिछले स्थान पर वापस जाएँ"
-
-#: src/ui/help-overlay.ui:52
-#, fuzzy
-msgid "Jump to Next Location"
-msgstr "अगले खंड पर जाएँ"
-
-#: src/ui/help-overlay.ui:63
-#, fuzzy
-msgid "Toggle Sidebar"
-msgstr "साइडबार टॉगल करें"
-
-#: src/ui/help-overlay.ui:69
-msgid "Toggle Table of Contents"
-msgstr ""
-
-#: src/ui/help-overlay.ui:75
-#, fuzzy
-msgid "Toggle Annotations"
-msgstr "कोई एनोटेशन नहीं"
-
-#: src/ui/help-overlay.ui:81
-#, fuzzy
-msgid "Toggle Bookmarks"
-msgstr "कोई पुस्तचिह्न नहीं"
-
-#: src/ui/help-overlay.ui:87
-#, fuzzy
-msgid "Toggle Search"
-msgstr "साइडबार टॉगल करें"
-
-#: src/ui/help-overlay.ui:94
-#, fuzzy
-msgid "View"
-msgstr "दर्शक"
-
-#: src/ui/help-overlay.ui:122
-#, fuzzy
-msgid "Toggle Fullscreen"
-msgstr "पूर्णस्क्रीन"
-
-#: src/ui/help-overlay.ui:128
-#, fuzzy
-msgid "Toggle Scrolled Mode"
-msgstr "स्क्रॉल का मोड"
-
-#: src/ui/help-overlay.ui:134
-#, fuzzy
-msgid "Show Current Location"
-msgstr "वर्तमान अनुभाग"
-
-#: src/ui/help-overlay.ui:140
-#, fuzzy
-msgid "Bookmark Current Location"
-msgstr "पुस्तचिन्ह और एनोटेशन"
-
-#: src/ui/help-overlay.ui:147
-#, fuzzy
-msgid "In Search"
-msgstr "खोजें"
-
-#: src/ui/help-overlay.ui:164
-#, fuzzy
-msgid "With Selection"
-msgstr "चयन प्रिंट करें…"
-
-#: src/ui/help-overlay.ui:168
-#, fuzzy
-msgid "Selection Copy"
-msgstr "अनुभाग"
-
-#: src/ui/help-overlay.ui:174
-#, fuzzy
-msgid "Selection Search"
-msgstr "अनुभाग"
-
-#: src/ui/help-overlay.ui:181
-#, fuzzy
-msgid "Window"
-msgstr "नई विंडो"
-
-#: src/ui/help-overlay.ui:185
-#, fuzzy
-msgid "Open File"
-msgstr "फ़ाइल सहेजें"
-
-#: src/ui/help-overlay.ui:197
-#, fuzzy
-msgid "Close Window"
-msgstr "नई विंडो"
-
-#: src/ui/help-overlay.ui:203
-msgid "Quit"
-msgstr ""
-
-#: src/ui/help-overlay.ui:210
-msgid "General"
-msgstr ""
-
-#: src/ui/help-overlay.ui:214
-msgid "Show Book Information"
-msgstr ""
-
-#: src/ui/help-overlay.ui:220
-msgid "Show App Information"
-msgstr ""
-
-#: src/ui/help-overlay.ui:226
-#, fuzzy
-msgid "Open Menu"
-msgstr "मुख्य मेनू"
-
-#: src/ui/help-overlay.ui:244
-#, fuzzy
-msgid "Print..."
-msgstr "प्रिंट…"
 
 #: src/ui/image-viewer.ui:6 src/ui/navbar.ui:302 src/ui/selection-popover.ui:7
 msgid "Copy"
@@ -1410,6 +1447,9 @@ msgstr "सजीवता कम करें"
 msgid "Copied to clipboard"
 msgstr "क्लिपबोर्ड पर कॉपी किया गया"
 
+#~ msgid "Font & Layout Settings"
+#~ msgstr "फॉन्ट और अभिन्यास सेटिंग्स"
+
 #~ msgid "Book"
 #~ msgstr "पुस्तक"
 
@@ -1432,9 +1472,6 @@ msgstr "क्लिपबोर्ड पर कॉपी किया गय�
 #, fuzzy
 #~ msgid "Go to Reference"
 #~ msgstr "संदर्भ पर जाएँ"
-
-#~ msgid "Preferences"
-#~ msgstr "प्राथमिकताएँ"
 
 #~ msgid "Speak"
 #~ msgstr "बोलना"

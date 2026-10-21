@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-11 00:33+0100\n"
+"POT-Creation-Date: 2026-10-20 10:25+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Ser82-png <asvmail.as@gmail.com>\n"
 "Language-Team: \n"
@@ -34,7 +34,7 @@ msgid "E-Book Viewer"
 msgstr "Читалка электронных книг"
 
 #: data/com.github.johnfactotum.Foliate.desktop.in:5
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:7 src/app.js:450
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:7 src/app.js:458
 msgid "Read e-books in style"
 msgstr "Читайте электронные книги стильно"
 
@@ -91,78 +91,107 @@ msgid "Quick dictionary lookup"
 msgstr "Быстрая проверка по словарю"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:56
-msgid "Updated for GNOME 48"
+msgid "Updated runtime to GNOME 51"
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:57
-msgid "Added support for mouse forward/backward buttons"
+msgid "Inhibit idling when in fullscreen"
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:58
-#, fuzzy
-msgid "Improved text wrapping in headings"
-msgstr "Исправлен неправильный перенос текста в таблицах"
+msgid "Fixed crash introduced by f1a1602"
+msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:59
-msgid "Improved default link style"
+msgid "Improved fraction calculation in list view of library"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:67
-msgid "Fixed tables not displayed in FB2 books"
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:60
+msgid "Added navigation with keypad"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:68
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:61
+msgid "Added keyboard shortcuts help page"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:62
+msgid "Added ability to add multiple files at once"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:63
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:83
 #, fuzzy
 msgid "Updated translations"
 msgstr "Не удалось получить перевод"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:71
+msgid "Updated for GNOME 48"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:72
+msgid "Added support for mouse forward/backward buttons"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:73
+#, fuzzy
+msgid "Improved text wrapping in headings"
+msgstr "Исправлен неправильный перенос текста в таблицах"
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:74
+msgid "Improved default link style"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
+msgid "Fixed tables not displayed in FB2 books"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:90
 msgid ""
 "Various improvements and fixes, including a revamped translation tool, "
 "better focus handling, and better PDF rendering, now faster and no longer "
 "blurry."
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:97
 msgid "Fixed end of chapter cut off when chapter starts with page break"
 msgstr ""
 "Исправлено прерывание конца главы, когда глава начинается с разрыва страницы"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:83
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:98
 msgid "Fixed incorrect text wrapping in tables"
 msgstr "Исправлен неправильный перенос текста в таблицах"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:84
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:99
 msgid "Fixed a performance issue with OPDS catalogs"
 msgstr "Исправлена проблема с производительностью каталогов OPDS"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:92
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:107
 msgid "Added support for OPDS catalogs, now with support for OPDS 2.0"
 msgstr "Добавлена поддержка каталогов OPDS, теперь поддерживается OPDS 2.0"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:93
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:108
 msgid "Added option to override publisher font"
 msgstr "Добавлена возможность переопределения шрифта издателя"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:94
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:109
 msgid "Added option to reduce animation"
 msgstr "Добавлена возможность отключения анимации"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:95
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:110
 msgid "Added support for JPEG XL in CBZ"
 msgstr "Добавлена поддержка формата JPEG XL в CBZ"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:96
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:111
 msgid "Fixed getting file from Tracker in Flatpak"
 msgstr "Исправлено получение файла с трекера во Flatpak"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:97
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:112
 msgid "Fixed parsing of non-year-only first-century and BCE dates"
 msgstr ""
 "Исправлен синтаксический анализ «non-year-only first-century» и дат до нашей "
 "эры"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:107
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:122
 msgid ""
 "Foliate has been rewritten from scratch with a new e-book rendering library "
 "and the latest platform libraries, GTK 4 and Libadwaita, with refreshed UI "
@@ -176,7 +205,7 @@ msgstr ""
 msgid "Bookmark deleted"
 msgstr "Закладка удалена"
 
-#: src/annotations.js:138 src/annotations.js:173 src/book-viewer.js:872
+#: src/annotations.js:138 src/annotations.js:173 src/book-viewer.js:900
 #: src/library.js:867
 msgid "Undo"
 msgstr "Отменить"
@@ -233,7 +262,7 @@ msgstr "Файлы JSON"
 msgid "All Files"
 msgstr "Все файлы"
 
-#: src/annotations.js:606 src/annotations.js:634 src/ui/book-viewer.ui:390
+#: src/annotations.js:606 src/annotations.js:634 src/ui/book-viewer.ui:391
 msgid "No Annotations"
 msgstr "Нет примечаний"
 
@@ -245,7 +274,7 @@ msgstr "Импортированный файл не содержит приме
 msgid "Cannot Import Annotations"
 msgstr "Невозможно импортировать примечания"
 
-#: src/annotations.js:626 src/book-viewer.js:785 src/library.js:646
+#: src/annotations.js:626 src/book-viewer.js:813 src/library.js:646
 msgid "An error occurred"
 msgstr "Произошла ошибка"
 
@@ -302,7 +331,7 @@ msgstr ""
 #. Translators: To be credited in the "About" dialog, put your
 #. name(s) here, optionally followed by an <email> or a URL.
 #. One translator per line.
-#: src/app.js:457
+#: src/app.js:465
 msgid "translator-credits"
 msgstr ""
 "Schwonder Reismus <schw0reismus@protonmail.com>\n"
@@ -312,7 +341,7 @@ msgstr ""
 "ViktorOn https://github.com/viktoro\n"
 "Ser82-png <asvmail.as@gmail.com>"
 
-#: src/app.js:464
+#: src/app.js:484
 msgid "Source Code"
 msgstr "Исходный код"
 
@@ -371,7 +400,7 @@ msgid "Identifier"
 msgstr "Идентификатор"
 
 #: src/book-info.js:179 src/ui/book-item.ui:15 src/ui/book-row.ui:15
-#: src/ui/book-viewer.ui:356
+#: src/ui/book-viewer.ui:357
 msgid "About This Book"
 msgstr "Об этой книге"
 
@@ -430,27 +459,27 @@ msgstr "Библиография"
 msgid "Go to Bibliography"
 msgstr "Перейти к библиографии"
 
-#: src/book-viewer.js:690
+#: src/book-viewer.js:717
 msgid "Remove bookmark"
 msgstr "Удалить закладку"
 
-#: src/book-viewer.js:691
+#: src/book-viewer.js:718
 msgid "Add bookmark"
 msgstr "Добавить закладку"
 
-#: src/book-viewer.js:783
+#: src/book-viewer.js:811
 msgid "File not found"
 msgstr "Файл не найден"
 
-#: src/book-viewer.js:784
+#: src/book-viewer.js:812
 msgid "File type not supported"
 msgstr "Тип файла не поддерживается"
 
-#: src/book-viewer.js:871
+#: src/book-viewer.js:899
 msgid "Annotation deleted"
 msgstr "Примечание удалено"
 
-#: src/book-viewer.js:944
+#: src/book-viewer.js:971
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -459,7 +488,7 @@ msgstr ""
 "‘%s’\n"
 "—%s, «%s», с. %s"
 
-#: src/book-viewer.js:946
+#: src/book-viewer.js:973
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -468,12 +497,12 @@ msgstr ""
 "‘%s’\n"
 "—«%s», с. %s"
 
-#: src/book-viewer.js:947
+#: src/book-viewer.js:974
 #, javascript-format
 msgid "‘%s’ (p. %s)"
 msgstr "‘%s’ (с. %s)"
 
-#: src/book-viewer.js:950
+#: src/book-viewer.js:977
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -482,7 +511,7 @@ msgstr ""
 "‘%s’\n"
 "—%s, «%s»"
 
-#: src/book-viewer.js:952
+#: src/book-viewer.js:979
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -491,17 +520,17 @@ msgstr ""
 "‘%s’\n"
 "—«%s»"
 
-#: src/book-viewer.js:953
+#: src/book-viewer.js:980
 #, javascript-format
 msgid "‘%s’"
 msgstr "‘%s’"
 
-#: src/book-viewer.js:971
+#: src/book-viewer.js:998
 #, javascript-format
 msgid "Image from “%s”"
 msgstr "Изображение с «%s»"
 
-#: src/book-viewer.js:971
+#: src/book-viewer.js:998
 msgid "Image"
 msgstr "Изображение"
 
@@ -518,7 +547,7 @@ msgstr "Загрузка"
 msgid "Failed to Load"
 msgstr "Не удалось загрузить"
 
-#: src/library.js:49 src/ui/book-viewer.ui:15 src/ui/help-overlay.ui:98
+#: src/library.js:49 src/ui/book-help-overlay.ui:98 src/ui/book-viewer.ui:16
 msgid "Reload"
 msgstr "Перезагрузить"
 
@@ -566,12 +595,12 @@ msgstr "Бесплатно"
 msgid "First"
 msgstr "Первый"
 
-#: src/library.js:66 src/ui/help-overlay.ui:151 src/ui/navbar.ui:8
+#: src/library.js:66 src/ui/book-help-overlay.ui:151 src/ui/navbar.ui:8
 #: src/ui/tts-box.ui:115
 msgid "Previous"
 msgstr "Предыдущий"
 
-#: src/library.js:67 src/ui/help-overlay.ui:157 src/ui/navbar.ui:124
+#: src/library.js:67 src/ui/book-help-overlay.ui:157 src/ui/navbar.ui:124
 #: src/ui/tts-box.ui:132
 msgid "Next"
 msgstr "Следующий"
@@ -641,7 +670,7 @@ msgstr "Все книги"
 msgid "Add Catalog…"
 msgstr "Добавить каталог…"
 
-#: src/library.js:815 src/ui/book-viewer.ui:128 src/ui/book-viewer.ui:231
+#: src/library.js:815 src/ui/book-viewer.ui:129 src/ui/book-viewer.ui:232
 #: src/ui/library.ui:93
 msgid "Library"
 msgstr "Библиотека"
@@ -791,6 +820,202 @@ msgstr "Меню"
 msgid "Add Note…"
 msgstr "Добавить заметку…"
 
+#: src/ui/app-help-overlay.ui:6 src/ui/book-help-overlay.ui:181
+#, fuzzy
+msgid "Window"
+msgstr "Новое окно"
+
+#: src/ui/app-help-overlay.ui:10 src/ui/book-help-overlay.ui:185
+#, fuzzy
+msgid "Open File"
+msgstr "Файлы JSON"
+
+#: src/ui/app-help-overlay.ui:16 src/ui/book-help-overlay.ui:191
+#: src/ui/book-viewer.ui:12
+msgid "Open a Copy"
+msgstr "Открыть копию"
+
+#: src/ui/app-help-overlay.ui:22 src/ui/book-help-overlay.ui:122
+#, fuzzy
+msgid "Toggle Fullscreen"
+msgstr "Во весь экран"
+
+#: src/ui/app-help-overlay.ui:28 src/ui/book-help-overlay.ui:203
+#, fuzzy
+msgid "Close Window"
+msgstr "Новое окно"
+
+#: src/ui/app-help-overlay.ui:34 src/ui/book-help-overlay.ui:209
+msgid "Quit"
+msgstr ""
+
+#: src/ui/app-help-overlay.ui:41 src/ui/book-help-overlay.ui:216
+msgid "General"
+msgstr ""
+
+#: src/ui/app-help-overlay.ui:45 src/ui/book-help-overlay.ui:226
+msgid "Show App Information"
+msgstr ""
+
+#: src/ui/app-help-overlay.ui:51 src/ui/book-help-overlay.ui:232
+#, fuzzy
+msgid "Open Menu"
+msgstr "Главное меню"
+
+#: src/ui/app-help-overlay.ui:57 src/ui/book-help-overlay.ui:244
+#: src/ui/book-viewer.ui:32 src/ui/library.ui:38
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:6
+#, fuzzy
+msgid "Navigation"
+msgstr "Озвучивание"
+
+#: src/ui/book-help-overlay.ui:10
+#, fuzzy
+msgid "Previous Page"
+msgstr "Предыдущий"
+
+#: src/ui/book-help-overlay.ui:16
+#, fuzzy
+msgid "Next Page"
+msgstr "Следующий"
+
+#: src/ui/book-help-overlay.ui:22
+msgid "Go Left"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:28
+#, fuzzy
+msgid "Scroll Down"
+msgstr "Режим прокрутки"
+
+#: src/ui/book-help-overlay.ui:34
+#, fuzzy
+msgid "Scroll Up"
+msgstr "Режим прокрутки"
+
+#: src/ui/book-help-overlay.ui:40
+msgid "Go Right"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:46
+#, fuzzy
+msgid "Jump to Previous Location"
+msgstr "Предыдущий раздел"
+
+#: src/ui/book-help-overlay.ui:52
+#, fuzzy
+msgid "Jump to Next Location"
+msgstr "Следующий раздел"
+
+#: src/ui/book-help-overlay.ui:59 src/ui/book-viewer.ui:531
+#: src/ui/library.ui:102 src/ui/library.ui:160
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: src/ui/book-help-overlay.ui:63
+#, fuzzy
+msgid "Toggle Sidebar"
+msgstr "Боковая панель"
+
+#: src/ui/book-help-overlay.ui:69
+msgid "Toggle Table of Contents"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:75
+#, fuzzy
+msgid "Toggle Annotations"
+msgstr "Нет примечаний"
+
+#: src/ui/book-help-overlay.ui:81
+#, fuzzy
+msgid "Toggle Bookmarks"
+msgstr "Нет закладок"
+
+#: src/ui/book-help-overlay.ui:87
+#, fuzzy
+msgid "Toggle Search"
+msgstr "Поиск"
+
+#: src/ui/book-help-overlay.ui:94
+#, fuzzy
+msgid "View"
+msgstr "Просмотрщик"
+
+#: src/ui/book-help-overlay.ui:104 src/ui/book-viewer.ui:574
+#: src/ui/image-viewer.ui:55
+msgid "Zoom In"
+msgstr "Увеличить масштаб"
+
+#: src/ui/book-help-overlay.ui:110 src/ui/book-viewer.ui:558
+#: src/ui/image-viewer.ui:41
+msgid "Zoom Out"
+msgstr "Уменьшить масштаб"
+
+#: src/ui/book-help-overlay.ui:116 src/ui/book-viewer.ui:565
+#: src/ui/image-viewer.ui:48
+msgid "Reset Zoom"
+msgstr "Сбросить масштаб"
+
+#: src/ui/book-help-overlay.ui:128
+#, fuzzy
+msgid "Toggle Scrolled Mode"
+msgstr "Режим прокрутки"
+
+#: src/ui/book-help-overlay.ui:134
+#, fuzzy
+msgid "Show Current Location"
+msgstr "Текущий раздел"
+
+#: src/ui/book-help-overlay.ui:140
+#, fuzzy
+msgid "Bookmark Current Location"
+msgstr "Закладки и примечания"
+
+#: src/ui/book-help-overlay.ui:147
+#, fuzzy
+msgid "In Search"
+msgstr "Поиск"
+
+#: src/ui/book-help-overlay.ui:164
+#, fuzzy
+msgid "With Selection"
+msgstr "Печатать выделенное…"
+
+#: src/ui/book-help-overlay.ui:168
+#, fuzzy
+msgid "Selection Copy"
+msgstr "Раздел"
+
+#: src/ui/book-help-overlay.ui:174
+#, fuzzy
+msgid "Selection Search"
+msgstr "Раздел"
+
+#: src/ui/book-help-overlay.ui:197
+#, fuzzy
+msgid "Go to Library"
+msgstr "Перейти к библиографии"
+
+#: src/ui/book-help-overlay.ui:220
+msgid "Show Book Information"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:238 src/ui/book-viewer.ui:82
+msgid "Preferences"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:250
+#, fuzzy
+msgid "Print..."
+msgstr "Печать…"
+
+#: src/ui/book-help-overlay.ui:256 src/ui/book-viewer.ui:106
+msgid "Inspector"
+msgstr "Инспектор"
+
 #: src/ui/book-item.ui:5 src/ui/book-row.ui:5
 msgid "Open in New Window"
 msgstr "Открыть в новом окне"
@@ -799,175 +1024,139 @@ msgstr "Открыть в новом окне"
 msgid "Open with External App"
 msgstr "Открыть с помощью внешнего приложения"
 
-#: src/ui/book-item.ui:19 src/ui/book-row.ui:19 src/ui/book-viewer.ui:25
+#: src/ui/book-item.ui:19 src/ui/book-row.ui:19 src/ui/book-viewer.ui:26
 msgid "Export Annotations…"
 msgstr "Экспортировать примечания…"
 
-#: src/ui/book-viewer.ui:5
+#: src/ui/book-viewer.ui:6
 msgid "New Window"
 msgstr "Новое окно"
 
-#: src/ui/book-viewer.ui:11 src/ui/help-overlay.ui:191
-msgid "Open a Copy"
-msgstr "Открыть копию"
-
-#: src/ui/book-viewer.ui:21
+#: src/ui/book-viewer.ui:22
 msgid "Import Annotations…"
 msgstr "Импортировать примечания…"
 
-#: src/ui/book-viewer.ui:31 src/ui/help-overlay.ui:238
-msgid "Keyboard Shortcuts"
-msgstr ""
-
-#: src/ui/book-viewer.ui:35 src/ui/library.ui:42
+#: src/ui/book-viewer.ui:36 src/ui/library.ui:42
 msgid "About Foliate"
 msgstr "О Foliate"
 
-#: src/ui/book-viewer.ui:43
+#: src/ui/book-viewer.ui:44
 msgid "All Sections"
 msgstr "Все разделы"
 
-#: src/ui/book-viewer.ui:48
+#: src/ui/book-viewer.ui:49
 msgid "Current Section"
 msgstr "Текущий раздел"
 
-#: src/ui/book-viewer.ui:55
+#: src/ui/book-viewer.ui:56
 msgid "Match Whole Words Only"
 msgstr "Только слова целиком"
 
-#: src/ui/book-viewer.ui:59
+#: src/ui/book-viewer.ui:60
 msgid "Match Case"
 msgstr "Учитывать регистр"
 
-#: src/ui/book-viewer.ui:63
+#: src/ui/book-viewer.ui:64
 msgid "Match Diacritics"
 msgstr "Учитывать диакритические знаки"
 
-#: src/ui/book-viewer.ui:81 src/ui/help-overlay.ui:232
-msgid "Font & Layout Settings"
-msgstr "Шрифт и настройка макета"
-
-#: src/ui/book-viewer.ui:87
+#: src/ui/book-viewer.ui:88
 msgid "Scrolled Mode"
 msgstr "Режим прокрутки"
 
-#: src/ui/book-viewer.ui:91
+#: src/ui/book-viewer.ui:92
 msgid "Invert Colors in Dark Mode"
 msgstr "Инвертировать цвета в тёмном режиме"
 
-#: src/ui/book-viewer.ui:95
+#: src/ui/book-viewer.ui:96
 msgid "Autohide Cursor"
 msgstr "Автоматически скрывать курсор"
 
-#: src/ui/book-viewer.ui:101
+#: src/ui/book-viewer.ui:102
 msgid "Print…"
 msgstr "Печать…"
 
-#: src/ui/book-viewer.ui:105 src/ui/help-overlay.ui:250
-msgid "Inspector"
-msgstr "Инспектор"
-
-#: src/ui/book-viewer.ui:159
+#: src/ui/book-viewer.ui:160
 msgid "Book Cannot Be Opened"
 msgstr "Книга не может быть открыта"
 
-#: src/ui/book-viewer.ui:169
+#: src/ui/book-viewer.ui:170
 msgid "Details"
 msgstr "Подробности"
 
-#: src/ui/book-viewer.ui:185
+#: src/ui/book-viewer.ui:186
 msgid "Open Another File…"
 msgstr "Открыть другой файл…"
 
-#: src/ui/book-viewer.ui:237
+#: src/ui/book-viewer.ui:238
 msgid "Pin Sidebar"
 msgstr "Закрепить боковую панель"
 
-#: src/ui/book-viewer.ui:245
+#: src/ui/book-viewer.ui:246
 msgid "Book Menu"
 msgstr "Меню книги"
 
-#: src/ui/book-viewer.ui:252 src/ui/selection-popover.ui:17
+#: src/ui/book-viewer.ui:253 src/ui/selection-popover.ui:17
 msgid "Find"
 msgstr "Искать"
 
-#: src/ui/book-viewer.ui:268
+#: src/ui/book-viewer.ui:269
 msgid "Find in book…"
 msgstr "Искать в книге…"
 
-#: src/ui/book-viewer.ui:306
+#: src/ui/book-viewer.ui:307
 msgid "Contents"
 msgstr "Оглавление"
 
-#: src/ui/book-viewer.ui:379
+#: src/ui/book-viewer.ui:380
 msgid "Annotations"
 msgstr "Примечания"
 
-#: src/ui/book-viewer.ui:391
+#: src/ui/book-viewer.ui:392
 msgid "Select some text to add annotations"
 msgstr "Выделите какой-нибудь текст, чтобы добавить примечание"
 
-#: src/ui/book-viewer.ui:421
+#: src/ui/book-viewer.ui:422
 msgid "Filter annotations…"
 msgstr "Фильтр примечаний…"
 
-#: src/ui/book-viewer.ui:435
+#: src/ui/book-viewer.ui:436
 msgid "Bookmarks"
 msgstr "Закладки"
 
-#: src/ui/book-viewer.ui:446
+#: src/ui/book-viewer.ui:447
 msgid "No Bookmarks"
 msgstr "Нет закладок"
 
-#: src/ui/book-viewer.ui:447
+#: src/ui/book-viewer.ui:448
 msgid "Add some bookmarks to see them here"
 msgstr "Добавьте какие-нибудь закладки, чтобы увидеть их здесь"
 
-#: src/ui/book-viewer.ui:486 src/ui/library-view.ui:42
+#: src/ui/book-viewer.ui:487 src/ui/library-view.ui:42
 msgid "No Results Found"
 msgstr "Ничего не найдено"
 
-#: src/ui/book-viewer.ui:487 src/ui/library-view.ui:43
+#: src/ui/book-viewer.ui:488 src/ui/library-view.ui:43
 msgid "Try a different search"
 msgstr "Попробуйте изменить поисковой запрос"
 
-#: src/ui/book-viewer.ui:530 src/ui/help-overlay.ui:59 src/ui/library.ui:102
-#: src/ui/library.ui:160
-msgid "Sidebar"
-msgstr "Боковая панель"
-
-#: src/ui/book-viewer.ui:544
+#: src/ui/book-viewer.ui:545
 msgid "View Menu"
 msgstr "Меню просмотра"
 
-#: src/ui/book-viewer.ui:557 src/ui/help-overlay.ui:110
-#: src/ui/image-viewer.ui:41
-msgid "Zoom Out"
-msgstr "Уменьшить масштаб"
-
-#: src/ui/book-viewer.ui:564 src/ui/help-overlay.ui:116
-#: src/ui/image-viewer.ui:48
-msgid "Reset Zoom"
-msgstr "Сбросить масштаб"
-
-#: src/ui/book-viewer.ui:573 src/ui/help-overlay.ui:104
-#: src/ui/image-viewer.ui:55
-msgid "Zoom In"
-msgstr "Увеличить масштаб"
-
-#: src/ui/book-viewer.ui:589
+#: src/ui/book-viewer.ui:590
 msgid "Follow System Style"
 msgstr "Системный стиль"
 
-#: src/ui/book-viewer.ui:599
+#: src/ui/book-viewer.ui:600
 msgid "Light Style"
 msgstr "Светлый стиль"
 
-#: src/ui/book-viewer.ui:609
+#: src/ui/book-viewer.ui:610
 msgid "Dark Style"
 msgstr "Тёмный стиль"
 
-#: src/ui/book-viewer.ui:624 src/ui/library.ui:26
+#: src/ui/book-viewer.ui:625 src/ui/library.ui:26
 msgid "Fullscreen"
 msgstr "Во весь экран"
 
@@ -1004,159 +1193,6 @@ msgstr "Markdown"
 #: src/ui/export-dialog.ui:36
 msgid "Org Mode"
 msgstr "Org-режим"
-
-#: src/ui/help-overlay.ui:6
-#, fuzzy
-msgid "Navigation"
-msgstr "Озвучивание"
-
-#: src/ui/help-overlay.ui:10
-#, fuzzy
-msgid "Previous Page"
-msgstr "Предыдущий"
-
-#: src/ui/help-overlay.ui:16
-#, fuzzy
-msgid "Next Page"
-msgstr "Следующий"
-
-#: src/ui/help-overlay.ui:22
-msgid "Go Left"
-msgstr ""
-
-#: src/ui/help-overlay.ui:28
-#, fuzzy
-msgid "Scroll Down"
-msgstr "Режим прокрутки"
-
-#: src/ui/help-overlay.ui:34
-#, fuzzy
-msgid "Scroll Up"
-msgstr "Режим прокрутки"
-
-#: src/ui/help-overlay.ui:40
-msgid "Go Right"
-msgstr ""
-
-#: src/ui/help-overlay.ui:46
-#, fuzzy
-msgid "Jump to Previous Location"
-msgstr "Предыдущий раздел"
-
-#: src/ui/help-overlay.ui:52
-#, fuzzy
-msgid "Jump to Next Location"
-msgstr "Следующий раздел"
-
-#: src/ui/help-overlay.ui:63
-#, fuzzy
-msgid "Toggle Sidebar"
-msgstr "Боковая панель"
-
-#: src/ui/help-overlay.ui:69
-msgid "Toggle Table of Contents"
-msgstr ""
-
-#: src/ui/help-overlay.ui:75
-#, fuzzy
-msgid "Toggle Annotations"
-msgstr "Нет примечаний"
-
-#: src/ui/help-overlay.ui:81
-#, fuzzy
-msgid "Toggle Bookmarks"
-msgstr "Нет закладок"
-
-#: src/ui/help-overlay.ui:87
-#, fuzzy
-msgid "Toggle Search"
-msgstr "Поиск"
-
-#: src/ui/help-overlay.ui:94
-#, fuzzy
-msgid "View"
-msgstr "Просмотрщик"
-
-#: src/ui/help-overlay.ui:122
-#, fuzzy
-msgid "Toggle Fullscreen"
-msgstr "Во весь экран"
-
-#: src/ui/help-overlay.ui:128
-#, fuzzy
-msgid "Toggle Scrolled Mode"
-msgstr "Режим прокрутки"
-
-#: src/ui/help-overlay.ui:134
-#, fuzzy
-msgid "Show Current Location"
-msgstr "Текущий раздел"
-
-#: src/ui/help-overlay.ui:140
-#, fuzzy
-msgid "Bookmark Current Location"
-msgstr "Закладки и примечания"
-
-#: src/ui/help-overlay.ui:147
-#, fuzzy
-msgid "In Search"
-msgstr "Поиск"
-
-#: src/ui/help-overlay.ui:164
-#, fuzzy
-msgid "With Selection"
-msgstr "Печатать выделенное…"
-
-#: src/ui/help-overlay.ui:168
-#, fuzzy
-msgid "Selection Copy"
-msgstr "Раздел"
-
-#: src/ui/help-overlay.ui:174
-#, fuzzy
-msgid "Selection Search"
-msgstr "Раздел"
-
-#: src/ui/help-overlay.ui:181
-#, fuzzy
-msgid "Window"
-msgstr "Новое окно"
-
-#: src/ui/help-overlay.ui:185
-#, fuzzy
-msgid "Open File"
-msgstr "Файлы JSON"
-
-#: src/ui/help-overlay.ui:197
-#, fuzzy
-msgid "Close Window"
-msgstr "Новое окно"
-
-#: src/ui/help-overlay.ui:203
-msgid "Quit"
-msgstr ""
-
-#: src/ui/help-overlay.ui:210
-msgid "General"
-msgstr ""
-
-#: src/ui/help-overlay.ui:214
-msgid "Show Book Information"
-msgstr ""
-
-#: src/ui/help-overlay.ui:220
-msgid "Show App Information"
-msgstr ""
-
-#: src/ui/help-overlay.ui:226
-#, fuzzy
-msgid "Open Menu"
-msgstr "Главное меню"
-
-#: src/ui/help-overlay.ui:244
-#, fuzzy
-msgid "Print..."
-msgstr "Печать…"
 
 #: src/ui/image-viewer.ui:6 src/ui/navbar.ui:302 src/ui/selection-popover.ui:7
 msgid "Copy"
@@ -1431,6 +1467,9 @@ msgstr "Отключить анимацию"
 #: src/utils.js:167
 msgid "Copied to clipboard"
 msgstr "Скопировано в буфер обмена"
+
+#~ msgid "Font & Layout Settings"
+#~ msgstr "Шрифт и настройка макета"
 
 #~ msgid "Book"
 #~ msgstr "Книга"

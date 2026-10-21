@@ -1,5 +1,6 @@
-.PHONY: run delete-data flatpak-install flatpak-uninstall flatpak-run flatpak-test \
-		flatpak-delete-data lint lint-fix format format-fix
+.PHONY: delete-data flatpak-delete-data flatpak-install flatpak-run \
+		flatpak-test flatpak-uninstall format format-fix lint lint-fix \
+		po-check po-stats po-update pot run
 
 APP := com.github.johnfactotum.Foliate
 BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
@@ -47,3 +48,29 @@ lint: $(NODE_MODULES_STAMP)
 
 lint-fix: $(NODE_MODULES_STAMP)
 	npm run lint:fix
+
+# ---- Translations ------------------------------------------------------------
+
+pot:
+	@xgettext --files-from=po/POTFILES \
+		--output='po/$(APP).pot' \
+		--from-code=UTF-8 \
+		--package-name='$(APP)' \
+		--copyright-holder='Foliate Contributors' \
+		--add-comments=Translators:
+
+po-update: pot
+	@for po in po/*.po; do \
+		msgmerge --update --backup=none "$$po" 'po/$(APP).pot' || exit 1; \
+	done
+
+po-check:
+	@for po in po/*.po; do \
+		msgfmt --check-format --check-header --check-domain -o /dev/null "$$po" || exit 1; \
+	done
+
+po-stats:
+	@for po in po/*.po; do \
+		printf '%s: ' "$$(basename "$$po" .po)"; \
+		msgfmt --check --statistics -o /dev/null "$$po" 2>&1 || exit 1; \
+	done

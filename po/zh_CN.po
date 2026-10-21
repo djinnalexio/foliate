@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-11 00:33+0100\n"
+"POT-Creation-Date: 2026-10-20 10:25+0100\n"
 "PO-Revision-Date: 2025-04-04 10:17+0800\n"
 "Last-Translator: lumingzh <lumingzh@qq.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
@@ -30,14 +30,16 @@ msgid "E-Book Viewer"
 msgstr "电子书查看器"
 
 #: data/com.github.johnfactotum.Foliate.desktop.in:5
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:7 src/app.js:450
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:7 src/app.js:458
 msgid "Read e-books in style"
 msgstr "别具风格地阅读电子书"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/com.github.johnfactotum.Foliate.desktop.in:13
 msgid "books;ebooks;comics;catalogs;reader;ereader;reading;viewer;library;epub;mobi;kindle;fb2;cbz;pdf;opds;"
-msgstr "books;ebooks;comics;catalogs;reader;ereader;reading;viewer;library;epub;mobi;kindle;fb2;cbz;pdf;opds;电子书;图书;书籍;查看器;阅读器;"
+msgstr ""
+"books;ebooks;comics;catalogs;reader;ereader;reading;viewer;library;epub;mobi;kindle;fb2;cbz;pdf;opds;"
+"电子书;图书;书籍;查看器;阅读器;"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:10
 msgid ""
@@ -85,75 +87,105 @@ msgid "Quick dictionary lookup"
 msgstr "快速的词典查询"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:56
-msgid "Updated for GNOME 48"
+msgid "Updated runtime to GNOME 51"
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:57
-msgid "Added support for mouse forward/backward buttons"
+msgid "Inhibit idling when in fullscreen"
 msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:58
-#, fuzzy
-msgid "Improved text wrapping in headings"
-msgstr "修复了表格中文本未正确折行的问题"
+msgid "Fixed crash introduced by f1a1602"
+msgstr ""
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:59
-msgid "Improved default link style"
+msgid "Improved fraction calculation in list view of library"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:67
-msgid "Fixed tables not displayed in FB2 books"
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:60
+msgid "Added navigation with keypad"
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:68
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:61
+#, fuzzy
+msgid "Added keyboard shortcuts help page"
+msgstr "快捷键"
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:62
+msgid "Added ability to add multiple files at once"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:63
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:83
 #, fuzzy
 msgid "Updated translations"
 msgstr "无法获取翻译"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:71
+msgid "Updated for GNOME 48"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:72
+msgid "Added support for mouse forward/backward buttons"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:73
+#, fuzzy
+msgid "Improved text wrapping in headings"
+msgstr "修复了表格中文本未正确折行的问题"
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:74
+msgid "Improved default link style"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
+msgid "Fixed tables not displayed in FB2 books"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:90
 msgid ""
 "Various improvements and fixes, including a revamped translation tool, "
 "better focus handling, and better PDF rendering, now faster and no longer "
 "blurry."
 msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:97
 msgid "Fixed end of chapter cut off when chapter starts with page break"
 msgstr "修复了章节以分页符起始时误判为章节末尾而截断内容的问题"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:83
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:98
 msgid "Fixed incorrect text wrapping in tables"
 msgstr "修复了表格中文本未正确折行的问题"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:84
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:99
 msgid "Fixed a performance issue with OPDS catalogs"
 msgstr "修复了 OPDS 书目的性能问题"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:92
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:107
 msgid "Added support for OPDS catalogs, now with support for OPDS 2.0"
 msgstr "添加了对 OPDS 2.0 与 OPDS 书目的支持"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:93
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:108
 msgid "Added option to override publisher font"
 msgstr "添加了覆盖出版商字体的选项"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:94
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:109
 msgid "Added option to reduce animation"
 msgstr "添加了减少动画的选项"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:95
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:110
 msgid "Added support for JPEG XL in CBZ"
 msgstr "添加了对 CBZ 中 JPEG XL 的支持"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:96
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:111
 msgid "Fixed getting file from Tracker in Flatpak"
 msgstr "修复了 Flatpak 中从 Tracker 获取文件的问题"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:97
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:112
 msgid "Fixed parsing of non-year-only first-century and BCE dates"
 msgstr "修复了对非纯年份公元一世纪和公元前日期的解析问题"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:107
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:122
 msgid ""
 "Foliate has been rewritten from scratch with a new e-book rendering library "
 "and the latest platform libraries, GTK 4 and Libadwaita, with refreshed UI "
@@ -166,7 +198,7 @@ msgstr ""
 msgid "Bookmark deleted"
 msgstr "书签已删除"
 
-#: src/annotations.js:138 src/annotations.js:173 src/book-viewer.js:872
+#: src/annotations.js:138 src/annotations.js:173 src/book-viewer.js:900
 #: src/library.js:867
 msgid "Undo"
 msgstr "撤消"
@@ -223,7 +255,7 @@ msgstr "JSON 文件"
 msgid "All Files"
 msgstr "所有文件"
 
-#: src/annotations.js:606 src/annotations.js:634 src/ui/book-viewer.ui:390
+#: src/annotations.js:606 src/annotations.js:634 src/ui/book-viewer.ui:391
 msgid "No Annotations"
 msgstr "无笔记"
 
@@ -235,7 +267,7 @@ msgstr "导入的文件没有笔记"
 msgid "Cannot Import Annotations"
 msgstr "无法导入笔记"
 
-#: src/annotations.js:626 src/book-viewer.js:785 src/library.js:646
+#: src/annotations.js:626 src/book-viewer.js:813 src/library.js:646
 msgid "An error occurred"
 msgstr "发生了一个错误"
 
@@ -286,14 +318,14 @@ msgstr ""
 #. Translators: To be credited in the "About" dialog, put your
 #. name(s) here, optionally followed by an <email> or a URL.
 #. One translator per line.
-#: src/app.js:457
+#: src/app.js:465
 msgid "translator-credits"
 msgstr ""
 "王滋涵 Zephyr Wang <wi24rd@fedoraproject.org>\n"
 "Tranquilo Chan <cdh4227@foxmail.com>\n"
 "lumingzh <lumingzh@qq.com>"
 
-#: src/app.js:464
+#: src/app.js:484
 msgid "Source Code"
 msgstr "源代码"
 
@@ -352,7 +384,7 @@ msgid "Identifier"
 msgstr "标识符"
 
 #: src/book-info.js:179 src/ui/book-item.ui:15 src/ui/book-row.ui:15
-#: src/ui/book-viewer.ui:356
+#: src/ui/book-viewer.ui:357
 msgid "About This Book"
 msgstr "关于此书"
 
@@ -411,27 +443,27 @@ msgstr "参考文献"
 msgid "Go to Bibliography"
 msgstr "前往参考文献"
 
-#: src/book-viewer.js:690
+#: src/book-viewer.js:717
 msgid "Remove bookmark"
 msgstr "移除书签"
 
-#: src/book-viewer.js:691
+#: src/book-viewer.js:718
 msgid "Add bookmark"
 msgstr "添加书签"
 
-#: src/book-viewer.js:783
+#: src/book-viewer.js:811
 msgid "File not found"
 msgstr "文件未找到"
 
-#: src/book-viewer.js:784
+#: src/book-viewer.js:812
 msgid "File type not supported"
 msgstr "不支持的文件类型"
 
-#: src/book-viewer.js:871
+#: src/book-viewer.js:899
 msgid "Annotation deleted"
 msgstr "笔记已删除"
 
-#: src/book-viewer.js:944
+#: src/book-viewer.js:971
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -440,7 +472,7 @@ msgstr ""
 "‘%s’\n"
 "—%s, “%s”, p. %s"
 
-#: src/book-viewer.js:946
+#: src/book-viewer.js:973
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -449,12 +481,12 @@ msgstr ""
 "‘%s’\n"
 "—“%s”, p. %s"
 
-#: src/book-viewer.js:947
+#: src/book-viewer.js:974
 #, javascript-format
 msgid "‘%s’ (p. %s)"
 msgstr "‘%s’ (p. %s)"
 
-#: src/book-viewer.js:950
+#: src/book-viewer.js:977
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -463,7 +495,7 @@ msgstr ""
 "‘%s’\n"
 "—%s, “%s”"
 
-#: src/book-viewer.js:952
+#: src/book-viewer.js:979
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -472,17 +504,17 @@ msgstr ""
 "‘%s’\n"
 "—“%s”"
 
-#: src/book-viewer.js:953
+#: src/book-viewer.js:980
 #, javascript-format
 msgid "‘%s’"
 msgstr "‘%s’"
 
-#: src/book-viewer.js:971
+#: src/book-viewer.js:998
 #, javascript-format
 msgid "Image from “%s”"
 msgstr "图片来自 “%s”"
 
-#: src/book-viewer.js:971
+#: src/book-viewer.js:998
 msgid "Image"
 msgstr "图片"
 
@@ -499,7 +531,7 @@ msgstr "加载中"
 msgid "Failed to Load"
 msgstr "加载失败"
 
-#: src/library.js:49 src/ui/book-viewer.ui:15 src/ui/help-overlay.ui:98
+#: src/library.js:49 src/ui/book-help-overlay.ui:98 src/ui/book-viewer.ui:16
 msgid "Reload"
 msgstr "重新载入"
 
@@ -547,12 +579,12 @@ msgstr "免费"
 msgid "First"
 msgstr "首页"
 
-#: src/library.js:66 src/ui/help-overlay.ui:151 src/ui/navbar.ui:8
+#: src/library.js:66 src/ui/book-help-overlay.ui:151 src/ui/navbar.ui:8
 #: src/ui/tts-box.ui:115
 msgid "Previous"
 msgstr "上页"
 
-#: src/library.js:67 src/ui/help-overlay.ui:157 src/ui/navbar.ui:124
+#: src/library.js:67 src/ui/book-help-overlay.ui:157 src/ui/navbar.ui:124
 #: src/ui/tts-box.ui:132
 msgid "Next"
 msgstr "下页"
@@ -622,7 +654,7 @@ msgstr "所有书籍"
 msgid "Add Catalog…"
 msgstr "添加书目…"
 
-#: src/library.js:815 src/ui/book-viewer.ui:128 src/ui/book-viewer.ui:231
+#: src/library.js:815 src/ui/book-viewer.ui:129 src/ui/book-viewer.ui:232
 #: src/ui/library.ui:93
 msgid "Library"
 msgstr "书库"
@@ -770,6 +802,202 @@ msgstr "菜单"
 msgid "Add Note…"
 msgstr "添加笔记…"
 
+#: src/ui/app-help-overlay.ui:6 src/ui/book-help-overlay.ui:181
+#, fuzzy
+msgid "Window"
+msgstr "新建窗口"
+
+#: src/ui/app-help-overlay.ui:10 src/ui/book-help-overlay.ui:185
+#, fuzzy
+msgid "Open File"
+msgstr "保存文件"
+
+#: src/ui/app-help-overlay.ui:16 src/ui/book-help-overlay.ui:191
+#: src/ui/book-viewer.ui:12
+msgid "Open a Copy"
+msgstr "打开副本"
+
+#: src/ui/app-help-overlay.ui:22 src/ui/book-help-overlay.ui:122
+#, fuzzy
+msgid "Toggle Fullscreen"
+msgstr "全屏"
+
+#: src/ui/app-help-overlay.ui:28 src/ui/book-help-overlay.ui:203
+#, fuzzy
+msgid "Close Window"
+msgstr "新建窗口"
+
+#: src/ui/app-help-overlay.ui:34 src/ui/book-help-overlay.ui:209
+msgid "Quit"
+msgstr ""
+
+#: src/ui/app-help-overlay.ui:41 src/ui/book-help-overlay.ui:216
+msgid "General"
+msgstr ""
+
+#: src/ui/app-help-overlay.ui:45 src/ui/book-help-overlay.ui:226
+msgid "Show App Information"
+msgstr ""
+
+#: src/ui/app-help-overlay.ui:51 src/ui/book-help-overlay.ui:232
+#, fuzzy
+msgid "Open Menu"
+msgstr "主菜单"
+
+#: src/ui/app-help-overlay.ui:57 src/ui/book-help-overlay.ui:244
+#: src/ui/book-viewer.ui:32 src/ui/library.ui:38
+msgid "Keyboard Shortcuts"
+msgstr "快捷键"
+
+#: src/ui/book-help-overlay.ui:6
+#, fuzzy
+msgid "Navigation"
+msgstr "朗读"
+
+#: src/ui/book-help-overlay.ui:10
+#, fuzzy
+msgid "Previous Page"
+msgstr "上页"
+
+#: src/ui/book-help-overlay.ui:16
+#, fuzzy
+msgid "Next Page"
+msgstr "下页"
+
+#: src/ui/book-help-overlay.ui:22
+msgid "Go Left"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:28
+#, fuzzy
+msgid "Scroll Down"
+msgstr "滚动模式"
+
+#: src/ui/book-help-overlay.ui:34
+#, fuzzy
+msgid "Scroll Up"
+msgstr "滚动模式"
+
+#: src/ui/book-help-overlay.ui:40
+msgid "Go Right"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:46
+#, fuzzy
+msgid "Jump to Previous Location"
+msgstr "上一位置"
+
+#: src/ui/book-help-overlay.ui:52
+#, fuzzy
+msgid "Jump to Next Location"
+msgstr "下一页"
+
+#: src/ui/book-help-overlay.ui:59 src/ui/book-viewer.ui:531
+#: src/ui/library.ui:102 src/ui/library.ui:160
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: src/ui/book-help-overlay.ui:63
+#, fuzzy
+msgid "Toggle Sidebar"
+msgstr "使用侧边栏"
+
+#: src/ui/book-help-overlay.ui:69
+msgid "Toggle Table of Contents"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:75
+#, fuzzy
+msgid "Toggle Annotations"
+msgstr "无笔记"
+
+#: src/ui/book-help-overlay.ui:81
+#, fuzzy
+msgid "Toggle Bookmarks"
+msgstr "无书签"
+
+#: src/ui/book-help-overlay.ui:87
+#, fuzzy
+msgid "Toggle Search"
+msgstr "使用侧边栏"
+
+#: src/ui/book-help-overlay.ui:94
+#, fuzzy
+msgid "View"
+msgstr "查看器"
+
+#: src/ui/book-help-overlay.ui:104 src/ui/book-viewer.ui:574
+#: src/ui/image-viewer.ui:55
+msgid "Zoom In"
+msgstr "放大"
+
+#: src/ui/book-help-overlay.ui:110 src/ui/book-viewer.ui:558
+#: src/ui/image-viewer.ui:41
+msgid "Zoom Out"
+msgstr "缩小"
+
+#: src/ui/book-help-overlay.ui:116 src/ui/book-viewer.ui:565
+#: src/ui/image-viewer.ui:48
+msgid "Reset Zoom"
+msgstr "重置缩放"
+
+#: src/ui/book-help-overlay.ui:128
+#, fuzzy
+msgid "Toggle Scrolled Mode"
+msgstr "滚动模式"
+
+#: src/ui/book-help-overlay.ui:134
+#, fuzzy
+msgid "Show Current Location"
+msgstr "当前章节"
+
+#: src/ui/book-help-overlay.ui:140
+#, fuzzy
+msgid "Bookmark Current Location"
+msgstr "书签和笔记"
+
+#: src/ui/book-help-overlay.ui:147
+#, fuzzy
+msgid "In Search"
+msgstr "搜索"
+
+#: src/ui/book-help-overlay.ui:164
+#, fuzzy
+msgid "With Selection"
+msgstr "打印选区…"
+
+#: src/ui/book-help-overlay.ui:168
+#, fuzzy
+msgid "Selection Copy"
+msgstr "章节"
+
+#: src/ui/book-help-overlay.ui:174
+#, fuzzy
+msgid "Selection Search"
+msgstr "章节"
+
+#: src/ui/book-help-overlay.ui:197
+#, fuzzy
+msgid "Go to Library"
+msgstr "前往参考文献"
+
+#: src/ui/book-help-overlay.ui:220
+msgid "Show Book Information"
+msgstr ""
+
+#: src/ui/book-help-overlay.ui:238 src/ui/book-viewer.ui:82
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: src/ui/book-help-overlay.ui:250
+#, fuzzy
+msgid "Print..."
+msgstr "打印…"
+
+#: src/ui/book-help-overlay.ui:256 src/ui/book-viewer.ui:106
+msgid "Inspector"
+msgstr "检查器"
+
 #: src/ui/book-item.ui:5 src/ui/book-row.ui:5
 msgid "Open in New Window"
 msgstr "在新窗口中打开"
@@ -778,175 +1006,139 @@ msgstr "在新窗口中打开"
 msgid "Open with External App"
 msgstr "使用外部应用打开"
 
-#: src/ui/book-item.ui:19 src/ui/book-row.ui:19 src/ui/book-viewer.ui:25
+#: src/ui/book-item.ui:19 src/ui/book-row.ui:19 src/ui/book-viewer.ui:26
 msgid "Export Annotations…"
 msgstr "导出笔记…"
 
-#: src/ui/book-viewer.ui:5
+#: src/ui/book-viewer.ui:6
 msgid "New Window"
 msgstr "新建窗口"
 
-#: src/ui/book-viewer.ui:11 src/ui/help-overlay.ui:191
-msgid "Open a Copy"
-msgstr "打开副本"
-
-#: src/ui/book-viewer.ui:21
+#: src/ui/book-viewer.ui:22
 msgid "Import Annotations…"
 msgstr "导入笔记…"
 
-#: src/ui/book-viewer.ui:31 src/ui/help-overlay.ui:238
-msgid "Keyboard Shortcuts"
-msgstr "快捷键"
-
-#: src/ui/book-viewer.ui:35 src/ui/library.ui:42
+#: src/ui/book-viewer.ui:36 src/ui/library.ui:42
 msgid "About Foliate"
 msgstr "关于 Foliate"
 
-#: src/ui/book-viewer.ui:43
+#: src/ui/book-viewer.ui:44
 msgid "All Sections"
 msgstr "全部章节"
 
-#: src/ui/book-viewer.ui:48
+#: src/ui/book-viewer.ui:49
 msgid "Current Section"
 msgstr "当前章节"
 
-#: src/ui/book-viewer.ui:55
+#: src/ui/book-viewer.ui:56
 msgid "Match Whole Words Only"
 msgstr "仅匹配整个词语"
 
-#: src/ui/book-viewer.ui:59
+#: src/ui/book-viewer.ui:60
 msgid "Match Case"
 msgstr "匹配大小写"
 
-#: src/ui/book-viewer.ui:63
+#: src/ui/book-viewer.ui:64
 msgid "Match Diacritics"
 msgstr "匹配音符"
 
-#: src/ui/book-viewer.ui:81 src/ui/help-overlay.ui:232
-msgid "Font & Layout Settings"
-msgstr "字体和布局设置"
-
-#: src/ui/book-viewer.ui:87
+#: src/ui/book-viewer.ui:88
 msgid "Scrolled Mode"
 msgstr "滚动模式"
 
-#: src/ui/book-viewer.ui:91
+#: src/ui/book-viewer.ui:92
 msgid "Invert Colors in Dark Mode"
 msgstr "暗色模式时反转颜色"
 
-#: src/ui/book-viewer.ui:95
+#: src/ui/book-viewer.ui:96
 msgid "Autohide Cursor"
 msgstr "自动隐藏指针"
 
-#: src/ui/book-viewer.ui:101
+#: src/ui/book-viewer.ui:102
 msgid "Print…"
 msgstr "打印…"
 
-#: src/ui/book-viewer.ui:105 src/ui/help-overlay.ui:250
-msgid "Inspector"
-msgstr "检查器"
-
-#: src/ui/book-viewer.ui:159
+#: src/ui/book-viewer.ui:160
 msgid "Book Cannot Be Opened"
 msgstr "书籍无法打开"
 
-#: src/ui/book-viewer.ui:169
+#: src/ui/book-viewer.ui:170
 msgid "Details"
 msgstr "详情"
 
-#: src/ui/book-viewer.ui:185
+#: src/ui/book-viewer.ui:186
 msgid "Open Another File…"
 msgstr "打开另一个文件…"
 
-#: src/ui/book-viewer.ui:237
+#: src/ui/book-viewer.ui:238
 msgid "Pin Sidebar"
 msgstr "固定侧边栏"
 
-#: src/ui/book-viewer.ui:245
+#: src/ui/book-viewer.ui:246
 msgid "Book Menu"
 msgstr "书籍菜单"
 
-#: src/ui/book-viewer.ui:252 src/ui/selection-popover.ui:17
+#: src/ui/book-viewer.ui:253 src/ui/selection-popover.ui:17
 msgid "Find"
 msgstr "查找"
 
-#: src/ui/book-viewer.ui:268
+#: src/ui/book-viewer.ui:269
 msgid "Find in book…"
 msgstr "在书籍中查找…"
 
-#: src/ui/book-viewer.ui:306
+#: src/ui/book-viewer.ui:307
 msgid "Contents"
 msgstr "目录"
 
-#: src/ui/book-viewer.ui:379
+#: src/ui/book-viewer.ui:380
 msgid "Annotations"
 msgstr "笔记"
 
-#: src/ui/book-viewer.ui:391
+#: src/ui/book-viewer.ui:392
 msgid "Select some text to add annotations"
 msgstr "选择一些文字来添加笔记"
 
-#: src/ui/book-viewer.ui:421
+#: src/ui/book-viewer.ui:422
 msgid "Filter annotations…"
 msgstr "筛选笔记…"
 
-#: src/ui/book-viewer.ui:435
+#: src/ui/book-viewer.ui:436
 msgid "Bookmarks"
 msgstr "书签"
 
-#: src/ui/book-viewer.ui:446
+#: src/ui/book-viewer.ui:447
 msgid "No Bookmarks"
 msgstr "无书签"
 
-#: src/ui/book-viewer.ui:447
+#: src/ui/book-viewer.ui:448
 msgid "Add some bookmarks to see them here"
 msgstr "添加一些书签来在这里查看它们"
 
-#: src/ui/book-viewer.ui:486 src/ui/library-view.ui:42
+#: src/ui/book-viewer.ui:487 src/ui/library-view.ui:42
 msgid "No Results Found"
 msgstr "未找到结果"
 
-#: src/ui/book-viewer.ui:487 src/ui/library-view.ui:43
+#: src/ui/book-viewer.ui:488 src/ui/library-view.ui:43
 msgid "Try a different search"
 msgstr "尝试不同的搜索"
 
-#: src/ui/book-viewer.ui:530 src/ui/help-overlay.ui:59 src/ui/library.ui:102
-#: src/ui/library.ui:160
-msgid "Sidebar"
-msgstr "侧边栏"
-
-#: src/ui/book-viewer.ui:544
+#: src/ui/book-viewer.ui:545
 msgid "View Menu"
 msgstr "视图菜单"
 
-#: src/ui/book-viewer.ui:557 src/ui/help-overlay.ui:110
-#: src/ui/image-viewer.ui:41
-msgid "Zoom Out"
-msgstr "缩小"
-
-#: src/ui/book-viewer.ui:564 src/ui/help-overlay.ui:116
-#: src/ui/image-viewer.ui:48
-msgid "Reset Zoom"
-msgstr "重置缩放"
-
-#: src/ui/book-viewer.ui:573 src/ui/help-overlay.ui:104
-#: src/ui/image-viewer.ui:55
-msgid "Zoom In"
-msgstr "放大"
-
-#: src/ui/book-viewer.ui:589
+#: src/ui/book-viewer.ui:590
 msgid "Follow System Style"
 msgstr "跟随系统样式"
 
-#: src/ui/book-viewer.ui:599
+#: src/ui/book-viewer.ui:600
 msgid "Light Style"
 msgstr "亮色样式"
 
-#: src/ui/book-viewer.ui:609
+#: src/ui/book-viewer.ui:610
 msgid "Dark Style"
 msgstr "暗色样式"
 
-#: src/ui/book-viewer.ui:624 src/ui/library.ui:26
+#: src/ui/book-viewer.ui:625 src/ui/library.ui:26
 msgid "Fullscreen"
 msgstr "全屏"
 
@@ -981,159 +1173,6 @@ msgstr "Markdown"
 #: src/ui/export-dialog.ui:36
 msgid "Org Mode"
 msgstr "Org 模式"
-
-#: src/ui/help-overlay.ui:6
-#, fuzzy
-msgid "Navigation"
-msgstr "朗读"
-
-#: src/ui/help-overlay.ui:10
-#, fuzzy
-msgid "Previous Page"
-msgstr "上页"
-
-#: src/ui/help-overlay.ui:16
-#, fuzzy
-msgid "Next Page"
-msgstr "下页"
-
-#: src/ui/help-overlay.ui:22
-msgid "Go Left"
-msgstr ""
-
-#: src/ui/help-overlay.ui:28
-#, fuzzy
-msgid "Scroll Down"
-msgstr "滚动模式"
-
-#: src/ui/help-overlay.ui:34
-#, fuzzy
-msgid "Scroll Up"
-msgstr "滚动模式"
-
-#: src/ui/help-overlay.ui:40
-msgid "Go Right"
-msgstr ""
-
-#: src/ui/help-overlay.ui:46
-#, fuzzy
-msgid "Jump to Previous Location"
-msgstr "上一位置"
-
-#: src/ui/help-overlay.ui:52
-#, fuzzy
-msgid "Jump to Next Location"
-msgstr "下一页"
-
-#: src/ui/help-overlay.ui:63
-#, fuzzy
-msgid "Toggle Sidebar"
-msgstr "使用侧边栏"
-
-#: src/ui/help-overlay.ui:69
-msgid "Toggle Table of Contents"
-msgstr ""
-
-#: src/ui/help-overlay.ui:75
-#, fuzzy
-msgid "Toggle Annotations"
-msgstr "无笔记"
-
-#: src/ui/help-overlay.ui:81
-#, fuzzy
-msgid "Toggle Bookmarks"
-msgstr "无书签"
-
-#: src/ui/help-overlay.ui:87
-#, fuzzy
-msgid "Toggle Search"
-msgstr "使用侧边栏"
-
-#: src/ui/help-overlay.ui:94
-#, fuzzy
-msgid "View"
-msgstr "查看器"
-
-#: src/ui/help-overlay.ui:122
-#, fuzzy
-msgid "Toggle Fullscreen"
-msgstr "全屏"
-
-#: src/ui/help-overlay.ui:128
-#, fuzzy
-msgid "Toggle Scrolled Mode"
-msgstr "滚动模式"
-
-#: src/ui/help-overlay.ui:134
-#, fuzzy
-msgid "Show Current Location"
-msgstr "当前章节"
-
-#: src/ui/help-overlay.ui:140
-#, fuzzy
-msgid "Bookmark Current Location"
-msgstr "书签和笔记"
-
-#: src/ui/help-overlay.ui:147
-#, fuzzy
-msgid "In Search"
-msgstr "搜索"
-
-#: src/ui/help-overlay.ui:164
-#, fuzzy
-msgid "With Selection"
-msgstr "打印选区…"
-
-#: src/ui/help-overlay.ui:168
-#, fuzzy
-msgid "Selection Copy"
-msgstr "章节"
-
-#: src/ui/help-overlay.ui:174
-#, fuzzy
-msgid "Selection Search"
-msgstr "章节"
-
-#: src/ui/help-overlay.ui:181
-#, fuzzy
-msgid "Window"
-msgstr "新建窗口"
-
-#: src/ui/help-overlay.ui:185
-#, fuzzy
-msgid "Open File"
-msgstr "保存文件"
-
-#: src/ui/help-overlay.ui:197
-#, fuzzy
-msgid "Close Window"
-msgstr "新建窗口"
-
-#: src/ui/help-overlay.ui:203
-msgid "Quit"
-msgstr ""
-
-#: src/ui/help-overlay.ui:210
-msgid "General"
-msgstr ""
-
-#: src/ui/help-overlay.ui:214
-msgid "Show Book Information"
-msgstr ""
-
-#: src/ui/help-overlay.ui:220
-msgid "Show App Information"
-msgstr ""
-
-#: src/ui/help-overlay.ui:226
-#, fuzzy
-msgid "Open Menu"
-msgstr "主菜单"
-
-#: src/ui/help-overlay.ui:244
-#, fuzzy
-msgid "Print..."
-msgstr "打印…"
 
 #: src/ui/image-viewer.ui:6 src/ui/navbar.ui:302 src/ui/selection-popover.ui:7
 msgid "Copy"
@@ -1404,6 +1443,9 @@ msgstr "减少动画"
 msgid "Copied to clipboard"
 msgstr "已复制到剪贴板"
 
+#~ msgid "Font & Layout Settings"
+#~ msgstr "字体和布局设置"
+
 #~ msgid "Book"
 #~ msgstr "书籍"
 
@@ -1425,9 +1467,6 @@ msgstr "已复制到剪贴板"
 
 #, fuzzy
 #~ msgid "Go to Reference"
-#~ msgstr "偏好设置"
-
-#~ msgid "Preferences"
 #~ msgstr "偏好设置"
 
 #~ msgid "Speak"

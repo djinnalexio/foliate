@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-11 21:32+0100\n"
+"POT-Creation-Date: 2026-10-20 10:25+0100\n"
 "PO-Revision-Date: 2026-10-11 21:43+0100\n"
 "Last-Translator: Djinn Alexio <djinnalexio+gnome@proton.me>\n"
 "Language-Team: French\n"
@@ -31,7 +31,7 @@ msgid "E-Book Viewer"
 msgstr "Lecteur de livres électroniques"
 
 #: data/com.github.johnfactotum.Foliate.desktop.in:5
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:7 src/app.js:450
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:7 src/app.js:458
 msgid "Read e-books in style"
 msgstr "Lisez vos livres électroniques avec style"
 
@@ -90,31 +90,62 @@ msgstr "Recherche dans le livre"
 msgid "Quick dictionary lookup"
 msgstr "Recherche rapide dans le dictionnaire"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:64
-msgid "Updated for GNOME 48"
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:56
+#, fuzzy
+msgid "Updated runtime to GNOME 51"
 msgstr "Mise à jour pour GNOME 48"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:65
-msgid "Added support for mouse forward/backward buttons"
-msgstr "Ajout de la prise en charge des boutons précédant/suivant de la souris"
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:57
+msgid "Inhibit idling when in fullscreen"
+msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:66
-msgid "Improved text wrapping in headings"
-msgstr "Amélioration du retour à la ligne dans les titres"
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:58
+msgid "Fixed crash introduced by f1a1602"
+msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:67
-msgid "Improved default link style"
-msgstr "Amélioration du style des liens par défaut"
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:59
+msgid "Improved fraction calculation in list view of library"
+msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:75
-msgid "Fixed tables not displayed in FB2 books"
-msgstr "Correction de l’affichage des tableaux dans les livres FB2"
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:60
+msgid "Added navigation with keypad"
+msgstr ""
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:76
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:61
+#, fuzzy
+msgid "Added keyboard shortcuts help page"
+msgstr "Raccourcis clavier"
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:62
+msgid "Added ability to add multiple files at once"
+msgstr ""
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:63
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:83
 msgid "Updated translations"
 msgstr "Traductions mises à jour"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:83
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:71
+msgid "Updated for GNOME 48"
+msgstr "Mise à jour pour GNOME 48"
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:72
+msgid "Added support for mouse forward/backward buttons"
+msgstr "Ajout de la prise en charge des boutons précédant/suivant de la souris"
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:73
+msgid "Improved text wrapping in headings"
+msgstr "Amélioration du retour à la ligne dans les titres"
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:74
+msgid "Improved default link style"
+msgstr "Amélioration du style des liens par défaut"
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:82
+msgid "Fixed tables not displayed in FB2 books"
+msgstr "Correction de l’affichage des tableaux dans les livres FB2"
+
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:90
 msgid ""
 "Various improvements and fixes, including a revamped translation tool, "
 "better focus handling, and better PDF rendering, now faster and no longer "
@@ -124,49 +155,49 @@ msgstr ""
 "une meilleure gestion du focus et un meilleur rendu des PDF, désormais plus "
 "rapide et sans flou."
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:90
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:97
 msgid "Fixed end of chapter cut off when chapter starts with page break"
 msgstr ""
 "Correction de la fin de chapitre coupée lorsque le chapitre commence par un "
 "saut de page"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:91
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:98
 msgid "Fixed incorrect text wrapping in tables"
 msgstr "Correction du retour à la ligne dans les tableaux"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:92
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:99
 msgid "Fixed a performance issue with OPDS catalogs"
 msgstr "Correction d’un problème de performances avec les catalogues OPDS"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:100
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:107
 msgid "Added support for OPDS catalogs, now with support for OPDS 2.0"
 msgstr ""
 "Ajout de la prise en charge de catalogues OPDS, maintenant compatible  avec "
 "OPDS 2.0"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:101
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:108
 msgid "Added option to override publisher font"
 msgstr "Ajout de l’option pour remplacer la police de l’éditeur"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:102
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:109
 msgid "Added option to reduce animation"
 msgstr "Ajout de l’option pour réduire les animations"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:103
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:110
 msgid "Added support for JPEG XL in CBZ"
 msgstr "Ajout de la prise en charge des JPEG XL dans les CBZ"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:104
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:111
 msgid "Fixed getting file from Tracker in Flatpak"
 msgstr "Correction de la récupération de fichiers depuis Tracker dans Flatpak"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:105
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:112
 msgid "Fixed parsing of non-year-only first-century and BCE dates"
 msgstr ""
 "Correction de l’analyse des dates du premier siècle et avant notre ère qui "
 "ne se limitent pas à l’année"
 
-#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:115
+#: data/com.github.johnfactotum.Foliate.metainfo.xml.in:122
 msgid ""
 "Foliate has been rewritten from scratch with a new e-book rendering library "
 "and the latest platform libraries, GTK 4 and Libadwaita, with refreshed UI "
@@ -180,7 +211,7 @@ msgstr ""
 msgid "Bookmark deleted"
 msgstr "Marque-page supprimé"
 
-#: src/annotations.js:138 src/annotations.js:173 src/book-viewer.js:874
+#: src/annotations.js:138 src/annotations.js:173 src/book-viewer.js:900
 #: src/library.js:867
 msgid "Undo"
 msgstr "Annuler"
@@ -237,7 +268,7 @@ msgstr "Fichiers JSON"
 msgid "All Files"
 msgstr "Tous les fichiers"
 
-#: src/annotations.js:606 src/annotations.js:634 src/ui/book-viewer.ui:390
+#: src/annotations.js:606 src/annotations.js:634 src/ui/book-viewer.ui:391
 msgid "No Annotations"
 msgstr "Aucune annotation"
 
@@ -249,7 +280,7 @@ msgstr "Le fichier importé ne comporte pas d’annotations"
 msgid "Cannot Import Annotations"
 msgstr "Impossible d’importer les annotations"
 
-#: src/annotations.js:626 src/book-viewer.js:787 src/library.js:646
+#: src/annotations.js:626 src/book-viewer.js:813 src/library.js:646
 msgid "An error occurred"
 msgstr "Une erreur s’est produite"
 
@@ -303,7 +334,7 @@ msgstr "Impossible d’importer les livres"
 #. Translators: To be credited in the "About" dialog, put your
 #. name(s) here, optionally followed by an <email> or a URL.
 #. One translator per line.
-#: src/app.js:457
+#: src/app.js:465
 msgid "translator-credits"
 msgstr ""
 "Julien Humbert <julroy67@gmail.com>\n"
@@ -311,7 +342,7 @@ msgstr ""
 "Irénée THIRION <irenee.thirion@e.email>\n"
 "Djinn Alexio <djinnalexio+gnome@proton.me>"
 
-#: src/app.js:464
+#: src/app.js:484
 msgid "Source Code"
 msgstr "Code source"
 
@@ -370,7 +401,7 @@ msgid "Identifier"
 msgstr "Identifiant"
 
 #: src/book-info.js:179 src/ui/book-item.ui:15 src/ui/book-row.ui:15
-#: src/ui/book-viewer.ui:356
+#: src/ui/book-viewer.ui:357
 msgid "About This Book"
 msgstr "À propos de ce livre"
 
@@ -429,27 +460,27 @@ msgstr "Bibliographie"
 msgid "Go to Bibliography"
 msgstr "Aller à la bibliographie"
 
-#: src/book-viewer.js:691
+#: src/book-viewer.js:717
 msgid "Remove bookmark"
 msgstr "Supprimer le marque-page"
 
-#: src/book-viewer.js:692
+#: src/book-viewer.js:718
 msgid "Add bookmark"
 msgstr "Ajouter un marque-page"
 
-#: src/book-viewer.js:785
+#: src/book-viewer.js:811
 msgid "File not found"
 msgstr "Fichier non trouvé"
 
-#: src/book-viewer.js:786
+#: src/book-viewer.js:812
 msgid "File type not supported"
 msgstr "Type de fichier non pris en charge"
 
-#: src/book-viewer.js:873
+#: src/book-viewer.js:899
 msgid "Annotation deleted"
 msgstr "Annotation supprimée"
 
-#: src/book-viewer.js:945
+#: src/book-viewer.js:971
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -458,7 +489,7 @@ msgstr ""
 "‘%s’\n"
 "—%s, “%s”, p. %s"
 
-#: src/book-viewer.js:947
+#: src/book-viewer.js:973
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -467,12 +498,12 @@ msgstr ""
 "‘%s’\n"
 "—“%s”, p. %s"
 
-#: src/book-viewer.js:948
+#: src/book-viewer.js:974
 #, javascript-format
 msgid "‘%s’ (p. %s)"
 msgstr "‘%s’ (p. %s)"
 
-#: src/book-viewer.js:951
+#: src/book-viewer.js:977
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -481,7 +512,7 @@ msgstr ""
 "‘%s’\n"
 "—%s, “%s”"
 
-#: src/book-viewer.js:953
+#: src/book-viewer.js:979
 #, javascript-format
 msgid ""
 "‘%s’\n"
@@ -490,17 +521,17 @@ msgstr ""
 "‘%s’\n"
 "—“%s”"
 
-#: src/book-viewer.js:954
+#: src/book-viewer.js:980
 #, javascript-format
 msgid "‘%s’"
 msgstr "‘%s’"
 
-#: src/book-viewer.js:972
+#: src/book-viewer.js:998
 #, javascript-format
 msgid "Image from “%s”"
 msgstr "Image de « %s »"
 
-#: src/book-viewer.js:972
+#: src/book-viewer.js:998
 msgid "Image"
 msgstr "Image"
 
@@ -517,7 +548,7 @@ msgstr "Chargement"
 msgid "Failed to Load"
 msgstr "Chargement échoué"
 
-#: src/library.js:49 src/ui/book-viewer.ui:15 src/ui/help-overlay.ui:98
+#: src/library.js:49 src/ui/book-help-overlay.ui:98 src/ui/book-viewer.ui:16
 msgid "Reload"
 msgstr "Recharger"
 
@@ -565,12 +596,12 @@ msgstr "Gratuit"
 msgid "First"
 msgstr "Premier"
 
-#: src/library.js:66 src/ui/help-overlay.ui:151 src/ui/navbar.ui:8
+#: src/library.js:66 src/ui/book-help-overlay.ui:151 src/ui/navbar.ui:8
 #: src/ui/tts-box.ui:115
 msgid "Previous"
 msgstr "Précédent"
 
-#: src/library.js:67 src/ui/help-overlay.ui:157 src/ui/navbar.ui:124
+#: src/library.js:67 src/ui/book-help-overlay.ui:157 src/ui/navbar.ui:124
 #: src/ui/tts-box.ui:132
 msgid "Next"
 msgstr "Suivant"
@@ -642,7 +673,7 @@ msgstr "Tous les livres"
 msgid "Add Catalog…"
 msgstr "Ajouter un catalogue…"
 
-#: src/library.js:815 src/ui/book-viewer.ui:128 src/ui/book-viewer.ui:231
+#: src/library.js:815 src/ui/book-viewer.ui:129 src/ui/book-viewer.ui:232
 #: src/ui/library.ui:93
 msgid "Library"
 msgstr "Bibliothèque"
@@ -794,6 +825,176 @@ msgstr "Menu"
 msgid "Add Note…"
 msgstr "Ajouter une note…"
 
+#: src/ui/app-help-overlay.ui:6 src/ui/book-help-overlay.ui:181
+msgid "Window"
+msgstr "Fenêtre"
+
+#: src/ui/app-help-overlay.ui:10 src/ui/book-help-overlay.ui:185
+msgid "Open File"
+msgstr "Ouvrir un fichier"
+
+#: src/ui/app-help-overlay.ui:16 src/ui/book-help-overlay.ui:191
+#: src/ui/book-viewer.ui:12
+msgid "Open a Copy"
+msgstr "Ouvrir une copie"
+
+#: src/ui/app-help-overlay.ui:22 src/ui/book-help-overlay.ui:122
+msgid "Toggle Fullscreen"
+msgstr "Basculer en plein écran"
+
+#: src/ui/app-help-overlay.ui:28 src/ui/book-help-overlay.ui:203
+msgid "Close Window"
+msgstr "Fermer la fenêtre"
+
+#: src/ui/app-help-overlay.ui:34 src/ui/book-help-overlay.ui:209
+msgid "Quit"
+msgstr "Quitter"
+
+#: src/ui/app-help-overlay.ui:41 src/ui/book-help-overlay.ui:216
+msgid "General"
+msgstr "Général"
+
+#: src/ui/app-help-overlay.ui:45 src/ui/book-help-overlay.ui:226
+msgid "Show App Information"
+msgstr "Afficher les informations de l’application"
+
+#: src/ui/app-help-overlay.ui:51 src/ui/book-help-overlay.ui:232
+msgid "Open Menu"
+msgstr "Ouvrir le menu"
+
+#: src/ui/app-help-overlay.ui:57 src/ui/book-help-overlay.ui:244
+#: src/ui/book-viewer.ui:32 src/ui/library.ui:38
+msgid "Keyboard Shortcuts"
+msgstr "Raccourcis clavier"
+
+#: src/ui/book-help-overlay.ui:6
+msgid "Navigation"
+msgstr "Navigation"
+
+#: src/ui/book-help-overlay.ui:10
+msgid "Previous Page"
+msgstr "Page précédente"
+
+#: src/ui/book-help-overlay.ui:16
+msgid "Next Page"
+msgstr "Page suivante"
+
+#: src/ui/book-help-overlay.ui:22
+msgid "Go Left"
+msgstr "Aller à gauche"
+
+#: src/ui/book-help-overlay.ui:28
+msgid "Scroll Down"
+msgstr "Défiler vers le bas"
+
+#: src/ui/book-help-overlay.ui:34
+msgid "Scroll Up"
+msgstr "Défiler vers le haur"
+
+#: src/ui/book-help-overlay.ui:40
+msgid "Go Right"
+msgstr "Aller à droite"
+
+#: src/ui/book-help-overlay.ui:46
+msgid "Jump to Previous Location"
+msgstr "Aller à la position précédente"
+
+#: src/ui/book-help-overlay.ui:52
+msgid "Jump to Next Location"
+msgstr "Aller à la position suivante"
+
+#: src/ui/book-help-overlay.ui:59 src/ui/book-viewer.ui:531
+#: src/ui/library.ui:102 src/ui/library.ui:160
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: src/ui/book-help-overlay.ui:63
+msgid "Toggle Sidebar"
+msgstr "Afficher/masquer la barre latérale"
+
+#: src/ui/book-help-overlay.ui:69
+msgid "Toggle Table of Contents"
+msgstr "Afficher/masquer la table des matières"
+
+#: src/ui/book-help-overlay.ui:75
+msgid "Toggle Annotations"
+msgstr "Afficher/masquer les annotations"
+
+#: src/ui/book-help-overlay.ui:81
+msgid "Toggle Bookmarks"
+msgstr "Afficher/masquer les marque-pages"
+
+#: src/ui/book-help-overlay.ui:87
+msgid "Toggle Search"
+msgstr "Afficher/masquer la recherche"
+
+#: src/ui/book-help-overlay.ui:94
+msgid "View"
+msgstr "Affichage"
+
+#: src/ui/book-help-overlay.ui:104 src/ui/book-viewer.ui:574
+#: src/ui/image-viewer.ui:55
+msgid "Zoom In"
+msgstr "Zoom avant"
+
+#: src/ui/book-help-overlay.ui:110 src/ui/book-viewer.ui:558
+#: src/ui/image-viewer.ui:41
+msgid "Zoom Out"
+msgstr "Zoom arrière"
+
+#: src/ui/book-help-overlay.ui:116 src/ui/book-viewer.ui:565
+#: src/ui/image-viewer.ui:48
+msgid "Reset Zoom"
+msgstr "Réinitialiser le zoom"
+
+#: src/ui/book-help-overlay.ui:128
+msgid "Toggle Scrolled Mode"
+msgstr "Basculer en mode défilement"
+
+#: src/ui/book-help-overlay.ui:134
+msgid "Show Current Location"
+msgstr "Afficher la position actuelle"
+
+#: src/ui/book-help-overlay.ui:140
+msgid "Bookmark Current Location"
+msgstr "Marquer la position actuelle"
+
+#: src/ui/book-help-overlay.ui:147
+msgid "In Search"
+msgstr "Dans la recherche"
+
+#: src/ui/book-help-overlay.ui:164
+msgid "With Selection"
+msgstr "Avec sélection"
+
+#: src/ui/book-help-overlay.ui:168
+msgid "Selection Copy"
+msgstr "Copier la sélection"
+
+#: src/ui/book-help-overlay.ui:174
+msgid "Selection Search"
+msgstr "Rechercher la sélection"
+
+#: src/ui/book-help-overlay.ui:197
+msgid "Go to Library"
+msgstr "Aller à la bibliothèque"
+
+#: src/ui/book-help-overlay.ui:220
+msgid "Show Book Information"
+msgstr "Afficher les informations du livre"
+
+#: src/ui/book-help-overlay.ui:238 src/ui/book-viewer.ui:82
+msgid "Preferences"
+msgstr "Préferences"
+
+#: src/ui/book-help-overlay.ui:250
+msgid "Print..."
+msgstr "Imprimer…"
+
+#: src/ui/book-help-overlay.ui:256 src/ui/book-viewer.ui:106
+msgid "Inspector"
+msgstr "Inspecteur"
+
 #: src/ui/book-item.ui:5 src/ui/book-row.ui:5
 msgid "Open in New Window"
 msgstr "Ouvrir dans une nouvelle fenêtre"
@@ -802,175 +1003,139 @@ msgstr "Ouvrir dans une nouvelle fenêtre"
 msgid "Open with External App"
 msgstr "Ouvrir avec une application externe"
 
-#: src/ui/book-item.ui:19 src/ui/book-row.ui:19 src/ui/book-viewer.ui:25
+#: src/ui/book-item.ui:19 src/ui/book-row.ui:19 src/ui/book-viewer.ui:26
 msgid "Export Annotations…"
 msgstr "Exporter les annotations…"
 
-#: src/ui/book-viewer.ui:5
+#: src/ui/book-viewer.ui:6
 msgid "New Window"
 msgstr "Nouvelle fenêtre"
 
-#: src/ui/book-viewer.ui:11 src/ui/help-overlay.ui:191
-msgid "Open a Copy"
-msgstr "Ouvrir une copie"
-
-#: src/ui/book-viewer.ui:21
+#: src/ui/book-viewer.ui:22
 msgid "Import Annotations…"
 msgstr "Importer les annotations…"
 
-#: src/ui/book-viewer.ui:31 src/ui/help-overlay.ui:244
-msgid "Keyboard Shortcuts"
-msgstr "Raccourcis clavier"
-
-#: src/ui/book-viewer.ui:35 src/ui/library.ui:42
+#: src/ui/book-viewer.ui:36 src/ui/library.ui:42
 msgid "About Foliate"
 msgstr "À propos de Foliate"
 
-#: src/ui/book-viewer.ui:43
+#: src/ui/book-viewer.ui:44
 msgid "All Sections"
 msgstr "Tous les chapitres"
 
-#: src/ui/book-viewer.ui:48
+#: src/ui/book-viewer.ui:49
 msgid "Current Section"
 msgstr "Chapitre actuel"
 
-#: src/ui/book-viewer.ui:55
+#: src/ui/book-viewer.ui:56
 msgid "Match Whole Words Only"
 msgstr "Mots entiers uniquement"
 
-#: src/ui/book-viewer.ui:59
+#: src/ui/book-viewer.ui:60
 msgid "Match Case"
 msgstr "Respecter la casse"
 
-#: src/ui/book-viewer.ui:63
+#: src/ui/book-viewer.ui:64
 msgid "Match Diacritics"
 msgstr "Signes diacritiques"
 
-#: src/ui/book-viewer.ui:81 src/ui/help-overlay.ui:238
-msgid "Preferences"
-msgstr "Préferences"
-
-#: src/ui/book-viewer.ui:87
+#: src/ui/book-viewer.ui:88
 msgid "Scrolled Mode"
 msgstr "Mode défilement"
 
-#: src/ui/book-viewer.ui:91
+#: src/ui/book-viewer.ui:92
 msgid "Invert Colors in Dark Mode"
 msgstr "Inverser les couleurs en mode sombre"
 
-#: src/ui/book-viewer.ui:95
+#: src/ui/book-viewer.ui:96
 msgid "Autohide Cursor"
 msgstr "Masquer automatiquement le curseur"
 
-#: src/ui/book-viewer.ui:101
+#: src/ui/book-viewer.ui:102
 msgid "Print…"
 msgstr "Imprimer…"
 
-#: src/ui/book-viewer.ui:105 src/ui/help-overlay.ui:256
-msgid "Inspector"
-msgstr "Inspecteur"
-
-#: src/ui/book-viewer.ui:159
+#: src/ui/book-viewer.ui:160
 msgid "Book Cannot Be Opened"
 msgstr "Le livre ne peut pas être ouvert"
 
-#: src/ui/book-viewer.ui:169
+#: src/ui/book-viewer.ui:170
 msgid "Details"
 msgstr "Détails"
 
-#: src/ui/book-viewer.ui:185
+#: src/ui/book-viewer.ui:186
 msgid "Open Another File…"
 msgstr "Ouvrir un autre fichier…"
 
-#: src/ui/book-viewer.ui:237
+#: src/ui/book-viewer.ui:238
 msgid "Pin Sidebar"
 msgstr "Épingler la barre latérale"
 
-#: src/ui/book-viewer.ui:245
+#: src/ui/book-viewer.ui:246
 msgid "Book Menu"
 msgstr "Menu du livre"
 
-#: src/ui/book-viewer.ui:252 src/ui/selection-popover.ui:17
+#: src/ui/book-viewer.ui:253 src/ui/selection-popover.ui:17
 msgid "Find"
 msgstr "Rechercher"
 
-#: src/ui/book-viewer.ui:268
+#: src/ui/book-viewer.ui:269
 msgid "Find in book…"
 msgstr "Rechercher dans le livre…"
 
-#: src/ui/book-viewer.ui:306
+#: src/ui/book-viewer.ui:307
 msgid "Contents"
 msgstr "Contenu"
 
-#: src/ui/book-viewer.ui:379
+#: src/ui/book-viewer.ui:380
 msgid "Annotations"
 msgstr "Annotations"
 
-#: src/ui/book-viewer.ui:391
+#: src/ui/book-viewer.ui:392
 msgid "Select some text to add annotations"
 msgstr "Sélectionnez du texte pour ajouter des annotations"
 
-#: src/ui/book-viewer.ui:421
+#: src/ui/book-viewer.ui:422
 msgid "Filter annotations…"
 msgstr "Filtrer les annotations…"
 
-#: src/ui/book-viewer.ui:435
+#: src/ui/book-viewer.ui:436
 msgid "Bookmarks"
 msgstr "Marque-pages"
 
-#: src/ui/book-viewer.ui:446
+#: src/ui/book-viewer.ui:447
 msgid "No Bookmarks"
 msgstr "Aucun marque-page"
 
-#: src/ui/book-viewer.ui:447
+#: src/ui/book-viewer.ui:448
 msgid "Add some bookmarks to see them here"
 msgstr "Ajoutez des marque-pages pour les voir ici"
 
-#: src/ui/book-viewer.ui:486 src/ui/library-view.ui:42
+#: src/ui/book-viewer.ui:487 src/ui/library-view.ui:42
 msgid "No Results Found"
 msgstr "Aucun résultat trouvé"
 
-#: src/ui/book-viewer.ui:487 src/ui/library-view.ui:43
+#: src/ui/book-viewer.ui:488 src/ui/library-view.ui:43
 msgid "Try a different search"
 msgstr "Essayez une autre recherche"
 
-#: src/ui/book-viewer.ui:530 src/ui/help-overlay.ui:59 src/ui/library.ui:102
-#: src/ui/library.ui:160
-msgid "Sidebar"
-msgstr "Barre latérale"
-
-#: src/ui/book-viewer.ui:544
+#: src/ui/book-viewer.ui:545
 msgid "View Menu"
 msgstr "Menu d’affichage"
 
-#: src/ui/book-viewer.ui:557 src/ui/help-overlay.ui:110
-#: src/ui/image-viewer.ui:41
-msgid "Zoom Out"
-msgstr "Zoom arrière"
-
-#: src/ui/book-viewer.ui:564 src/ui/help-overlay.ui:116
-#: src/ui/image-viewer.ui:48
-msgid "Reset Zoom"
-msgstr "Réinitialiser le zoom"
-
-#: src/ui/book-viewer.ui:573 src/ui/help-overlay.ui:104
-#: src/ui/image-viewer.ui:55
-msgid "Zoom In"
-msgstr "Zoom avant"
-
-#: src/ui/book-viewer.ui:589
+#: src/ui/book-viewer.ui:590
 msgid "Follow System Style"
 msgstr "Suivre le thème système"
 
-#: src/ui/book-viewer.ui:599
+#: src/ui/book-viewer.ui:600
 msgid "Light Style"
 msgstr "Style clair"
 
-#: src/ui/book-viewer.ui:609
+#: src/ui/book-viewer.ui:610
 msgid "Dark Style"
 msgstr "Style sombre"
 
-#: src/ui/book-viewer.ui:624 src/ui/library.ui:26
+#: src/ui/book-viewer.ui:625 src/ui/library.ui:26
 msgid "Fullscreen"
 msgstr "Plein écran"
 
@@ -1006,138 +1171,6 @@ msgstr "Markdown"
 #: src/ui/export-dialog.ui:36
 msgid "Org Mode"
 msgstr "Org-mode"
-
-#: src/ui/help-overlay.ui:6
-msgid "Navigation"
-msgstr "Navigation"
-
-#: src/ui/help-overlay.ui:10
-msgid "Previous Page"
-msgstr "Page précédente"
-
-#: src/ui/help-overlay.ui:16
-msgid "Next Page"
-msgstr "Page suivante"
-
-#: src/ui/help-overlay.ui:22
-msgid "Go Left"
-msgstr "Aller à gauche"
-
-#: src/ui/help-overlay.ui:28
-msgid "Scroll Down"
-msgstr "Défiler vers le bas"
-
-#: src/ui/help-overlay.ui:34
-msgid "Scroll Up"
-msgstr "Défiler vers le haur"
-
-#: src/ui/help-overlay.ui:40
-msgid "Go Right"
-msgstr "Aller à droite"
-
-#: src/ui/help-overlay.ui:46
-msgid "Jump to Previous Location"
-msgstr "Aller à la position précédente"
-
-#: src/ui/help-overlay.ui:52
-msgid "Jump to Next Location"
-msgstr "Aller à la position suivante"
-
-#: src/ui/help-overlay.ui:63
-msgid "Toggle Sidebar"
-msgstr "Afficher/masquer la barre latérale"
-
-#: src/ui/help-overlay.ui:69
-msgid "Toggle Table of Contents"
-msgstr "Afficher/masquer la table des matières"
-
-#: src/ui/help-overlay.ui:75
-msgid "Toggle Annotations"
-msgstr "Afficher/masquer les annotations"
-
-#: src/ui/help-overlay.ui:81
-msgid "Toggle Bookmarks"
-msgstr "Afficher/masquer les marque-pages"
-
-#: src/ui/help-overlay.ui:87
-msgid "Toggle Search"
-msgstr "Afficher/masquer la recherche"
-
-#: src/ui/help-overlay.ui:94
-msgid "View"
-msgstr "Affichage"
-
-#: src/ui/help-overlay.ui:122
-msgid "Toggle Fullscreen"
-msgstr "Basculer en plein écran"
-
-#: src/ui/help-overlay.ui:128
-msgid "Toggle Scrolled Mode"
-msgstr "Basculer en mode défilement"
-
-#: src/ui/help-overlay.ui:134
-msgid "Show Current Location"
-msgstr "Afficher la position actuelle"
-
-#: src/ui/help-overlay.ui:140
-msgid "Bookmark Current Location"
-msgstr "Marquer la position actuelle"
-
-#: src/ui/help-overlay.ui:147
-msgid "In Search"
-msgstr "Dans la recherche"
-
-#: src/ui/help-overlay.ui:164
-msgid "With Selection"
-msgstr "Avec sélection"
-
-#: src/ui/help-overlay.ui:168
-msgid "Selection Copy"
-msgstr "Copier la sélection"
-
-#: src/ui/help-overlay.ui:174
-msgid "Selection Search"
-msgstr "Rechercher la sélection"
-
-#: src/ui/help-overlay.ui:181
-msgid "Window"
-msgstr "Fenêtre"
-
-#: src/ui/help-overlay.ui:185
-msgid "Open File"
-msgstr "Ouvrir un fichier"
-
-#: src/ui/help-overlay.ui:197
-msgid "Go to Library"
-msgstr "Aller à la bibliothèque"
-
-#: src/ui/help-overlay.ui:203
-msgid "Close Window"
-msgstr "Fermer la fenêtre"
-
-#: src/ui/help-overlay.ui:209
-msgid "Quit"
-msgstr "Quitter"
-
-#: src/ui/help-overlay.ui:216
-msgid "General"
-msgstr "Général"
-
-#: src/ui/help-overlay.ui:220
-msgid "Show Book Information"
-msgstr "Afficher les informations du livre"
-
-#: src/ui/help-overlay.ui:226
-msgid "Show App Information"
-msgstr "Afficher les informations de l’application"
-
-#: src/ui/help-overlay.ui:232
-msgid "Open Menu"
-msgstr "Ouvrir le menu"
-
-#: src/ui/help-overlay.ui:250
-msgid "Print..."
-msgstr "Imprimer…"
 
 #: src/ui/image-viewer.ui:6 src/ui/navbar.ui:302 src/ui/selection-popover.ui:7
 msgid "Copy"

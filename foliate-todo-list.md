@@ -17,37 +17,3 @@
 >Go to the cover page of a book
 >Press the "Page Up" key to go back a page
 >Pressing "Page Up" on the cover page should do nothing and leave you on the cover page while still being able to navigate the rest of the book properly.
-
-- [x] Update translations (POT file and the french locale)
-
-Update the POT file:
-
-```bash
-xgettext --files-from=po/POTFILES --from-code=UTF-8 --package-name=com.github.johnfactotum.Foliate -o po/com.github.johnfactotum.Foliate.pot --add-comments=Translators: --copyright-holder="Foliate Contributors"
-```
-
-Update the PO files:
-
-```bash
-for po in po/*.po; do msgmerge --update --backup=none "$po" po/com.github.johnfactotum.Foliate.pot; done
-```
-
-Check the PO files:
-
-```bash
-for po in po/*.po; do msgfmt --check-format --check-header --check-domain -o /dev/null $po; done
-```
-
-Statistics of the PO files:
-
-```bash
-for po in po/*.po; do echo "$(basename $po .po): $(msgfmt --check --statistics -o /dev/null $po 2>&1)"; done
-```
-
-- [x] new keywords in com.github.johnfactotum.Foliate.desktop
-
-```in
-Keywords=books;ebooks;library;epub;reader;ereader;viewer;
-```
-
-- [x] shortcut to return to library
